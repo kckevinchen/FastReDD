@@ -1,0 +1,87 @@
+default_settings: &default
+  mode: "deepseek"
+  trial: 1
+  llm_model: "deepseek-chat"
+  console_log_level: "WARNING"  # Console logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  data_loader_type: "spider"  # "spider", "perfile", "sqlite"
+  # Adaptive Sampling Configuration
+  adaptive_sampling:
+    enabled: false              # Enable adaptive sampling to reduce LLM calls
+    theta: 0.05                 # Entropy threshold for stability (lower = stricter)
+    m: 3                        # Stability streak threshold (consecutive low entropy iterations)
+    n_min: 5                    # Minimum documents to process before early stopping
+    delta: 0.1                  # Allowed failure probability for coverage guarantee
+    epsilon: 0.05               # Minimum feature frequency for coverage
+    probabilistic_stop: true    # Enable probabilistic stopping criterion
+
+# general, no query
+ds4d0: &ds4d0
+  <<: *default
+  in_fields: 
+    doc: "Document"
+    log: "Record of Schema"
+  out_fields: 
+    res: "Assignment"
+    log: "Updated Record of Schema"
+    reason: "Reasoning"
+
+# query-specific, general schema as context
+ds4d1: &ds4d1
+  <<: *default
+  in_fields: 
+    doc: "Document"
+    query: "Query"
+    log: "Record of Query-specific Schema"
+    general_schema: "General Schema"
+  out_fields: 
+    res: "Assignment"
+    log: "Updated Record of Query-specific Schema"
+    reason: "Reasoning"
+
+
+album_4d0: &album_4d0
+  <<: *ds4d0
+  data_main: "dataset/spider_update/"
+  out_main: "outputs/schema_gen/spider_deepseek_1/"
+  exp_dataset_task_list: ["store_1/albums"]
+  data_loader_type: "spider"
+  res_param_str: "mdlds_prm4d0"
+  prompt:
+    prompt_path: "prompts/schemagen_4_0.txt"
+    prompt_version: "4d0"
+
+album_4d1: &album_4d1
+  <<: *ds4d1
+  data_main: "dataset/spider_update/"
+  out_main: "outputs/schema_gen/spider_deepseek_1/"
+  exp_dataset_task_list: ["store_1/albums"]
+  data_loader_type: "spider"
+  res_param_str: "mdlds_prm4d1"
+  prompt:
+    prompt_path: "prompts/schemagen_4_1.txt"
+    prompt_version: "4d1"
+    general_prompt_version: "4d0"
+
+album_5d0: &album_5d0
+  <<: *ds4d0
+  data_main: "dataset/spider_update/"
+  out_main: "outputs/schema_gen/spider_deepseek_1/"
+  exp_dataset_task_list: ["store_1/albums"]
+  data_loader_type: "spider"
+  res_param_str: "mdlds_prm5d0"
+  prompt:
+    prompt_path: "prompts/schemagen_5_0.txt"
+    prompt_version: "5d1"
+    general_prompt_version: "5d0"
+
+album_5d1: &album_5d1
+  <<: *ds4d1
+  data_main: "dataset/spider_update/"
+  out_main: "outputs/schema_gen/spider_deepseek_1/"
+  exp_dataset_task_list: ["store_1/albums"]
+  data_loader_type: "spider"
+  res_param_str: "mdlds_prm5d1"
+  prompt:
+    prompt_path: "prompts/schemagen_5_1.txt"
+    prompt_version: "5d1"
+    general_prompt_version: "5d0"

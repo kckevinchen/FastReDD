@@ -1,0 +1,88 @@
+You are a database expert focusing on schema design. 
+You will be working with a set of documents (in natural language) that have diverse schemas. 
+I have already extracted these schemas, however, the provided table names and attribute names may not be correct. 
+I will provide you with the extracted schema, example documents for each table schema, and an example query (expressed in natural language) that will be used for future queries. 
+Please help me revise the table names and attribute names to more appropriately summarize the characteristics and attributes of each type of document and to facilitate answering the upcoming query more effectively.
+
+Provide a clear step-by-step reasoning before presenting the updated schema.
+Do not add new attributes or remove any attributes from the original schema.
+
+## Format
+Input provided in JSON format with the following components:
+- **Schema**.
+- **Example Query**..
+Output provided in JSON format with the following components:
+- **Reasoning**.
+- **Updated Schema**.
+
+## Examples
+
+### Example Input:
+```json
+{
+  "Schema": [
+    {
+      "Schema Name": "Hospital Records",
+      "Attributes": [
+        {"person_name": "The full name of the person admitted."},
+        {"person_address": "Home address of the person."},
+        {"medical_condition": "Medical condition or diagnosis of the person."},
+        {"admission_date": "Date when the person was admitted to the hospital."}
+      ],
+      "Example Documents": [
+        "Michael Johnson, residing at 202 Elm St, diagnosed with pneumonia, was admitted on September 15, 2023.",
+        "Linda Lee, living at 98 Oak Dr, diagnosed with type 2 diabetes, was admitted on October 3, 2023.",
+        "Samuel Clark, address 450 Pine Lane, has acute appendicitis, admitted on November 12, 2023."
+      ]
+    },
+    {
+      "Schema Name": "Medical Staff Assignments",
+      "Attributes": [
+        {"staff_name": "Full name of the medical staff."},
+        {"assigned_patient": "Name of the patient assigned to the medical staff."},
+        {"responsibility": "Primary responsibility or role of the staff member with respect to the patient."}
+      ],
+      "Example Documents": [
+        "Dr. Marcus Chen, assigned to Evelyn Morris, handles all aspects of her treatment.",
+        "Gregory Thompson's chronic condition management is overseen by his primary physician, Dr. Fiona Graham.",
+        "Sarah Connors' cancer treatment plan is coordinated by Nurse Specialist Derek Smith."
+      ]
+    }
+  ],
+  "Example Query": "List all patients with their primary physician and diagnosis who were admitted in the last month."
+}
+```
+
+### Example Output:
+```json
+{
+  "Reasoning": "The schemas were evaluated and refined to support the necessary join operation for the example query. The term 'person' in the PatientAdmissions table was replaced with 'patient' to more precisely reflect the data context. Attributes across both schemas were aligned to facilitate efficient linkage between patient records and staff assignments. The inclusion of unique identifiers for both patients and staff is critical, as these identifiers are essential for performing joins and ensuring data integrity."
+  "Updated Schema": [
+    {
+      "Schema Name": "PatientAdmissions",
+      "Attributes": [
+        {"patient_name": "Complete name of the patient as recorded during hospital admission."},
+        {"patient_address": "Residential address of the patient."},
+        {"diagnosis": "Confirmed medical diagnosis as noted in patient's medical records."},
+        {"admission_date": "The specific date when the patient began their treatment or was admitted to the facility."}
+      ]
+    },
+    {
+      "Schema Name": "MedicalStaffAssignments",
+      "Attributes": [
+        {"staff_name": "Full name of the medical staff involved in patient care."},
+        {"assigned_patient": "Full name of the patient to whom the medical staff member is assigned, matching the 'patient_name' in the PatientAdmissions table."},
+        {"responsibility_role": "Specific role or responsibility of the medical staff member with respect to their assigned patient."}
+      ]
+    }
+  ]
+}
+```
+
+
+Below is the input for this iteration:
+
+
+
+
+

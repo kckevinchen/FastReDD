@@ -1,0 +1,303 @@
+[
+  {
+    "Schema Name": "league",
+    "Attributes": [
+      {
+        "Attribute Name": "name", 
+        "Description": "The full official name of the league or competition."
+      },
+      {
+        "Attribute Name": "country_name", 
+        "Description": "The name of the country where the league is based or primarily takes place."
+      }
+    ]
+  },
+  {
+    "Schema Name": "player",
+    "Attributes": [
+      {
+        "Attribute Name": "player_name",
+        "Description": "The full name of the player."
+      },
+      {
+        "Attribute Name": "birthday",
+        "Description": "The date of birth of the player, typically in YYYY-MM-DD format."
+      },
+      {
+        "Attribute Name": "height",
+        "Description": "The height of the player, usually measured in centimeters."
+      },
+      {
+        "Attribute Name": "weight",
+        "Description": "The weight of the player, typically measured in kilograms."
+      }
+    ]
+  },
+  {
+    "Schema Name": "player_attributes",
+    "Attributes": [
+      {
+        "Attribute Name": "date",
+        "Description": "The date when the player's attributes were recorded or updated."
+      },
+      {
+        "Attribute Name": "overall_rating",
+        "Description": "The overall performance rating of the player, usually on a fixed scale (e.g., 0–100)."
+      },
+      {
+        "Attribute Name": "potential",
+        "Description": "The predicted peak performance rating the player can achieve in the future."
+      },
+      {
+        "Attribute Name": "preferred_foot",
+        "Description": "The foot the player prefers to use — typically 'left' or 'right'."
+      },
+      {
+        "Attribute Name": "attacking_work_rate",
+        "Description": "The player's tendency to contribute to offensive play, described as 'low', 'medium', or 'high'."
+      },
+      {
+        "Attribute Name": "defensive_work_rate",
+        "Description": "The player's tendency to contribute to defensive actions, described as 'low', 'medium', or 'high'."
+      },
+      {
+        "Attribute Name": "crossing",
+        "Description": "The player’s ability to deliver accurate crosses from wide areas."
+      },
+      {
+        "Attribute Name": "finishing",
+        "Description": "The player’s ability to score goals from shooting situations."
+      },
+      {
+        "Attribute Name": "heading_accuracy",
+        "Description": "The player’s accuracy and skill in heading the ball."
+      },
+      {
+        "Attribute Name": "short_passing",
+        "Description": "The accuracy and effectiveness of the player's short-distance passes."
+      },
+      {
+        "Attribute Name": "volleys",
+        "Description": "The technique and accuracy of the player's volleyed shots."
+      },
+      {
+        "Attribute Name": "dribbling",
+        "Description": "The player’s skill in moving past opponents while controlling the ball."
+      },
+      {
+        "Attribute Name": "curve",
+        "Description": "The ability to bend or curve the ball, typically useful for free kicks and crosses."
+      },
+      {
+        "Attribute Name": "free_kick_accuracy",
+        "Description": "The player's precision when taking direct free kicks."
+      },
+      {
+        "Attribute Name": "long_passing",
+        "Description": "The player's ability to accurately pass the ball over longer distances."
+      },
+      {
+        "Attribute Name": "ball_control",
+        "Description": "The player's skill in receiving and maintaining control of the ball."
+      },
+      {
+        "Attribute Name": "acceleration",
+        "Description": "How quickly the player can reach top speed from a standing position."
+      },
+      {
+        "Attribute Name": "sprint_speed",
+        "Description": "The top running speed the player can achieve."
+      },
+      {
+        "Attribute Name": "agility",
+        "Description": "The player’s quickness and ease of movement, especially while changing direction."
+      },
+      {
+        "Attribute Name": "reactions",
+        "Description": "The player’s speed and quality of responses to game situations."
+      },
+      {
+        "Attribute Name": "balance",
+        "Description": "The player’s ability to remain steady while dribbling or under pressure."
+      },
+      {
+        "Attribute Name": "shot_power",
+        "Description": "The power behind the player’s shots."
+      },
+      {
+        "Attribute Name": "jumping",
+        "Description": "The vertical leap capability of the player."
+      },
+      {
+        "Attribute Name": "stamina",
+        "Description": "The player’s ability to sustain high performance over the course of a match."
+      },
+      {
+        "Attribute Name": "strength",
+        "Description": "The player’s physical power and ability to hold off opponents."
+      },
+      {
+        "Attribute Name": "long_shots",
+        "Description": "The accuracy and effectiveness of shots taken from distance."
+      },
+      {
+        "Attribute Name": "aggression",
+        "Description": "The player’s assertiveness and intensity in contests for the ball."
+      },
+      {
+        "Attribute Name": "interceptions",
+        "Description": "The player’s skill in anticipating and intercepting passes."
+      },
+      {
+        "Attribute Name": "positioning",
+        "Description": "The offensive player's sense of positioning to receive passes or score goals."
+      },
+      {
+        "Attribute Name": "vision",
+        "Description": "The player’s ability to spot opportunities and make smart passes."
+      },
+      {
+        "Attribute Name": "penalties",
+        "Description": "The player’s ability and accuracy in taking penalty kicks."
+      },
+      {
+        "Attribute Name": "marking",
+        "Description": "The defensive player's ability to track and limit opposing attackers."
+      },
+      {
+        "Attribute Name": "standing_tackle",
+        "Description": "The player’s ability to dispossess opponents while standing."
+      },
+      {
+        "Attribute Name": "sliding_tackle",
+        "Description": "The effectiveness of the player’s sliding challenges."
+      },
+      {
+        "Attribute Name": "gk_diving",
+        "Description": "The goalkeeper's ability to make diving saves."
+      },
+      {
+        "Attribute Name": "gk_handling",
+        "Description": "The goalkeeper’s skill in catching or controlling the ball after a save."
+      },
+      {
+        "Attribute Name": "gk_kicking",
+        "Description": "The goalkeeper's ability to accurately and powerfully kick the ball."
+      },
+      {
+        "Attribute Name": "gk_positioning",
+        "Description": "The goalkeeper’s sense of positioning to effectively guard the goal."
+      },
+      {
+        "Attribute Name": "gk_reflexes",
+        "Description": "The goalkeeper’s speed of reaction to shots and deflections."
+      },
+      {
+        "Attribute Name": "player_name",
+        "Description": "The full name of the player to whom these attributes belong."
+      }
+    ]
+  },
+  {
+    "Schema Name": "team",
+    "Attributes": [
+      {
+        "Attribute Name": "team_long_name",
+        "Description": "The full official name of the team."
+      },
+      {
+        "Attribute Name": "team_short_name",
+        "Description": "An abbreviated or commonly used short name for the team."
+      }
+    ]
+  },
+  {
+    "Schema Name": "team_attributes",
+    "Attributes": [
+      {
+        "Attribute Name": "date",
+        "Description": "The date when the team's attributes were recorded or updated."
+      },
+      {
+        "Attribute Name": "build_up_play_speed",
+        "Description": "A numeric value representing how quickly the team transitions from defense to attack."
+      },
+      {
+        "Attribute Name": "build_up_play_speed_class",
+        "Description": "The categorical label (e.g., 'Slow', 'Balanced', 'Fast') representing the build-up speed."
+      },
+      {
+        "Attribute Name": "build_up_play_passing",
+        "Description": "A numeric value indicating the directness or safety of passing in build-up play."
+      },
+      {
+        "Attribute Name": "build_up_play_passing_class",
+        "Description": "The categorical label (e.g., 'Short', 'Mixed', 'Long') describing the build-up passing strategy."
+      },
+      {
+        "Attribute Name": "build_up_play_positioning_class",
+        "Description": "The team's general positioning strategy during build-up play (e.g., 'Organized' or 'Free Form')."
+      },
+      {
+        "Attribute Name": "chance_creation_passing",
+        "Description": "A numeric value indicating how much focus is placed on passing during chance creation."
+      },
+      {
+        "Attribute Name": "chance_creation_passing_class",
+        "Description": "The categorical label (e.g., 'Safe', 'Normal', 'Risky') describing the passing style in attacking play."
+      },
+      {
+        "Attribute Name": "chance_creation_crossing",
+        "Description": "A numeric value indicating the frequency and accuracy of crosses during offensive plays."
+      },
+      {
+        "Attribute Name": "chance_creation_crossing_class",
+        "Description": "The categorical description of the team’s crossing strategy (e.g., 'Rarely', 'Often')."
+      },
+      {
+        "Attribute Name": "chance_creation_shooting",
+        "Description": "A numeric value indicating the team’s tendency to shoot or take chances."
+      },
+      {
+        "Attribute Name": "chance_creation_shooting_class",
+        "Description": "The categorical description of the team’s shooting behavior (e.g., 'Conservative', 'Aggressive')."
+      },
+      {
+        "Attribute Name": "chance_creation_positioning_class",
+        "Description": "The team’s attacking positioning style, such as 'Organized' or 'Free Form'."
+      },
+      {
+        "Attribute Name": "defence_pressure",
+        "Description": "A numeric value showing how high or intense the team presses defensively."
+      },
+      {
+        "Attribute Name": "defence_pressure_class",
+        "Description": "The categorical label (e.g., 'Low', 'Medium', 'High') describing the level of defensive pressure."
+      },
+      {
+        "Attribute Name": "defence_aggression",
+        "Description": "A numeric value representing how aggressively the team defends."
+      },
+      {
+        "Attribute Name": "defence_aggression_class",
+        "Description": "The categorical description of the team's defensive aggression (e.g., 'Contain', 'Press')."
+      },
+      {
+        "Attribute Name": "defence_team_width",
+        "Description": "A numeric value indicating how wide the team sets up when defending."
+      },
+      {
+        "Attribute Name": "defence_team_width_class",
+        "Description": "The categorical label (e.g., 'Narrow', 'Balanced', 'Wide') describing the defensive width."
+      },
+      {
+        "Attribute Name": "defence_defender_line_class",
+        "Description": "The type of defensive line used by the team, such as 'Cover' or 'Offside Trap'."
+      },
+      {
+        "Attribute Name": "team_long_name",
+        "Description": "The full official name of the team to which these attributes belong."
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "table": {
+    "Wines": "wine",
+    "Appellation": "appellations"
+  },
+  "attribute": {
+    "wine": {
+      "winery_name": "Winery",
+      "wine_name": "Name",
+      "vintage_year": "Year",
+      "score": "Score",
+      "production_volume": "Cases",
+      "drinking_window": "Drink",
+      "grape_variety": "Grape"
+    },
+    "appellations": {
+      "appellation": "Appelation",
+      "region_name": "Area",
+      "main_location": ["County", "State"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"Q1": {
+		"query": "Find the average score and maximum price of each type of grape used in wines, where the grape appellations must be produced in Sonoma County.",
+		"attributes": ["wine.grape", "wine.score", "wine.price", "wine.appelation", "appellations.appelation", "appellations.county"],
+		"sql": "SELECT w.grape, AVG(w.score) AS average_score, MAX(w.price) AS maximum_price FROM wine w JOIN appellations a ON w.appelation = a.appelation WHERE a.county = 'Sonoma' GROUP BY w.grape;"
+	},
+	"Q2": {
+		"query": "List all wines with their wineries and the state of the appellation that have a rating score above 90 and are priced under $50.",
+		"attributes": ["wine.name", "wine.winery", "wine.score", "wine.price", "wine.appelation", "appellations.appelation", "appellations.state"],
+		"sql": "SELECT w.name, w.winery, a.state, w.score, w.price FROM wine w JOIN appellations a ON w.appelation = a.appelation WHERE w.score > 90 AND w.price < 50;"
+	},
+	"Q3": {
+		"query": "Show the total number of cases produced by each winery for appellations originating from AVAs within the state of Oregon.",
+		"attributes": ["wine.winery", "wine.cases", "wine.appelation", "appellations.appelation", "appellations.state", "appellations.is_ava"],
+		"sql": "SELECT w.winery, SUM(w.cases) AS total_cases FROM wine w JOIN appellations a ON w.appelation = a.appelation WHERE a.state = 'Oregon' AND a.is_ava = TRUE GROUP BY w.winery;"
+	}
+}

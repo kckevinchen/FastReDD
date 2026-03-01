@@ -1,0 +1,42 @@
+{
+	"Q1": {
+		"query": "How many tracks belong to the Metal genre?",
+		"attributes": ["Genre"],
+		"diffculty": "1"
+	},
+	"Q2": {
+		"query": "What is the longest track in terms of duration and what is its length?",
+		"attributes": ["Track Name", "Track Duration"],
+		"diffculty": "1"
+	},
+	"Q3": {
+		"query": "List the names of top 5 tracks with the longest playtime.",
+		"attributes": ["Track Name", "Track Duration"],
+		"diffculty": "1"
+	},
+	"Q4": {
+		"query": "How many tracks are longer than 12 minutes?",
+		"attributes": ["Track Name", "Track Duration"],
+		"diffculty": "1"
+	},
+	"Q5": {
+		"query": "What are the names of tracks with a length between 200,000 and 300,000 milliseconds?",
+		"attributes": ["Track Name", "Track Duration"],
+		"diffculty": "1"
+	},
+	"Q6": {
+		"query": "How many Blues tracks are priced at or above the average price of all tracks?",
+		"attributes": ["Track Name", "Genre", "Unit Price"],
+		"diffculty": "1"
+	},
+	"Q7": {
+		"query": "Find the title and duration of both the longest and shortest tracks.",
+		"attributes": ["Track Name", "Track Duration"],
+		"diffculty": "1"
+	},
+	"Q8": {
+		"query": "List all album titles that have more than two tracks associated with them.",
+		"attributes": ["Album Title"],
+		"diffculty": "2"
+	}
+}

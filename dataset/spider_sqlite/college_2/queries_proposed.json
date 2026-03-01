@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "year <= 2010",
+        "semester contains 'Fall'",
+        "instructor_name contains 'Mingoz'"
+      ],
+      "optimal_order": [
+        "instructor_name contains 'Mingoz'",
+        "semester contains 'Fall'",
+        "year <= 2010"
+      ],
+      "token_cost": 7182
+    },
+    {
+      "queries": [
+        "semester contains 'Spring'",
+        "year >= 2004",
+        "instructor_name contains 'DAgostino'"
+      ],
+      "optimal_order": [
+        "instructor_name contains 'DAgostino'",
+        "semester contains 'Spring'",
+        "year >= 2004"
+      ],
+      "token_cost": 7643
+    }
+  ]
+}

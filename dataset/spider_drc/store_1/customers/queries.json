@@ -1,0 +1,37 @@
+{
+	"Q1": {
+		"query": "How many unique company names are in the database?",
+		"attributes": ["Company Name"],
+		"diffculty": "0"
+	},
+	"Q2": {
+        "query": "List all companies and their respective countries.",
+        "attributes": ["Company Name", "Country"],
+        "difficulty": "1"
+	},
+	"Q3": {
+        "query": "Retrieve the names of customers along with their phone numbers.",
+        "attributes": ["Customer Name", "Phone Number"],
+        "difficulty": "1"
+	},
+	"Q4": {
+		"query": "What is the count of customers that Steve Johnson supports?",
+		"attributes": ["Support Representative Name"],
+		"diffculty": "1"
+	},
+	"Q5": {
+        "query": "Which customers share the same company?",
+        "attributes": ["Customer Name", "Company Name"],
+        "difficulty": "1"
+	},
+	"Q6": {
+        "query": "Retrieve the names and cities of customers who do not have a fax number.",
+        "attributes": ["Customer Name", "City", "Fax Number"],
+        "difficulty": "1"
+	},
+	"Q7": {
+		"query": "Who are the top three support representatives with the most unique customers, ranked in descending order?",
+		"attributes": ["Customer Name", "Support Representative Name"],
+		"diffculty": "2"
+	}
+}

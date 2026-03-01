@@ -1,0 +1,28 @@
+{
+  "table": {
+    "FlightRoutes": "routes",
+    "Airports": "airports",
+    "Airlines": "airlines"
+  },
+  "attribute": {
+    "routes": {
+      "airline_name": "airline_name",
+      "departure_airport_name": "src_ap_name",
+      "arrival_airport_name": "dst_ap_name"
+    },
+    "airports": {
+      "airport_name": "name",
+      "city": "city",
+      "country": "country",
+      "latitude": "y",
+      "longitude": "x",
+      "elevation": "elevation"
+    },
+    "airlines": {
+      "airline_name": "name",
+      "callsign": "callsign",
+      "country": "country",
+      "active": "active"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+default_settings: &default
+  data_main: "dataset/"
+  spider_path: "dataset/spider/"
+  exp_dataset_task_list: null
+  console_log_level: "WARNING"  # Console logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # Data Loader Configuration
+  # Loader type: "spider" (default), "perfile", "sqlite"
+  data_loader_type: "spider"
+  # Optional loader-specific configuration (uncomment if needed)
+  # data_loader_config:
+  #   filemap: {}            # Custom file mapping
+  #   file_extension: ".txt" # For perfile loader
+  #   encoding: "utf-8"      # For perfile loader
+
+spider_1d0_1:  &spider_1d0_1
+  <<: *default
+  mode: "deepseek"
+  trial: 1
+  out_main: "outputs/data_population/spider_deepseek_1/"
+  exp_dataset_task_list: ["store_1/employees-customers-invoices"]
+  llm_model: "deepseek-chat"
+  res_param_str: "mdldeepseek-chat_prm1d0"
+  prompts:
+    prompt_table: "prompts/datapop_table_1.txt"
+    prompt_attr: "prompts/datapop_attr_1.txt"
+  in_fields: 
+    doc: "Document"
+    schema: "Schema"
+    # query: "Query"
+  out_fields: 
+    res: "Table Assignment"
+    data: "Data Populated"
+    reason: "Reasoning"
+  schemagen:
+    out_main: "outputs/schema_gen/spider_cgpt_1/"
+    param_str: "mdlgpt-4o_prm4d1_tmp1.0_tpp1.0"
+  eval:
+    mode: "deepseek"
+    llm_model: "deepseek-chat"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  # Experiment 2: Query-Aware Chunk Filtering with Conformal Guarantees
+  chunk_filter:
+    enabled: true
+    recall_target: 0.95
+    chunk_size: 500
+    chunk_overlap: 50
+    threshold_path: null  # Path to save/load threshold (optional)
+    embedding_model: "text-embedding-3-small"  # Embedding model options:
+      # OpenAI: "text-embedding-3-small" (default), "text-embedding-3-large", "text-embedding-ada-002"
+      # Gemini: "models/embedding-001" (requires GOOGLE_API_KEY environment variable)
+    evidence_augmentation:
+      enabled: true
+      max_terms: 10
+
+store_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/albums", "store_1/employees", "store_1/customers", "store_1/invoices", "store_1/tracks", 
+                "store_1/customers-invoices", "store_1/customers-employees", "store_1/albums-tracks", 
+                "store_1/employees-customers-invoices"]
+
+wine_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["wine_1/grapes", "wine_1/wine-appellations"]
+
+college_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/course-section", "college_2/instructor-teaches", "college_2/course-teaches", 
+                "college_2/instructor-department", "college_2/department-student-instructor", 
+                "college_2/course-teaches-instructor", "college_2/course-section-classroom"]
+
+flight_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["flight_4/routes-airports", "flight_4/routes-airlines", "flight_4/routes-airports-airlines"]

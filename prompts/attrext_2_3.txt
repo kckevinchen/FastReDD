@@ -1,0 +1,50 @@
+Task Description:
+You are an expert in relational database management. Your task is to analyze a document and a query expressed in natural language to derive a relational schema. The schema should consist of a list of attributes, such that if the query is imposed on the relational schema, you will be able to produce the correct answer. Ensure the following: 
+
+1. Ensure that the schema includes only those attributes necessary to address the query effectively. No additional attributes beyond what is essential for answering the query. 
+Extract only those attributes mentioned implicitly or explicitly in the document. Attributes that are only implied by the query or could be obtained via joins with other documents should not be included in the extracted schema.
+If the query requires aggregated information (e.g., a count), ensure the schema includes the raw data attributes (e.g., Person Name) required for such aggregation rather than the aggregated result, unless the document explicitly contains such aggregated information. 
+2. Normalize attribute naming across documents to maintain consistent semantics.
+3. Maintain a cumulative record of extracted attributes across processed documents. For each attribute extracted from the input document, either add it to the record or update its existing entry. Additionally, provide a one- to two-sentence summary of its context to ensure clarity and traceability.
+
+Input provided in JSON format with the following components:
+- **Document**.
+- **Query**.
+- **Record of Extracted Attributes**.
+
+Output provided in JSON format with the following components:
+- **Extracted Attributes**: A list of attributes necessary to answer the query.
+- **Updated Record of Extracted Attributes**: An updated record reflecting changes or additions based on the current document and query.
+
+---
+
+Example Input:
+
+```json
+{
+  "Document": "The new iPhone 15 features an advanced A17 chip, offering faster performance and improved energy efficiency compared to its predecessor.",
+  "Query": "What are the models of smartphones listed in the database?",
+  "Record of Extracted Attributes": [
+    {
+      "attribute": "Smartphone Model",
+      "summarized_context": "Refers to the specific name or identifier of a smartphone model."
+    }
+  ]
+}
+```
+
+Example Output:
+
+```json
+{
+  "Extracted Attributes": ["Smartphone Model"],
+  "Updated Record of Extracted Attributes": [
+    {
+      "attribute": "Smartphone Model",
+      "summarized_context": "Refers to the specific name or identifier of a smartphone model."
+    }
+  ]
+}
+```
+
+--- 

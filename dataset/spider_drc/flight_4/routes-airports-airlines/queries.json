@@ -1,0 +1,7 @@
+{
+	"Q1": {
+		"query": "Find all active airlines that operate routes between cities in the United States and Europe (United Kingdom, France, Germany, Italy, Spain), including the airline's call sign and the names of both the origin and destination airports.",
+		"attributes": ["airlines.name", "airlines.callsign", "airlines.active", "airports.name", "airports.country", "airports.iata", "routes.airline_name", "routes.src_ap", "routes.dst_ap"],
+		"sql": "SELECT a.name AS airline_name, a.callsign AS airline_callsign, ap1.name AS origin_airport, ap2.name AS destination_airport FROM routes r JOIN airlines a ON r.airline_name = a.name JOIN airports ap1 ON r.src_ap = ap1.iata JOIN airports ap2 ON r.dst_ap = ap2.iata WHERE a.active = 'Y' AND ap1.country = 'United States' AND ap2.country IN ('United Kingdom', 'France', 'Germany', 'Italy', 'Spain')"
+	}
+}

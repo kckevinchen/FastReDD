@@ -1,0 +1,32 @@
+{
+	"Q1": {
+        "query": "Retrieve a list of unique job titles among employees.",
+        "attributes": ["Job Title"],
+        "difficulty": "0"
+	},
+	"Q2": {
+        "query": "Which employees have no fax number recorded?",
+        "attributes": ["Person Name", "Fax Number"],
+        "difficulty": "1"
+	},
+	"Q3": {
+		"query": "How many employees live in Canada?",
+		"attributes": ["Country"],
+		"diffculty": "1"
+	},
+	"Q4": {
+		"query": "Retrieves the city with the most employees and the corresponding number of employees.",
+		"attributes": ["City"],
+		"diffculty": "2"
+	},
+	"Q5": {
+        "query": "List employees who live in the same city and their respective phone numbers.",
+        "attributes": ["Person Name", "City", "Phone Number"],
+        "difficulty": "2"
+	},
+	"Q6": {
+        "query": "Which employees were hired after 2020?",
+        "attributes": ["Person Name", "Employment Start Date"],
+        "difficulty": "2"
+	}
+}

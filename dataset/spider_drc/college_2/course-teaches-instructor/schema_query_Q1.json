@@ -1,0 +1,57 @@
+[
+  {
+    "Schema Name": "CourseInformation",
+    "Attributes": [
+      {
+        "Attribute Name": "course_title", 
+        "Description": "Title of the course, providing an overview of its content and emphasis."
+      },
+      {
+        "Attribute Name": "credits", 
+        "Description": "Number of academic credits earned upon successful completion of the course."
+      },
+      {
+        "Attribute Name": "department", 
+        "Description": "The academic department offering the course, e.g., Math, Economics."
+      }
+    ]
+  },
+  {
+    "Schema Name": "CourseInstructorAssignments",
+    "Attributes": [
+      {
+        "Attribute Name": "course_title", 
+        "Description": "Title of the course indicating its academic focus."
+      },
+      {
+        "Attribute Name": "semester", 
+        "Description": "Academic term during which the course is offered, such as 'Fall 2006'."
+      },
+      {
+        "Attribute Name": "offering_year", 
+        "Description": "Year in which the course is scheduled or conducted."
+      },
+      {
+        "Attribute Name": "instructor_name", 
+        "Description": "Unique identifier of the instructor or faculty member teaching the course."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Instructors",
+    "Attributes": [
+      {
+        "Attribute Name": "instructor_name", 
+        "Description": "Full name of the instructor."
+      },
+      {
+        "Attribute Name": "department", 
+        "Description": "Department within the institution where the instructor teaches."
+      },
+      {
+        "Attribute Name": "annual_salary", 
+        "Description": "Annual salary received by the instructor, reflecting their role and responsibilities."
+      }
+    ]
+  }
+]

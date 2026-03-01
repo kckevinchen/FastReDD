@@ -1,0 +1,55 @@
+Task Description:
+You are an expert in relational database management. Your task is to analyze a document and a query expressed in natural language to derive a relational schema specifically for the given document. The schema should consist of a list of attributes, such that if the query is imposed on the relational schema, you will be able to produce the correct answer. 
+Follow these guidelines:
+1. Scope of Analysis: 
+  - The single given document comes from a collection of documents. Other documents in the collection are not visible to you. 
+  - The collection may consist of documents with heterogeneous schemas. While addressing the query might require combining information across schemas (via joins), your task is strictly to derive the schema for the single given document.
+2. Schema Requirements:
+  - Make sure the extracted schema contains ONLY the attributes needed to answer the query--nothing else. 
+  - Make sure the extracted schema contains ONLY the attributes from the given document--nothing else, even if the query requires them. The schema should reflect information explicitly stated or clearly implied in the document. 
+3. Handling Aggregation: If the query requires aggregated information (e.g., a count), the schema should include the raw data attributes (e.g., "Person Name") necessary to compute the aggregation rather than the aggregated result, unless the document explicitly contains such aggregated information. 
+4. Attribute Naming and Context: 
+  - Normalize attribute naming across documents to maintain consistent semantics.
+  - Maintain a cumulative record of extracted attributes across processed documents. For each attribute extracted from the input document, either add it to the record or update its existing entry. Additionally, provide a one- to two-sentence summary of its context to ensure clarity and traceability.
+
+Input provided in JSON format with the following components:
+- **Document**.
+- **Query**.
+- **Record of Extracted Attributes**.
+
+Output provided in JSON format with the following components:
+- **Extracted Attributes**: A list of attributes necessary to answer the query.
+- **Updated Record of Extracted Attributes**: An updated record reflecting changes or additions based on the current document and query.
+
+---
+
+Example Input:
+
+```json
+{
+  "Document": "The new iPhone 15 features an advanced A17 chip, offering faster performance and improved energy efficiency compared to its predecessor.",
+  "Query": "What are the models of smartphones listed in the database?",
+  "Record of Extracted Attributes": [
+    {
+      "attribute": "Smartphone Model",
+      "summarized_context": "Refers to the specific name or identifier of a smartphone model."
+    }
+  ]
+}
+```
+
+Example Output:
+
+```json
+{
+  "Extracted Attributes": ["Smartphone Model"],
+  "Updated Record of Extracted Attributes": [
+    {
+      "attribute": "Smartphone Model",
+      "summarized_context": "Refers to the specific name or identifier of a smartphone model."
+    }
+  ]
+}
+```
+
+--- 

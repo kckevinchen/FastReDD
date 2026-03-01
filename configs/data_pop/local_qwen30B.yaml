@@ -1,0 +1,203 @@
+# Data Population - Local Qwen3-30B-A3B-Instruct-2507
+
+# =============================== Common Settings ===============================
+default_settings: &default
+  mode: "local"
+  trial: 1
+  llm_model: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+  llm_model_path: "llm_models/Qwen/Qwen3-30B-A3B-Instruct-2507"
+  console_log_level: "WARNING"
+  data_loader_type: "sqlite"
+  shuffle_documents: false
+
+  torch_seed: 888
+  num_layers: 48
+  hidden_size: 2048
+  exp_layers: [10, 20, 25, 30, 35, 40, 42, 45, 46, 47]
+  train_size: 24
+
+# Data population common settings
+data_pop_common: &data_pop_common
+  prompts:
+    prompt_table: "prompts/datapop_table_json.txt"
+    prompt_attr: "prompts/datapop_attr_json.txt"
+  eval:
+    mode: "deepseek"
+    llm_model: "deepseek-chat"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  classifier_threshold: 0.5
+  trainer:
+    train_percentage: 0.8
+    batch_size: 128
+    epochs: 200
+    early_stop_patience: 10
+    learning_rate: 0.0003
+
+# =============================== Flight Dataset ===============================
+flight_common: &flight_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/data_pop/spider/"
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/spider/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+flight_reddv0:
+  <<: *flight_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Wine Dataset ===============================
+wine_common: &wine_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/data_pop/spider/"
+  exp_dataset_task_list: ["wine_1/wine-appellations.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/spider/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+wine_reddv0:
+  <<: *wine_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== College Dataset ===============================
+college_common: &college_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/data_pop/spider/"
+  exp_dataset_task_list: ["college_2/course-teaches-instructor.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/spider/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+college_reddv0:
+  <<: *college_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Soccer Dataset ===============================
+soccer_common: &soccer_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/data_pop/spider/"
+  exp_dataset_task_list: ["soccer_1/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/spider/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+soccer_reddv0:
+  <<: *soccer_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Bike Dataset ===============================
+bike_common: &bike_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/data_pop/spider/"
+  exp_dataset_task_list: ["bike_1/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/spider/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+bike_reddv0:
+  <<: *bike_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Apartment Rentals Dataset ===============================
+apartment_rentals_common: &apartment_rentals_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/data_pop/spider/"
+  exp_dataset_task_list: ["apartment_rentals/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/spider/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+apartment_rentals_reddv0:
+  <<: *apartment_rentals_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Bird: California Schools Dataset ===============================
+california_schools_common: &california_schools_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/bird_sqlite/"
+  out_main: "outputs/data_pop/bird/"
+  exp_dataset_task_list: ["california_schools/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/bird/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+california_schools_reddv0:
+  <<: *california_schools_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Bird: Debit Card Specializing Dataset ===============================
+debit_card_specializing_common: &debit_card_specializing_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/bird_sqlite/"
+  out_main: "outputs/data_pop/bird/"
+  exp_dataset_task_list: ["debit_card_specializing/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/bird/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+debit_card_specializing_reddv0:
+  <<: *debit_card_specializing_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Bird: Student Club Dataset ===============================
+student_club_common: &student_club_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/bird_sqlite/"
+  out_main: "outputs/data_pop/bird/"
+  exp_dataset_task_list: ["student_club/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/bird/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+student_club_reddv0:
+  <<: *student_club_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Galois: Fortune Dataset ===============================
+fortune_common: &fortune_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/galois_sqlite/"
+  out_main: "outputs/data_pop/galois/"
+  exp_dataset_task_list: ["fortune/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/galois/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+fortune_reddv0:
+  <<: *fortune_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== Galois: Premier League Dataset ===============================
+premierleague_common: &premierleague_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/galois_sqlite/"
+  out_main: "outputs/data_pop/galois/"
+  exp_dataset_task_list: ["premierleague/default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/galois/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+premierleague_reddv0:
+  <<: *premierleague_common
+  res_param_str: "mdlqwen330b2507local_reddv0"
+
+# =============================== FDA: 510k Device Submission Dataset ===============================
+fda_common: &fda_common
+  <<: [*default, *data_pop_common]
+  data_main: "dataset/fda_sqlite/"
+  out_main: "outputs/data_pop/fda/"
+  exp_dataset_task_list: ["default_task.db"]
+  schemagen:
+    out_main: "outputs/schema_gen/fda/"
+    param_str: "mdlqwen330b2507_prm5d0_reddv0"
+
+fda_reddv0:
+  <<: *fda_common
+  res_param_str: "mdlqwen330b2507local_reddv0"

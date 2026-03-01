@@ -1,0 +1,22 @@
+{
+	"Q1": {
+		"query": "Identify the countries where customers registered, who have spent more than $50 in total. Note that 'country' in this query refers to the customer's registered country, not the billing country.",
+		"attributes": ["customers-Customer Country", "customers-Customer Name", "invoices-Invoice Total Amount", "invoices-Customer Name"],
+		"diffculty": "3"
+	},
+	"Q2": {
+        "query": "What is the total invoice amount for customers grouped by their registered city? Note that 'city' in this query refers to the customer's registered city, not the billing city.",
+        "attributes": ["customers-City", "customers-Customer Name", "invoices-Invoice Total Amount", "invoices-Customer Name"],
+        "difficulty": "3"
+	},
+	"Q3": {
+        "query": "Which support representatives are responsible for customers whose total invoices exceed $100? Note: Employees assigned to customers are referred to as 'support representatives', responsible for assisting customer needs.",
+        "attributes": ["customers-Support Representative Name", "customers-Customer Name", "invoices-Invoice Total Amount", "invoices-Customer Name"],
+        "difficulty": "3"
+	},
+	"Q4": {
+        "query": "Which customers have invoices billed to a different country than their registered country, and what are the invoice total amounts? Note that 'billed country' refers to the country where the invoice was issued, while 'registered country' refers to the customer's registered country",
+        "attributes": ["customers-Customer Name", "customers-Customer Country", "invoices-Invoice Billing Country", "invoices-Invoice Total Amount", "invoices-Customer Name"],
+        "difficulty": "4"
+	}
+}

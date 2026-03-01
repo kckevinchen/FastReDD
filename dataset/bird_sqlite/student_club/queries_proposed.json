@@ -1,0 +1,26 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "status == 'Open'",
+        "type contains 'Meeting'"
+      ],
+      "optimal_order": [
+        "status == 'Open'",
+        "type contains 'Meeting'"
+      ],
+      "token_cost": 4201
+    },
+    {
+      "queries": [
+        "status == 'Closed'",
+        "type contains 'Meeting'"
+      ],
+      "optimal_order": [
+        "type contains 'Meeting'",
+        "status == 'Closed'"
+      ],
+      "token_cost": 4303
+    }
+  ]
+}

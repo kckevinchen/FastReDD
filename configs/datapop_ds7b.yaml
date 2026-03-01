@@ -1,0 +1,29 @@
+default_settings: &default
+  data_main: "dataset/"
+  spider_path: "dataset/spider/"
+  exp_dataset_task_list: null
+  console_log_level: "WARNING"  # Console logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # Data Loader Configuration
+  data_loader_type: "spider"  # Options: "spider", "perfile", "sqlite"
+
+spider_1d0_1:  &spider_1d0_1
+  <<: *default
+  mode: "local"
+  trial: 0
+  out_main: "outputs/data_population/spider_ds7b_1/"
+  exp_dataset_task_list: ["store_1/albums-tracks"]
+  llm_model: "deepseek-ai/deepseek-llm-7b-chat"
+  llm_model_path: "llm_models/deepseek-ai/deepseek-llm-7b-chat"
+  res_param_str: "mdlds7b_prm1"
+  prompts:
+    prompt_table: "prompts/datapop_table_json.txt"
+    prompt_attr: "prompts/datapop_attr_json.txt"
+  eval:
+    mode: "deepseek"
+    llm_model: "deepseek-chat"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  schemagen:
+    out_main: "outputs/schema_gen/spider_cgpt_1/"
+    param_str: "mdlgpt-4o_prm4d1_tmp1.0_tpp1.0"

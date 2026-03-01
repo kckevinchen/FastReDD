@@ -1,0 +1,26 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "home_goals >= 3",
+        "home_goals > away_goals"
+      ],
+      "optimal_order": [
+        "home_goals >= 3",
+        "home_goals > away_goals"
+      ],
+      "token_cost": 93414
+    },
+    {
+      "queries": [
+        "home_team == 'Liverpool'",
+        "home_goals >= 2"
+      ],
+      "optimal_order": [
+        "home_team == 'Liverpool'",
+        "home_goals >= 2"
+      ],
+      "token_cost": 83416
+    }
+  ]
+}

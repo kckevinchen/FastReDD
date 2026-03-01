@@ -1,0 +1,69 @@
+[
+  {
+    "Schema Name": "Airlines",
+    "Attributes": [
+      {
+        "Attribute Name": "airline_name", 
+        "Description": "Name of the airline representing its unique identity."
+      },
+      {
+        "Attribute Name": "callsign", 
+        "Description": "Unique callsign used to identify the airline during radio communications."
+      },
+      {
+        "Attribute Name": "country", 
+        "Description": "Country where the airline is based or registered."
+      },
+      {
+        "Attribute Name": "active", 
+        "Description": "Operational status of the airline, indicating whether it is active or inactive."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Airports",
+    "Attributes": [
+      {
+        "Attribute Name": "airport_name", 
+        "Description": "Name of the airport or facility serving travelers and cargo."
+      },
+      {
+        "Attribute Name": "city", 
+        "Description": "City where the airport is located."
+      },
+      {
+        "Attribute Name": "country", 
+        "Description": "Country where the airport is located."
+      },
+      {
+        "Attribute Name": "latitude", 
+        "Description": "Geographical coordinate indicating the north-south position of the airport."
+      },
+      {
+        "Attribute Name": "longitude", 
+        "Description": "Geographical coordinate indicating the east-west position of the airport."
+      },
+      {
+        "Attribute Name": "elevation", 
+        "Description": "Height of the airport above sea level, measured in feet."
+      }
+    ]
+  },
+  {
+    "Schema Name": "FlightRoutes",
+    "Attributes": [
+      {
+        "Attribute Name": "airline_name", 
+        "Description": "Name of the airline operating the route."
+      },
+      {
+        "Attribute Name": "departure_airport_name", 
+        "Description": "Name of the airport where the flight commences."
+      },
+      {
+        "Attribute Name": "arrival_airport_name", 
+        "Description": "Name of the airport where the flight terminates."
+      }
+    ]
+  }
+]

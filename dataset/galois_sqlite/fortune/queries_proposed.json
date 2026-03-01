@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "Sector == 'Technology'",
+        "Is_Profitable (boolean) == 1",
+        "Global500 == 1"
+      ],
+      "optimal_order": [
+        "Sector == 'Technology'",
+        "Global500 == 1",
+        "Is_Profitable (boolean) == 1"
+      ],
+      "token_cost": 280423
+    },
+    {
+      "queries": [
+        "Sector == 'Financials'",
+        "HeadquartersState == 'California'",
+        "Is_FemaleCEO (boolean) == 1"
+      ],
+      "optimal_order": [
+        "Is_FemaleCEO (boolean) == 1",
+        "HeadquartersState == 'California'",
+        "Sector == 'Financials'"
+      ],
+      "token_cost": 277092
+    }
+  ]
+}

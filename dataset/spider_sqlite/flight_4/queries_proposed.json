@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "codeshare == 'Y'",
+        "dst_ap_country contains 'United States'",
+        "src_ap_country contains 'Canada'"
+      ],
+      "optimal_order": [
+        "src_ap_country contains 'Canada'",
+        "dst_ap_country contains 'United States'",
+        "codeshare == 'Y'"
+      ],
+      "token_cost": 250897
+    },
+    {
+      "queries": [
+        "src_ap_country contains 'France'",
+        "dst_ap_country contains 'Germany'",
+        "codeshare == 'None'"
+      ],
+      "optimal_order": [
+        "src_ap_country contains 'France'",
+        "dst_ap_country contains 'Germany'",
+        "codeshare == 'None'"
+      ],
+      "token_cost": 249984
+    }
+  ]
+}

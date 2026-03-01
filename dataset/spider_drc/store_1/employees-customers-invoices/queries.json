@@ -1,0 +1,14 @@
+{
+	"Q1": {
+		"query": "Retrieve the names of employees and the total sales made by customers supported by each employee, for those employees who are based in Canada. Sum up all the sales for each employee and group the results by the employee's name.",
+		"attributes": ["employees.name", "employees.country", "customers.name", "customers.support_rep_name", "invoices.customer_name", "invoices.total"],
+		"sql": "SELECT e.name AS Employee_Name, SUM(i.total) AS Total_Sales FROM employees e JOIN customers c ON e.name = c.support_rep_name JOIN invoices i ON c.name = i.customer_name WHERE e.country = 'Canada' GROUP BY e.name;",
+		"diffculty": "6"
+	},
+	"Q2": {
+		"query": "Get a list of customers supported by employees hired after a certain year '2015-01-01', along with the most recent invoice details.",
+		"attributes": ["employees.name", "employees.hire_date", "customers.name", "customers.support_rep_name", "invoices.invoice_date", "invoices.total", "invoices.customer_name"],
+		"sql": "SELECT c.name AS Customer_Name, MAX(i.invoice_date) AS Latest_Invoice_Date, i.total AS Invoice_Total FROM customers c JOIN employees e ON c.support_rep_name = e.name JOIN invoices i ON c.name = i.customer_name WHERE e.hire_date > '2015-01-01' GROUP BY c.name, c.company;",
+		"diffculty": "5"
+	}
+}

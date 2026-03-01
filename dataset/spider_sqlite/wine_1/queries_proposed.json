@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "Year == 2007",
+        "Drink == 'now'",
+        "Score >= 90"
+      ],
+      "optimal_order": [
+        "Year == 2007",
+        "Score >= 90",
+        "Drink == 'now'"
+      ],
+      "token_cost": 96349
+    },
+    {
+      "queries": [
+        "Grape contains 'Cabernet'",
+        "Price <= 50",
+        "Score >= 85"
+      ],
+      "optimal_order": [
+        "Grape contains 'Cabernet'",
+        "Price <= 50",
+        "Score >= 85"
+      ],
+      "token_cost": 70972
+    }
+  ]
+}

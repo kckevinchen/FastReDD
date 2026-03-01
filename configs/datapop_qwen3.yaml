@@ -1,0 +1,85 @@
+default_settings: &default
+  mode: "siliconflow"
+  llm_model: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+  llm_model_path: "llm_models/Qwen/Qwen3-30B-A3B-Instruct-2507"
+  res_param_str: "mdlqwen330b2507"
+  prompts:
+    prompt_table: "prompts/datapop_table_json.txt"
+    prompt_attr: "prompts/datapop_attr_json.txt"
+  eval:
+    # Single LLM mode (for backward compatibility)
+    # mode: "deepseek"
+    # llm_model: "deepseek-chat"
+    # Committee voting mode with multiple LLMs
+    committee:
+      - mode: "deepseek"
+        llm_model: "deepseek-chat"
+      - mode: "cgpt"
+        llm_model: "gpt-5"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  console_log_level: "WARNING"
+  data_loader_type: "spider"  # Options: "spider", "perfile", "sqlite"
+  
+  # API Rate Limit Retry Configuration (optional)
+  max_retries: 5
+  wait_time: 61.0
+
+# =============================== Spider (API) ===============================
+spider_1:  &spider_1
+  <<: *default
+  trial: 1
+  data_main: "dataset/spider_update/"
+  out_main: "outputs/data_population/spider_qwen3_1/"
+  exp_dataset_task_list: ["college_2/course-teaches-instructor"]
+  data_loader_type: "spider"
+
+spider_college_2:  &spider_college_2
+  <<: *spider_1
+  exp_dataset_task_list: ["college_2/course-teaches-instructor"]
+
+spider_flight_4:  &spider_flight_4
+  <<: *spider_1
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines"]
+
+spider_wine_1:  &spider_wine_1
+  <<: *spider_1
+  exp_dataset_task_list: ["wine_1/wine-appellations"]
+
+spider_bike_1:  &spider_bike_1
+  <<: *spider_1
+  exp_dataset_task_list: ["bike_1/all"]
+
+spider_soccer_1:  &spider_soccer_1
+  <<: *spider_1
+  exp_dataset_task_list: ["soccer_1/all"]
+
+spider_apartment_rentals:  &spider_apartment_rentals
+  <<: *spider_1
+  exp_dataset_task_list: ["apartment_rentals/all"]
+
+# =============================== Spider (Local) ===============================
+spider_local_1:  &spider_local_1
+  <<: *spider_1
+  torch_seed: 888
+  num_layers: 48
+  hidden_size: 2048
+  exp_layers: [20, 25, 30, 35, 40, 46, 47]
+  train_size: 24
+  trainer:
+    train_percentage: 0.8  # TODO
+    batch_size: 128
+    epochs: 200
+    early_stop_patience: 10
+    learning_rate: 0.0003
+  classifier_threshold: 0.5
+
+# =============================== FDA (API) ===============================
+fda_1:  &fda_1
+  <<: *default
+  trial: 1
+  data_main: "dataset/fda_510ks/"
+  out_main: "outputs/data_population/fda_qwen3_1/"
+  exp_dataset_task_list: ["fda_510ks"]
+  data_loader_type: "perfile"
+

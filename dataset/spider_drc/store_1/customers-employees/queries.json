@@ -1,0 +1,17 @@
+{
+	"Q1": {
+		"query": "Which customers have support representatives from the same country, and what are the full names of those representatives? Note: Employees assigned to customers are referred to as 'support representatives', responsible for assisting customer needs.",
+		"attributes": ["customers-Support Representative Name", "customers-Customer Name", "customers-Country", "employees-Employee Name", "employees-Country"],
+		"diffculty": "3"
+	},
+	"Q2": {
+        "query": "Which employees have a job title containing 'Manager' and are responsible for supporting customers? Note: Employees assigned to customers are referred to as 'support representatives', responsible for assisting customer needs.",
+        "attributes": ["customers-Support Representative Name", "employees-Employee Name", "employees-Job Title"],
+        "difficulty": "3"
+	},
+    "Q3": {
+        "query": "Which employees and the customers they support have email addresses with the same domain? Note: Employees assigned to customers are referred to as 'support representatives', responsible for assisting customer needs.",
+        "attributes": ["customers-Support Representative Name", "customers-Email Address", "employees-Employee Name", "employees-Email Address"],
+        "difficulty": "3"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "preferred_foot == 'left'",
+        "potential > 70",
+        "dribbling > 65"
+      ],
+      "optimal_order": [
+        "preferred_foot == 'left'",
+        "dribbling > 65",
+        "potential > 70"
+      ],
+      "token_cost": 40543
+    },
+    {
+      "queries": [
+        "overall_rating > 60",
+        "finishing > 60",
+        "preferred_foot == 'right'"
+      ],
+      "optimal_order": [
+        "finishing > 60",
+        "overall_rating > 60",
+        "preferred_foot == 'right'"
+      ],
+      "token_cost": 35851
+    }
+  ]
+}

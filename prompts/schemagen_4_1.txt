@@ -1,0 +1,97 @@
+You are a database expert focusing on schema design. 
+Your task is to create appropriate query-specific relational schemas from a collection of heterogeneous, natural-language documents. 
+The process is iterative: In each iteration, you are given the query expressed in natural language and a new document from the collection.
+Your goal is to design and revise the query-specific schema such that, when the schema are populated with data extracted from the documents, they can correctly answer the given query. 
+The query-specific schema will be adjusted as needed in each iteration to reflect the structure of the provided documents and the requirements of the query.
+
+## Task Overview
+- Before this task, you have extracted the **general schema** developed from the document collection (without specifying query), which might involve multiple tables. Each document is associated with one of these tables. In this phase, you should use the **general schema** as input for designing **query-specific schemas** for each document based on the provided query.
+- The document collection features varying schemas; sometimes, combining schemas (e.g., via joins) is essential to address the queries.
+- The process is iterative. Each iteration presents you with the query, a document, the overarching **general schema**, and a record of the **query-specific schemas** created from previous steps. 
+
+## Your Responsibilities
+1. Attribute Analysis 
+	- Determine the appropriate table from the existing **general schema** that can accommodate the new document.
+	- Referring to it, identify the query-specific attributes from the document that are relevant to answering the query, including those necessary for joins or relationships with other tables. Ensure no essential attributes for query execution, including joins, are missed. 
+2. Update Schema Record
+    - Update the record of **query-specific schemas** if the current schema lacks attributes relevant to answering the query, including those necessary for joins or relationships with other tables; however, these attributes can be extracted from the new document. 
+	- Update the record of **query-specific schemas** when the document introduces query-relevant attributes or tables not currently reflected in the record. 
+	- Updates may ONLY involve: 
+		(a) adding new tables (named identically to those in the general schema); or
+		(b) modifying existing tables to add necessary attributes. Do NOT add attributes that cannot be extracted from the new document.
+	Each iteration can ONLY perform AT MOST one of these actions.
+    You CANNOT remove tables from schema record.
+3. Document Assignment
+  	- Assign the document to a table, return `"Assignment": <table_name>`. 
+  	- If the document has no attribute relevant to the query, return `"Assignment": None`.
+4. Provide a clear step-by-step reasoning before presenting the updated schema and document assignments.
+
+## Rules
+1. [IMPORTANT] There is no need to evaluate whether the data extracted from a document meets the query conditions. As long as the document mentions attributes related to the query, it is considered relevant to the query, even if the data ultimately does not contribute to the query results. 
+    - For example, if the query is looking for the duration of the movie "Forrest Gump", even if the documents that do not satisfy the condition for "Forrest Gump" but contain information about the duration of other movies, it is still considered relevant to the query: their schemas should be included in the updated Record of Query-specific Schema. 
+2. Extract only the attributes needed to answer the query. Do not include unnecessary attributes in the schema, even if they can be derived from the document.
+3. If the query requires aggregated information (e.g., a count), the schema should include the raw data attributes (e.g., "Person Name") necessary to compute the aggregation rather than the aggregated result, unless the document explicitly contains such aggregated information.
+
+
+## Examples
+
+### Example Input:
+```json
+{
+    "Document": "Jane Doe, an independent contractor from the Marketing Consultancy Group, collaborated with John Smith, an employee in the IT department, on the Smith project last month. Jane's contact details are jane.doe@example.com, and John can be reached at john.smith@company.com.",
+    "Query": "List all projects where contractors and employees from the IT department have collaborated.",
+    "Record of Query-specific Schema": [],
+    "General Schema": [
+        {
+            "Schema Name": "Employee",
+            "Attributes": [
+                {"name": "Full name of the employee."},
+                {"department": "Department where the employee works."},
+                {"email": "Email address of the employee."}
+            ]
+        },
+        {
+            "Schema Name": "Contractors",
+            "Attributes": [
+                {"name": "Full name of the contractor."},
+                {"occupation": "Occupation of the contractor"},
+                {"affiliation": "Name of the external organization the contractor is associated with."},
+                {"project_name": "Specific project the contractor worked on."},
+                {"project_employee": "Full name of the employee who collaborated on the project."},
+                {"email": "Email address of the contractor."},
+                {"submission_details": "Contact details of the employee involved in the project from the internal organization."}
+            ]
+        }
+    ]
+}
+```
+
+### Example Output:
+```json
+{
+    "Reasoning": "The query specifically requests information about projects where contractors and IT department employees have collaborated. This directly relates to the 'project_name' attribute, which identifies the specific project the contractor worked on, and the 'project_employee' attribute, which provides the full name of the employee who collaborated on the project. These attributes are crucial for identifying the instances of collaboration between contractors and IT department employees, aligning directly with the query's focus on listing such projects. Thus, extracting these attributes from the 'Contractors' schema provides the necessary information to answer the query effectively.",
+    "Updated Record of Query-specific Schema": [
+        {
+            "Schema Name": "Contractors",
+            "Attributes": [
+                {"project_name": "Specific project the contractor worked on."},
+                {"project_employee": "Full name of the employee who collaborated on the project."}
+            ]
+        }
+    ],
+    "Assignment": "Contractors"
+}
+```
+
+## Format
+Input provided in JSON format with the following components:
+- **Document**.
+- **Query**.
+- **Record of Query-specific Schema**.
+- **General Schema**.
+Output provided in JSON format with the following components:
+- **Reasoning**.
+- **Updated Record of Query-specific Schema**.
+- **Assignment**.
+
+Below is the input for this iteration:

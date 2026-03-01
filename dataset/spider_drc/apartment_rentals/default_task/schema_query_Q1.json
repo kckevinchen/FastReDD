@@ -1,0 +1,152 @@
+[
+  {
+    "Schema Name": "Apartment_Buildings",
+    "Attributes": [
+      {
+        "Attribute Name": "building_short_name",
+        "Description": "Short name used to refer to the apartment building."
+      },
+      {
+        "Attribute Name": "building_full_name",
+        "Description": "Full official name of the apartment building."
+      },
+      {
+        "Attribute Name": "building_description",
+        "Description": "Description of the apartment building, such as the type of units it offers."
+      },
+      {
+        "Attribute Name": "building_address",
+        "Description": "Physical address of the apartment building."
+      },
+      {
+        "Attribute Name": "building_manager",
+        "Description": "Name of the manager responsible for the apartment building."
+      },
+      {
+        "Attribute Name": "building_phone",
+        "Description": "Contact phone number for the apartment building or its manager."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Guests",
+    "Attributes": [
+      {
+        "Attribute Name": "gender_code",
+        "Description": "Gender of the guest."
+      },
+      {
+        "Attribute Name": "guest_first_name",
+        "Description": "First name of the guest."
+      },
+      {
+        "Attribute Name": "guest_last_name",
+        "Description": "Last name of the guest."
+      },
+      {
+        "Attribute Name": "date_of_birth",
+        "Description": "Date and time of birth of the guest."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Apartment_Bookings",
+    "Attributes": [
+      {
+        "Attribute Name": "booking_status_code",
+        "Description": "Status code indicating the booking status (e.g., provisional, confirmed)."
+      },
+      {
+        "Attribute Name": "booking_start_date",
+        "Description": "Start date and time of the booking period."
+      },
+      {
+        "Attribute Name": "booking_end_date",
+        "Description": "End date and time of the booking period."
+      },
+      {
+        "Attribute Name": "apt_number",
+        "Description": "Apartment number associated with the booking."
+      },
+      {
+        "Attribute Name": "guest_first_name",
+        "Description": "First name of the guest who made the booking."
+      },
+      {
+        "Attribute Name": "guest_last_name",
+        "Description": "Last name of the guest who made the booking."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Apartment_Facilities",
+    "Attributes": [
+      {
+        "Attribute Name": "facility_code",
+        "Description": "Name or code identifying a facility available in the apartment."
+      },
+      {
+        "Attribute Name": "apt_number",
+        "Description": "Apartment number where the facility is provided."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Apartments",
+    "Attributes": [
+      {
+        "Attribute Name": "apt_type_code",
+        "Description": "Code representing the type of apartment (e.g., Studio, One-bedroom)."
+      },
+      {
+        "Attribute Name": "apt_number",
+        "Description": "Unique number identifying the apartment."
+      },
+      {
+        "Attribute Name": "bathroom_count",
+        "Description": "Number of bathrooms in the apartment."
+      },
+      {
+        "Attribute Name": "bedroom_count",
+        "Description": "Number of bedrooms in the apartment."
+      },
+      {
+        "Attribute Name": "room_count",
+        "Description": "Total number of rooms in the apartment."
+      },
+      {
+        "Attribute Name": "building_short_name",
+        "Description": "Short name of the building the apartment belongs to."
+      },
+      {
+        "Attribute Name": "building_full_name",
+        "Description": "Full name of the building the apartment belongs to."
+      }
+    ]
+  },
+  {
+    "Schema Name": "View_Unit_Status",
+    "Attributes": [
+      {
+        "Attribute Name": "status_date",
+        "Description": "Date when the availability status of the unit was recorded."
+      },
+      {
+        "Attribute Name": "available_yn",
+        "Description": "Indicates whether the apartment is available (1 for Yes, 0 for No)."
+      },
+      {
+        "Attribute Name": "apt_number",
+        "Description": "Apartment number being tracked for availability."
+      },
+      {
+        "Attribute Name": "booking_start_date",
+        "Description": "Start date of a booking associated with the apartment (if any)."
+      },
+      {
+        "Attribute Name": "booking_end_date",
+        "Description": "End date of a booking associated with the apartment (if any)."
+      }
+    ]
+  }
+]

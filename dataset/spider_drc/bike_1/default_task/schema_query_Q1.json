@@ -1,0 +1,190 @@
+[
+  {
+    "Schema Name": "trip",
+    "Attributes": [
+      {
+        "Attribute Name": "duration",
+        "Description": "Duration of the trip in seconds."
+      },
+      {
+        "Attribute Name": "start_date",
+        "Description": "Timestamp indicating when the trip started."
+      },
+      {
+        "Attribute Name": "start_station_name",
+        "Description": "Name of the station where the trip started."
+      },
+      {
+        "Attribute Name": "end_date",
+        "Description": "Timestamp indicating when the trip ended."
+      },
+      {
+        "Attribute Name": "end_station_name",
+        "Description": "Name of the station where the trip ended."
+      },
+      {
+        "Attribute Name": "bike_id",
+        "Description": "Unique identifier for the bike used during the trip."
+      },
+      {
+        "Attribute Name": "subscription_type",
+        "Description": "Type of user subscription (e.g., Subscriber or Customer)."
+      },
+      {
+        "Attribute Name": "zip_code",
+        "Description": "ZIP code associated with the user who made the trip."
+      }
+    ]
+  },
+  {
+    "Schema Name": "weather",
+    "Attributes": [
+      {
+        "Attribute Name": "date",
+        "Description": "Date for the weather record."
+      },
+      {
+        "Attribute Name": "max_temperature_f",
+        "Description": "Maximum temperature recorded in Fahrenheit."
+      },
+      {
+        "Attribute Name": "mean_temperature_f",
+        "Description": "Average temperature recorded in Fahrenheit."
+      },
+      {
+        "Attribute Name": "min_temperature_f",
+        "Description": "Minimum temperature recorded in Fahrenheit."
+      },
+      {
+        "Attribute Name": "max_dew_point_f",
+        "Description": "Maximum dew point recorded in Fahrenheit."
+      },
+      {
+        "Attribute Name": "mean_dew_point_f",
+        "Description": "Average dew point recorded in Fahrenheit."
+      },
+      {
+        "Attribute Name": "min_dew_point_f",
+        "Description": "Minimum dew point recorded in Fahrenheit."
+      },
+      {
+        "Attribute Name": "max_humidity",
+        "Description": "Maximum humidity percentage recorded."
+      },
+      {
+        "Attribute Name": "mean_humidity",
+        "Description": "Average humidity percentage recorded."
+      },
+      {
+        "Attribute Name": "min_humidity",
+        "Description": "Minimum humidity percentage recorded."
+      },
+      {
+        "Attribute Name": "max_sea_level_pressure_inches",
+        "Description": "Maximum sea level pressure recorded in inches."
+      },
+      {
+        "Attribute Name": "mean_sea_level_pressure_inches",
+        "Description": "Average sea level pressure recorded in inches."
+      },
+      {
+        "Attribute Name": "min_sea_level_pressure_inches",
+        "Description": "Minimum sea level pressure recorded in inches."
+      },
+      {
+        "Attribute Name": "max_visibility_miles",
+        "Description": "Maximum visibility recorded in miles."
+      },
+      {
+        "Attribute Name": "mean_visibility_miles",
+        "Description": "Average visibility recorded in miles."
+      },
+      {
+        "Attribute Name": "min_visibility_miles",
+        "Description": "Minimum visibility recorded in miles."
+      },
+      {
+        "Attribute Name": "max_wind_Speed_mph",
+        "Description": "Maximum wind speed recorded in miles per hour."
+      },
+      {
+        "Attribute Name": "mean_wind_speed_mph",
+        "Description": "Average wind speed recorded in miles per hour."
+      },
+      {
+        "Attribute Name": "max_gust_speed_mph",
+        "Description": "Maximum gust speed recorded in miles per hour."
+      },
+      {
+        "Attribute Name": "precipitation_inches",
+        "Description": "Amount of precipitation recorded in inches."
+      },
+      {
+        "Attribute Name": "cloud_cover",
+        "Description": "Cloud cover on a scale from 0 (clear) to 10 (overcast)."
+      },
+      {
+        "Attribute Name": "events",
+        "Description": "Weather events recorded (e.g., rain, snow, fog)."
+      },
+      {
+        "Attribute Name": "wind_dir_degrees",
+        "Description": "Average wind direction in degrees."
+      },
+      {
+        "Attribute Name": "zip_code",
+        "Description": "ZIP code where the weather data was recorded."
+      }
+    ]
+  },
+  {
+    "Schema Name": "status",
+    "Attributes": [
+      {
+        "Attribute Name": "bikes_available",
+        "Description": "Number of bikes available at the station at the given time."
+      },
+      {
+        "Attribute Name": "docks_available",
+        "Description": "Number of docks available at the station at the given time."
+      },
+      {
+        "Attribute Name": "time",
+        "Description": "Timestamp for the status record."
+      },
+      {
+        "Attribute Name": "station_name",
+        "Description": "Name of the station associated with the status record."
+      }
+    ]
+  },
+  {
+    "Schema Name": "station",
+    "Attributes": [
+      {
+        "Attribute Name": "name",
+        "Description": "Name of the bike station."
+      },
+      {
+        "Attribute Name": "lat",
+        "Description": "Latitude coordinate of the bike station."
+      },
+      {
+        "Attribute Name": "long",
+        "Description": "Longitude coordinate of the bike station."
+      },
+      {
+        "Attribute Name": "dock_count",
+        "Description": "Total number of docks available at the station."
+      },
+      {
+        "Attribute Name": "city",
+        "Description": "City where the bike station is located."
+      },
+      {
+        "Attribute Name": "installation_date",
+        "Description": "Date when the station was installed."
+      }
+    ]
+  }
+]

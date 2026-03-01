@@ -1,0 +1,144 @@
+# Schema Generation
+
+You are a database expert focusing on schema design. 
+Your task is to design comprehensive relational schemas for a collection of heterogeneous, natural-language documents. 
+The process is iterative: In each iteration, you are given the query expressed in natural language and a new document from the collection.
+Your goal is to design and revise the relational schema such that: 
+  - All attributes mentioned in the documents are captured in the schema, regardless of their relevance to the query.
+  - The schema can correctly answer the given query when populated with data extracted from the documents.
+
+## Task Overview
+- The collection contains documents with heterogeneous schemas, and in many cases, a single-document schema may not suffice to answer the query. Combining schemas (e.g., via joins) might be necessary to answer the query.
+- The process is iterative. In each iteration, you receive the query, a new document, and a record of the schema created from previous steps.
+
+## Your Responsibilities
+1. Analyze the Query and the Document.
+  - Identify all attributes in the document, including those relevant to answering the query and those necessary for joins or relationships with other tables. Ensure no essential attributes for query execution, including joins, are missed. 
+2. Evaluate and Update the Schema.
+  - Assess whether the current schema can accommodate all the information in the new document and answer the query.
+  - Update the schema record as needed by:
+    - Modifying attributes of existing tables.
+    - Adding entirely new tables if necessary.
+    - Including all attributes extracted from the document, ensuring a comprehensive schema for the document collection.
+3. Document Assignment. 
+  - Assign the document to one or more tables in the schema based on the attributes it provides. 
+4. Curate Example Documents:
+  - Maintain a maximum of 3 example documents for each schema.
+  - Select those examples that best illustrate the schema's structure and alignment with the query and document collection.
+5. Attribute Context Recording.
+  - In the schema record, use 1–2 sentences to briefly document the context of each attribute. For example, for the attribute `city`, specify whether it refers to the location where an transaction occurred or the place where a user registered.
+
+## Rules for the Task
+1. Capture All Attributes:
+   - Extract and record all attributes present in the document, even if they are unrelated to the current query.
+   - Attributes that are irrelevant to the query should still be stored in the schema to ensure a complete representation of the document's content.
+2. Design Query-Specific and General Schema:
+   - Ensure that the schema supports answering the query.
+   - Organize attributes in a way that reflects their structure and relationships, ensuring flexibility for future queries.
+3. Schema Updates:
+   - Only create new tables or attributes if the corresponding information can be extracted from the documents.
+   - Attributes should be specific and well-documented, avoiding unnecessary generalizations unless supported by the document.
+4. Provide Reasoning:
+   - Provide a clear step-by-step reasoning before presenting the updated schema and document assignments.
+
+## Few Shot Examples
+
+### Example Input:
+```json
+{
+    "Document": "Titanic is a 1997 American epic romantic disaster film directed, written, co-produced and co-edited by James Cameron.",
+    "Query": "List all romantic movies before 2000 that have an overall rating above 8.0.",
+    "Record of Schema": []
+}
+```
+
+### Example Output:
+```json
+{
+    "Reasoning": "The document mentions attributes such as movie title, genre, release year, and director. Although the query focuses on romantic movies before 2000 with high ratings, the document provides additional attributes like the director's name. To maintain a comprehensive schema, all these attributes should be recorded.",
+    "Updated Record of Schema": [
+        {
+            "Schema Name": "Movie",
+            "Attributes": [
+                {"title": "The title of the movie."},
+                {"genre": "The genre(s) of the movie, e.g., romantic, action."},
+                {"release_year": "The year the movie was released."},
+                {"director": "The director of the movie."}
+            ],
+            "Example Documents": [
+                "Titanic is a 1997 American epic romantic disaster film directed, written, co-produced and co-edited by James Cameron."
+            ]
+        }
+    ]
+    "Assignment": "Movie"
+}
+```
+
+### Example Input:
+```json
+{
+    "Document": "The movie Tenet gets an overall rating of 7.3 on IMDB, reported by Alex.",
+    "Query": "List all romantic movies before 2000 that have an overall rating above 8.0.",
+    "Record of Schema": [
+        {
+            "Schema Name": "Movie",
+            "Attributes": [
+                {"title": "The title of the movie."},
+                {"genre": "The genre(s) of the movie, e.g., romantic, action."},
+                {"release_year": "The year the movie was released."},
+                {"director": "The director of the movie."}
+            ],
+            "Example Documents": [
+                "Titanic is a 1997 American epic romantic disaster film directed, written, co-produced and co-edited by James Cameron."
+            ]
+        }
+    ]
+}
+```
+
+### Example Output:
+```json
+{
+    "Reasoning": "The document mentions attributes such as the movie's title and overall rating, which are relevant to the query. While the genre and release year are not included in this document, they have already been recorded. To maintain a comprehensive schema, we add the rating-related attributes to a new table.",
+    "Updated Record of Schema": [
+        {
+            "Schema Name": "Movie",
+            "Attributes": [
+                {"title": "The title of the movie."},
+                {"genre": "The genre(s) of the movie, e.g., romantic, action."},
+                {"release_year": "The year the movie was released."},
+                {"director": "The director of the movie."}
+            ],
+            "Example Documents": [
+                "Titanic is a 1997 American epic romantic disaster film directed, written, co-produced and co-edited by James Cameron."
+            ]
+        },
+        {
+            "Schema Name": "Rating",
+            "Attributes": [
+                {"movie_title": "The title of the movie for which the rating is provided."},
+                {"overall_rating": "The overall rating of the movie."}
+            ],
+            "Example Documents": [
+                "The movie Tenet gets an overall rating of 7.3 on IMDB, reported by Alex."
+            ]
+        }
+    ],
+    "Assignment": "Rating"
+}
+```
+
+
+## Format
+Input provided in JSON format:
+- **Document**.
+- **Query**.
+- **Record of Schema**.
+Output provided in JSON format:
+- **Reasoning**.
+- **Updated Record of Schema**.
+- **Assignment**.
+
+
+Below is the input for this iteration:
+

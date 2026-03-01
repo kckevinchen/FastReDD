@@ -1,0 +1,193 @@
+default_settings: &default
+  data_main: "dataset/"
+  # spider_path: "dataset/spider_update/"
+  exp_dataset_task_list: null
+  console_log_level: "WARNING"  # Console logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # Data Loader Configuration
+  data_loader_type: "spider"  # Options: "spider", "perfile", "sqlite"
+
+spider_1:  &spider_1
+  <<: *default
+  mode: "local"
+  trial: 1
+  torch_seed: 888
+  out_main: "outputs/data_population/spider_cogito32b_1/"
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines", "wine_1/wine-appellations", "college_2/course-teaches-instructor"]
+  llm_model: "deepcogito/cogito-v1-preview-qwen-32B"
+  llm_model_path: "llm_models/deepcogito/cogito-v1-preview-qwen-32B"
+  res_param_str: "mdlcogito32b"
+  prompts:
+    prompt_table: "prompts/datapop_table_json.txt"
+    prompt_attr: "prompts/datapop_attr_json.txt"
+  eval:
+    mode: "deepseek"
+    llm_model: "deepseek-chat"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  num_layers: 65
+  hidden_size: 10240  # 5120
+  exp_layers: [50, 55, 60, 61, 62, 63, 64]
+  train_size: 24
+  trainer:
+    train_percentage: 0.8  # TODO
+    batch_size: 128
+    epochs: 200
+    early_stop_patience: 10
+    learning_rate: 0.0003
+  schemagen:
+    out_main: "outputs/schema_gen/spider_cgpt_1/"
+    param_str: "mdlgpt-4o_prm4d1_tmp1.0_tpp1.0"
+  classifier_threshold: 0.5
+
+flight:
+  <<: *spider_1
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines"]
+  # exp_fn_list: ["routes-airports", "routes-airlines", "routes-airports-airlines"]
+
+wine:
+  <<: *spider_1
+  exp_dataset_task_list: ["wine_1/wine-appellations"]
+  # exp_fn_list: ["wine-grapes", "wine-appellations"]
+  model_dataset_task_list: ["wine_1/wine-appellations"]
+  test_dataset_task: "wine_1/wine-appellations"
+  cls_train_trials: [0]  # , 1, 2, 3, 4, 5, 6, 7
+
+college:
+  <<: *spider_1
+  exp_dataset_task_list: ["college_2/course-teaches-instructor"]
+  exp_fn_list: ["course-teaches-instructor"]
+  # exp_fn_list: ["course-section", "instructor-teaches", "course-teaches", "instructor-department", 
+  #               "department-student-instructor", "course-teaches-instructor", "course-section-classroom"]
+  model_dataset_task_list: ["college_2/course-teaches-instructor"]
+  test_dataset_task: "college_2/course-teaches-instructor"
+  cls_train_trials: [0]  # , 1, 2, 3, 4, 5, 6, 7
+
+soccer:
+  <<: *spider_1
+  exp_dataset_task_list: ["soccer_1/all"]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["soccer_1/all"]
+  test_dataset_task: "soccer_1/all"
+  cls_train_trials: [0]
+
+bike:
+  <<: *spider_1
+  exp_dataset_task_list: ["bike_1/all"]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["bike_1/all"]
+  test_dataset_task: "bike_1/all"
+  cls_train_trials: [0]
+
+apartment_rentals:
+  <<: *spider_1
+  exp_dataset_task_list: ["apartment_rentals/all"]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["apartment_rentals/all"]
+  test_dataset_task: "apartment_rentals/all"
+  cls_train_trials: [0]
+
+
+
+
+bird_1:  &bird_1
+  <<: *default
+  mode: "local"
+  trial: 1
+  torch_seed: 888
+  out_main: "outputs/data_population/bird_cogito32b_1/"
+  llm_model: "deepcogito/cogito-v1-preview-qwen-32B"
+  llm_model_path: "llm_models/deepcogito/cogito-v1-preview-qwen-32B"
+  res_param_str: "mdlcogito32b"
+  prompts:
+    prompt_table: "prompts/datapop_table_json.txt"
+    prompt_attr: "prompts/datapop_attr_json.txt"
+  eval:
+    mode: "deepseek"
+    llm_model: "deepseek-chat"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  num_layers: 65
+  hidden_size: 10240
+  exp_layers: [50, 55, 60, 61, 62, 63, 64]
+  train_size: 24
+  trainer:
+    train_percentage: 0.8  # TODO
+    batch_size: 128
+    epochs: 200
+    early_stop_patience: 10
+    learning_rate: 0.0003
+  classifier_threshold: 0.5
+
+california_schools:
+  <<: *bird_1
+  exp_dataset_task_list: ["california_schools/all"]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["california_schools/all"]
+  test_dataset_task: "california_schools/all"
+  cls_train_trials: [0]
+
+debit_card_specializing:
+  <<: *bird_1
+  exp_dataset_task_list: ["debit_card_specializing/all"]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["debit_card_specializing/all"]
+  test_dataset_task: "debit_card_specializing/all"
+  cls_train_trials: [0]
+
+student_club:
+  <<: *bird_1
+  exp_dataset_task_list: ["student_club/all"]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["student_club/all"]
+  test_dataset_task: "student_club/all"
+  cls_train_trials: [0]
+
+
+
+
+galois_1:  &galois_1
+  <<: *default
+  mode: "local"
+  trial: 1
+  torch_seed: 888
+  out_main: "outputs/data_population/galois_cogito32b_1/"
+  llm_model: "deepcogito/cogito-v1-preview-qwen-32B"
+  llm_model_path: "llm_models/deepcogito/cogito-v1-preview-qwen-32B"
+  res_param_str: "mdlcogito32b"
+  prompts:
+    prompt_table: "prompts/datapop_table_json.txt"
+    prompt_attr: "prompts/datapop_attr_json.txt"
+  eval:
+    mode: "deepseek"
+    llm_model: "deepseek-chat"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  num_layers: 65
+  hidden_size: 10240
+  exp_layers: [50, 55, 60, 61, 62, 63, 64]
+  train_size: 24
+  trainer:
+    train_percentage: 0.8  # TODO
+    batch_size: 128
+    epochs: 200
+    early_stop_patience: 10
+    learning_rate: 0.0003
+  classifier_threshold: 0.5
+
+fortune:
+  <<: *galois_1
+  exp_dataset_task_list: ["fortune/all"]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["fortune/all"]
+  test_dataset_task: "fortune/all"
+  cls_train_trials: [0]
+
+premierleague:
+  <<: *galois_1
+  exp_dataset_task_list: ["premierleague/all "]
+  exp_fn_list: ["all"]
+  model_dataset_task_list: ["premierleague/all"]
+  test_dataset_task: "premierleague/all"
+  cls_train_trials: [0]
+

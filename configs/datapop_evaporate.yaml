@@ -1,0 +1,58 @@
+default_settings: &default
+  res_param_str: "evaporate"
+  eval:
+    committee:
+      - mode: "deepseek"
+        llm_model: "deepseek-chat"
+      - mode: "cgpt"
+        llm_model: "gpt-5"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  data_loader_type: "spider"  # Options: "spider", "perfile", "sqlite"
+
+# =============================== Spider (API) ===============================
+spider_1:  &spider_1
+  <<: *default
+  trial: 1
+  data_main: "dataset/spider_update/"
+  out_main: "outputs/data_population/spider_qwen3_1/"
+  exp_dataset_task_list: ["store_1/albums"]
+  data_loader_type: "spider"
+
+spider_store_1:  &spider_store_1
+  <<: *spider_1
+  exp_dataset_task_list: ["store_1/albums"]
+
+spider_college_2:  &spider_college_2
+  <<: *spider_1
+  exp_dataset_task_list: ["college_2/course-teaches-instructor"]
+
+spider_flight_4:  &spider_flight_4
+  <<: *spider_1
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines"]
+
+spider_wine_1:  &spider_wine_1
+  <<: *spider_1
+  exp_dataset_task_list: ["wine_1/wine-appellations"]
+
+spider_bike_1:  &spider_bike_1
+  <<: *spider_1
+  exp_dataset_task_list: ["bike_1/all"]
+
+spider_soccer_1:  &spider_soccer_1
+  <<: *spider_1
+  exp_dataset_task_list: ["soccer_1/all"]
+
+spider_apartment_rentals:  &spider_apartment_rentals
+  <<: *spider_1
+  exp_dataset_task_list: ["apartment_rentals/all"]
+
+# =============================== FDA (API) ===============================
+fda_1:  &fda_1
+  <<: *default
+  trial: 1
+  data_main: "dataset/fda_510ks/"
+  out_main: "outputs/data_population/fda_qwen3_1/"
+  exp_dataset_task_list: ["fda_510ks"]
+  data_loader_type: "perfile"
+

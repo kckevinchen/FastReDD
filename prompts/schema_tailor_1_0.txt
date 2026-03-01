@@ -1,0 +1,90 @@
+You are a database expert focusing on schema design. 
+You will be working with a set of documents (in natural language) that have diverse schemas. 
+I hope to find the schemas of the given documents to answer a query. 
+I have already extracted these schemas. If data from the documents were accurately populated according to the given schemas, they would effectively answer the query. 
+However, the current given schemas may contain attributes that are irrelevant to the query.
+Your goal is to identify query-irrelavant attributes and tailor the given schemas. 
+I will provide you with the extracted schema, example documents for each table schema, and the query (expressed in natural language).  
+
+## Your Responsibilities
+1. Analyze the provided schema and identify the query-specific attributes that are relevant to answering the query, including those necessary for joins or relationships with other tables. Ensure no essential attributes for query execution, including joins, are missed. 
+  - Pay special attention to attributes with the same or similar names appearing in different table schemas, as their meanings (context explanation) may differ.
+  - Do not tailor attributes if you are uncertain about their relevance or necessity to the query.
+2. Tailor the schema, removing irrelavant attributes.
+  - The modification can ONLY involve removing irrelevant attributes.
+  - Do not add new attributes. Do not change table or attribute names and their context explanations. 
+  - (IMPORTANT) Do not tailor attributes necessary for joins or relationships with other tables. Ensure that reference attributes used for joins are present in both linked tables.
+3. Provide a clear step-by-step reasoning before presenting the tailored schema.
+
+## Format
+Input provided in JSON format with the following components:
+- **Schema**.
+- **Query**.
+Output provided in JSON format with the following components:
+- **Reasoning**.
+- **Updated Schema**.
+
+## Examples
+
+### Example Input:
+```json
+{
+  "Schema": [
+    {
+      "Schema Name": "PatientAdmissions",
+      "Attributes": [
+        {"patient_name": "Complete name of the patient as recorded during hospital admission."},
+        {"patient_address": "Residential address of the patient."},
+        {"diagnosis": "Confirmed medical diagnosis as noted in patient's medical records."},
+        {"admission_date": "The specific date when the patient began their treatment or was admitted to the facility."}
+      ],
+      "Example Documents": [
+        "Michael Johnson, residing at 202 Elm St, diagnosed with pneumonia, was admitted on September 15, 2023.",
+        "Linda Lee, living at 98 Oak Dr, diagnosed with type 2 diabetes, was admitted on October 3, 2023.",
+        "Samuel Clark, address 450 Pine Lane, has acute appendicitis, admitted on November 12, 2023."
+      ]
+    },
+    {
+      "Schema Name": "MedicalStaffAssignments",
+      "Attributes": [
+        {"staff_name": "Full name of the medical staff involved in patient care."},
+        {"assigned_patient": "Full name of the patient to whom the medical staff member is assigned, matching the 'patient_name' in the PatientAdmissions table."},
+        {"responsibility_role": "Specific role or responsibility of the medical staff member with respect to their assigned patient."}
+      ],
+      "Example Documents": [
+        "Dr. Marcus Chen, assigned to Evelyn Morris, handles all aspects of her treatment.",
+        "Gregory Thompson's chronic condition management is overseen by his primary physician, Dr. Fiona Graham.",
+        "Sarah Connors' cancer treatment plan is coordinated by Nurse Specialist Derek Smith."
+      ]
+    }
+  ],
+  "Query": "List all patients with their primary physician and diagnosis, who were admitted in the last month."
+}
+```
+
+### Example Output:
+```json
+{
+  "Reasoning": "The query asks for a list of all patients with their primary physician and diagnosis who were admitted in the last month. From the 'PatientAdmissions' schema, 'patient_address' is irrelevant to the query since the query does not require location data about the patients. It simply needs their names, diagnoses, and information about their primary physician. In the 'MedicalStaffAssignments' schema, all attributes are relevant. The 'staff_name' corresponds to the primary physician, 'assigned_patient' is necessary to link staff to their patients, and 'responsibility_role' helps identify the nature of the staff's involvement, which, while not explicitly required by the query, adds valuable context about the patient's care that may be implicitly useful.",
+  "Updated Schema": [
+    {
+      "Schema Name": "PatientAdmissions",
+      "Attributes": [
+        {"patient_name": "Complete name of the patient as recorded during hospital admission."},
+        {"diagnosis": "Confirmed medical diagnosis as noted in patient's medical records."},
+        {"admission_date": "The specific date when the patient began their treatment or was admitted to the facility."}
+      ]
+    },
+    {
+      "Schema Name": "MedicalStaffAssignments",
+      "Attributes": [
+        {"staff_name": "Full name of the medical staff involved in patient care."},
+        {"assigned_patient": "Full name of the patient to whom the medical staff member is assigned, matching the 'patient_name' in the PatientAdmissions table."},
+        {"responsibility_role": "Specific role or responsibility of the medical staff member with respect to their assigned patient."}
+      ]
+    }
+  ]
+}
+```
+
+Below is the input for this iteration:

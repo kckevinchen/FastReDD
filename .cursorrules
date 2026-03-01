@@ -1,0 +1,213 @@
+# ReDD Project Cursor Rules
+
+## Project Overview
+ReDD (Relational Deep Dive): Error-Aware Queries Over Unstructured Data
+
+This is a research project focused on:
+- Schema generation from unstructured documents
+- Data population using LLMs
+- Error-aware query processing over unstructured data
+- Integration with various LLM providers (OpenAI GPT, DeepSeek, TogetherAI, SiliconFlow, Local Models)
+
+## Code Style and Standards
+
+### Language Requirements
+- **Code, Comments, and Documentation**: Always use English
+- **Conversation**: Can use any language (e.g., Chinese) based on context
+
+### Python Code Style
+- Follow PEP 8 guidelines
+- Use type hints where appropriate
+- Prefer descriptive variable names
+- Use docstrings for classes and functions
+- Keep functions focused and single-purpose
+
+### File Organization
+- Configuration files go in `configs/` directory
+- Main entry points in `scripts/` directory
+- Core functionality in `core/` directory
+- Utilities in `core/utils/` directory
+- Evaluation code in `core/evaluation/` directory
+- Dataset preparation in `dataset/` directory
+
+### Import Organization and Package Structure
+The project uses `__init__.py` files to create proper Python packages. Use the following import patterns:
+
+```python
+# Standard library imports
+import os
+import yaml
+import logging
+
+# Third-party imports
+import pandas as pd
+import numpy as np
+
+# Local imports using package structure
+from core.utils import logging_utils
+from core.schema_gen import SchemaGenDeepSeek
+from core.data_population import DataPopDeepSeek
+```
+
+### Package Import Guidelines
+1. **Use package imports**: Import from packages using `from package.module import Class`
+2. **Avoid sys.path manipulation**: Don't use `sys.path.append()` in production code
+3. **PREFER relative imports within packages**: Always use relative imports for intra-package imports
+   - Use `from ..utils import constants` instead of `from core.utils import constants`
+   - Use `from .module import Class` for same-level imports
+   - Use `from ..parent.module import Class` for parent-level imports
+4. **Absolute imports for external packages**: Use absolute imports only for:
+   - Third-party libraries: `import pandas as pd`
+   - Project root level files: `from core.utils import constants` (only in `dataset/`, `scripts/`, etc.)
+5. **Conditional imports**: Handle missing dependencies gracefully in `__init__.py` files
+
+### Import Examples
+```python
+# ✅ GOOD - Relative imports within packages
+# In core/schema_gen/schemagen_gpt.py
+from ..utils import constants
+from .schemagen_basic import SchemaGenBasic
+from ..data_loader.data_loader_spider import DataLoaderSpider
+
+# ✅ GOOD - Absolute imports for project root files
+# In dataset/schema_gen_prep.py
+from core.utils import constants
+
+# ✅ GOOD - Third-party imports
+import pandas as pd
+import numpy as np
+from transformers import AutoTokenizer
+
+# ❌ BAD - Absolute imports within packages
+# In core/schema_gen/schemagen_gpt.py
+from core.utils import constants  # Should be: from ..utils import constants
+```
+
+## Configuration Management
+
+### YAML Configuration Files
+- All configuration files should be in `configs/` directory
+- Use YAML anchors (`&`) and references (`<<:`) for shared settings
+- Include comprehensive comments explaining each parameter
+- Follow the pattern: `{mode}_{model}_{version}.yaml`
+
+### Configuration Structure
+```yaml
+default_settings: &default
+  data_main: "dataset/"
+  exp_dn_fn_list: null
+
+experiment_name:
+  <<: *default
+  mode: "deepseek"  # or "cgpt", "local", "together", "siliconflow", etc.
+  trial: 1
+  out_main: "outputs/path/"
+  # ... other settings
+```
+
+## Logging and Monitoring
+
+### Logging Standards
+- Use structured logging with appropriate levels
+- Include experiment names and timestamps
+- Log both successful operations and errors
+- Store logs in `logs/` directory with descriptive filenames
+- ALWAYS use class and method context in logging messages: All `logging.xxx()` calls must include `[{self.__class__.__name__}:method_name]` prefix for better debugging and traceability
+
+### Logging Format Examples
+```python
+# ✅ GOOD - Include class and method context
+logging.info(f"[{self.__class__.__name__}:compute_stat] Starting evaluation for {dataset}")
+logging.error(f"[{self.__class__.__name__}:load_data] Failed to load file: {error}")
+logging.warning(f"[{self.__class__.__name__}:__init__] Missing configuration parameter: {param}")
+
+# ❌ BAD - No context information
+logging.info("Starting evaluation")
+logging.error(f"Failed to load file: {error}")
+```
+
+### Experiment Tracking
+- Use consistent naming conventions for experiments
+- Include model parameters in output directory names
+- Maintain experiment metadata in configuration files
+
+## Project-Specific Guidelines
+
+### Dataset Integration
+- Support Spider, Bird, and Galois datasets
+- Use consistent naming conventions across datasets
+- Implement dataset-specific preprocessing when needed
+- Maintain dataset version compatibility
+
+### Prompt Engineering
+- Store prompts in `prompts/` directory
+- Version control prompts with descriptive names
+- Test prompt effectiveness with different models
+- Document prompt design rationale
+
+### Evaluation Metrics
+- Implement accuracy, precision, recall for schema generation
+- Use F1 scores for data population tasks
+- Include human evaluation where appropriate
+- Generate comparative analysis reports
+
+### Documentation Guidelines
+- **README Files**: Keep concise and focused
+
+Remember: This project is research-oriented, so prioritize correctness and reproducibility over performance optimizations. Always document experimental results and maintain clear audit trails for research reproducibility.
+
+## Agent Mode Guidelines
+
+### Folder Access Restrictions
+
+When operating in agent mode, follow these folder access and modification rules:
+
+#### Read-Only Folders
+These folders should be treated as read-only and **NEVER modified**:
+- `archive/` - Archive/backup files
+- `papers/` - Research papers and documentation
+- `outputs/` - Generated output files and results
+- `logs/` - Log files (read for debugging, but don't modify)
+- `fig/` - Generated figures and plots
+
+#### Restricted Access Folders
+These folders should be **avoided or minimally accessed** during agent operations:
+- `compared_algs/` - External library/dependency in submodules
+- `dataset/data_prep/` - Legacy data preparation scripts in submodules (deprecated functionality)
+
+#### Core Working Folders
+Focus agent operations on these folders:
+- `configs/` - Configuration files
+- `dataset/` - Dataset processing and preparation
+- `core/data_population/` - Data population implementations
+- `core/schema_gen/` - Schema generation implementations
+- `core/evaluation/` - Evaluation frameworks
+- `core/utils/` - Utility functions
+- `core/h_classifier/` - Hidden state classifiers
+- `core/doc_clustering/` - Document clustering
+- `core/data_loader/` - Data loading utilities
+- `prompts/` - Prompt templates
+- `llm_models/` - LLM model integrations
+- `scripts/` - Entry point scripts
+
+### Agent Operation Guidelines
+
+1. **File Modification Priority**:
+   - Primary: Core working folders
+   - Secondary: Configuration and utility files
+   - Avoid: Read-only and restricted folders
+
+2. **Code Analysis**:
+   - Focus analysis on active development areas
+   - Skip legacy or experimental code unless specifically requested
+   - Prioritize main entry points (`scripts/main_*.py`) and core modules
+
+3. **Error Handling**:
+   - If agent encounters files in restricted folders, log warning and skip
+   - Continue processing with available files in core working folders
+   - Report any necessary files that are in restricted areas
+
+4. **Documentation Updates**:
+   - Update documentation in core folders
+   - Avoid modifying documentation in archive folders
+   - Focus on README.md and active module documentation

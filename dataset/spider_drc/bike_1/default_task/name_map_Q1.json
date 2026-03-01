@@ -1,0 +1,47 @@
+{
+  "table": {
+    "trip": "trip",
+    "weather": "weather",
+    "status": "status",
+    "station": "station"
+  },
+  "attribute": {
+    "trip": {
+      "duration": "duration",
+      "start_station_name": "start_station_name",
+      "end_station_name": "end_station_name",
+      "bike_id": "bike_id"
+    },
+    "weather": {
+      "date": "date",
+      "max_temperature_f": "max_temperature_f",
+      "mean_temperature_f": "mean_temperature_f",
+      "min_temperature_f": "min_temperature_f",
+      "max_dew_point_f": "max_dew_point_f",
+      "mean_dew_point_f": "mean_dew_point_f",
+      "min_dew_point_f": "min_dew_point_f",
+      "max_sea_level_pressure_inches": "max_sea_level_pressure_inches",
+      "mean_sea_level_pressure_inches": "mean_sea_level_pressure_inches",
+      "min_sea_level_pressure_inches": "min_sea_level_pressure_inches",
+      "max_visibility_miles": "max_visibility_miles",
+      "mean_visibility_miles": "mean_visibility_miles",
+      "min_visibility_miles": "min_visibility_miles",
+      "max_wind_Speed_mph": "max_wind_Speed_mph",
+      "mean_wind_speed_mph": "mean_wind_speed_mph",
+      "precipitation_inches": "precipitation_inches"
+    },
+    "status": {
+      "bikes_available": "bikes_available",
+      "docks_available": "docks_available",
+      "time": "time",
+      "station_name": "station_name"
+    },
+    "station": {
+      "name": "name",
+      "lat": "lat",
+      "dock_count": "dock_count",
+      "city": "city",
+      "installation_date": "installation_date"
+    }
+  }
+}

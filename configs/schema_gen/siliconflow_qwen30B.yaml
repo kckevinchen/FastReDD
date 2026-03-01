@@ -1,0 +1,240 @@
+# Schema Generation with Adaptive Sampling - SiliconFlow Qwen3-30B-A3B-Instruct-2507
+# This configuration demonstrates adaptive sampling for efficient schema generation
+
+# =============================== Common Settings ===============================
+default_settings: &default
+  mode: "siliconflow"
+  trial: 1
+  llm_model: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+  console_log_level: "WARNING"
+  data_loader_type: "sqlite"
+  shuffle_documents: false
+  
+  # Adaptive Sampling Configuration - ENABLED
+  adaptive_sampling:
+    enabled: true               # Enable adaptive sampling to reduce LLM calls
+    
+    # Algorithm Selection: "entropy" or "ddgt"
+    algorithm: "ddgt"           # ⭐ Use DDGT (Diversity-Driven Good-Turing)
+    
+    # DDGT-Specific Parameters (used when algorithm="ddgt")
+    failure_probability: 0.05   # δ: Allowed probability of missing features (0.01-0.10)
+    batch_size: 5               # k: Documents per batch for diversity sampling (3-10)
+    min_docs: 50                # n_min: Minimum documents before stopping (30-100)
+    
+    # Entropy-Based Parameters (used when algorithm="entropy")
+    entropy_threshold: 0.05     # θ: Entropy threshold for stability (0.01-0.10)
+    streak_limit: 8             # m: Consecutive low-entropy docs required (5-15)
+    epsilon: 0.05               # ε: Feature appearance probability (typically 0.05)
+    
+    # Common Parameters (both algorithms)
+    embedding_model: "models/embedding-001"  # Embedding model (Gemini format, adjust if needed)
+    use_embedding_selection: true  # Enable intelligent document selection
+    # embedding_file will be auto-generated based on dataset name
+
+# Field definitions for general schema generation (no query)
+fields_5d0: &fields_5d0
+  in_fields: 
+    doc: "Document"
+    log: "Record of Schema"
+  out_fields: 
+    res: "Assignment"
+    log: "Updated Record of Schema"
+    reason: "Reasoning"
+
+# Field definitions for query-specific schema generation
+fields_5d1: &fields_5d1
+  in_fields: 
+    doc: "Document"
+    query: "Query"
+    log: "Record of Query-specific Schema"
+    general_schema: "General Schema"
+  out_fields: 
+    res: "Assignment"
+    log: "Updated Record of Query-specific Schema"
+    reason: "Reasoning"
+
+# Prompt configurations
+prompt_5d0: &prompt_5d0
+  prompt:
+    prompt_path: "prompts/schemagen_5_0.txt"
+    prompt_version: "5d0"
+
+prompt_5d1: &prompt_5d1
+  prompt:
+    prompt_path: "prompts/schemagen_5_1.txt"
+    prompt_version: "5d1"
+    general_prompt_version: "5d0"
+
+# Adaptive sampling strategies
+adaptive_aggressive: &adaptive_aggressive
+  adaptive_sampling:
+    enabled: true
+    algorithm: "ddgt"
+    failure_probability: 0.10   # Higher = more lenient (faster stopping)
+    batch_size: 10              # Larger batches = more diversity per iteration
+    min_docs: 30                # Fewer minimum documents
+    entropy_threshold: 0.08     # Higher threshold = more lenient (for entropy algorithm)
+    streak_limit: 5             # Shorter streak required
+    epsilon: 0.1
+    embedding_model: "models/embedding-001"
+    use_embedding_selection: true
+
+adaptive_conservative: &adaptive_conservative
+  adaptive_sampling:
+    enabled: true
+    algorithm: "ddgt"
+    failure_probability: 0.03   # Lower = stricter coverage (more docs)
+    batch_size: 3               # Smaller batches = more careful sampling
+    min_docs: 70                # More minimum documents
+    entropy_threshold: 0.02     # Lower threshold = stricter (for entropy algorithm)
+    streak_limit: 10            # Longer streak required
+    epsilon: 0.03
+    embedding_model: "models/embedding-001"
+    use_embedding_selection: true
+
+# =============================== Bike Dataset ===============================
+bike_common: &bike_common
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/schema_gen/spider/"
+  exp_dataset_task_list: ["bike_1/default_task.db"]
+
+# General schema generation (no query)
+bike_5d0_adaptive: &bike_5d0_adaptive
+  <<: [*default, *bike_common, *fields_5d0, *prompt_5d0]
+  res_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+bike_5d0_reddv0: &bike_5d0_reddv0
+  <<: *bike_5d0_adaptive
+  res_param_str: "mdlqwen330b2507_prm5d0_reddv0"
+  adaptive_sampling:
+    enabled: false
+
+# Query-specific schema generation with general schema context
+bike_5d1_adaptive: &bike_5d1_adaptive
+  <<: [*default, *bike_common, *fields_5d1, *prompt_5d1]
+  res_param_str: "mdlqwen330b2507_prm5d1_adaptive"
+  general_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+# Example with more aggressive adaptive sampling
+bike_5d0_aggressive: &bike_5d0_aggressive
+  <<: [*default, *bike_common, *fields_5d0, *prompt_5d0, *adaptive_aggressive]
+  res_param_str: "mdlqwen330b2507_prm5d0_aggressive"
+
+# Example with conservative adaptive sampling  
+bike_5d0_conservative: &bike_5d0_conservative
+  <<: [*default, *bike_common, *fields_5d0, *prompt_5d0, *adaptive_conservative]
+  res_param_str: "mdlqwen330b2507_prm5d0_conservative"
+
+# =============================== Apartment Rentals Dataset ===============================
+apartment_rentals_common: &apartment_rentals_common
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/schema_gen/spider/"
+  exp_dataset_task_list: ["apartment_rentals/default_task.db"]
+
+apartment_rentals_5d0_adaptive: &apartment_rentals_5d0_adaptive
+  <<: [*default, *apartment_rentals_common, *fields_5d0, *prompt_5d0]
+  res_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+apartment_rentals_5d0_reddv0: &apartment_rentals_5d0_reddv0
+  <<: *apartment_rentals_5d0_adaptive
+  res_param_str: "mdlqwen330b2507_prm5d0_reddv0"
+  adaptive_sampling:
+    enabled: false
+
+apartment_rentals_5d1_adaptive: &apartment_rentals_5d1_adaptive
+  <<: [*default, *apartment_rentals_common, *fields_5d1, *prompt_5d1]
+  res_param_str: "mdlqwen330b2507_prm5d1_adaptive"
+  general_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+apartment_rentals_5d0_aggressive: &apartment_rentals_5d0_aggressive
+  <<: [*default, *apartment_rentals_common, *fields_5d0, *prompt_5d0, *adaptive_aggressive]
+  res_param_str: "mdlqwen330b2507_prm5d0_aggressive"
+
+apartment_rentals_5d0_conservative: &apartment_rentals_5d0_conservative
+  <<: [*default, *apartment_rentals_common, *fields_5d0, *prompt_5d0, *adaptive_conservative]
+  res_param_str: "mdlqwen330b2507_prm5d0_conservative"
+
+# =============================== College Dataset ===============================
+college_2_common: &college_2_common
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/schema_gen/spider/"
+  exp_dataset_task_list: ["college_2/course-teaches-instructor.db"]
+
+college_2_5d0_adaptive: &college_2_5d0_adaptive
+  <<: [*default, *college_2_common, *fields_5d0, *prompt_5d0]
+  res_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+college_2_5d0_reddv0: &college_2_5d0_reddv0
+  <<: *college_2_5d0_adaptive
+  res_param_str: "mdlqwen330b2507_prm5d0_reddv0"
+  adaptive_sampling:
+    enabled: false
+
+college_2_5d1_adaptive: &college_2_5d1_adaptive
+  <<: [*default, *college_2_common, *fields_5d1, *prompt_5d1]
+  res_param_str: "mdlqwen330b2507_prm5d1_adaptive"
+  general_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+# =============================== Flight Dataset ===============================
+flight_4_common: &flight_4_common
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/schema_gen/spider/"
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines.db"]
+
+flight_4_5d0_adaptive: &flight_4_5d0_adaptive
+  <<: [*default, *flight_4_common, *fields_5d0, *prompt_5d0]
+  res_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+flight_4_5d0_reddv0: &flight_4_5d0_reddv0
+  <<: *flight_4_5d0_adaptive
+  res_param_str: "mdlqwen330b2507_prm5d0_reddv0"
+  adaptive_sampling:
+    enabled: false
+
+flight_4_5d1_adaptive: &flight_4_5d1_adaptive
+  <<: [*default, *flight_4_common, *fields_5d1, *prompt_5d1]
+  res_param_str: "mdlqwen330b2507_prm5d1_adaptive"
+  general_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+# =============================== Soccer Dataset ===============================
+soccer_1_common: &soccer_1_common
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/schema_gen/spider/"
+  exp_dataset_task_list: ["soccer_1/default_task.db"]
+
+soccer_1_5d0_adaptive: &soccer_1_5d0_adaptive
+  <<: [*default, *soccer_1_common, *fields_5d0, *prompt_5d0]
+  res_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+soccer_1_5d0_reddv0: &soccer_1_5d0_reddv0
+  <<: *soccer_1_5d0_adaptive
+  res_param_str: "mdlqwen330b2507_prm5d0_reddv0"
+  adaptive_sampling:
+    enabled: false
+
+soccer_1_5d1_adaptive: &soccer_1_5d1_adaptive
+  <<: [*default, *soccer_1_common, *fields_5d1, *prompt_5d1]
+  res_param_str: "mdlqwen330b2507_prm5d1_adaptive"
+  general_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+# =============================== Wine Dataset ===============================
+wine_1_common: &wine_1_common
+  data_main: "dataset/spider_sqlite/"
+  out_main: "outputs/schema_gen/spider/"
+  exp_dataset_task_list: ["wine_1/wine-appellations.db"]
+
+wine_1_5d0_adaptive: &wine_1_5d0_adaptive
+  <<: [*default, *wine_1_common, *fields_5d0, *prompt_5d0]
+  res_param_str: "mdlqwen330b2507_prm5d0_adaptive"
+
+wine_1_5d0_reddv0: &wine_1_5d0_reddv0
+  <<: *wine_1_5d0_adaptive
+  res_param_str: "mdlqwen330b2507_prm5d0_reddv0"
+  adaptive_sampling:
+    enabled: false
+
+wine_1_5d1_adaptive: &wine_1_5d1_adaptive
+  <<: [*default, *wine_1_common, *fields_5d1, *prompt_5d1]
+  res_param_str: "mdlqwen330b2507_prm5d1_adaptive"
+  general_param_str: "mdlqwen330b2507_prm5d0_adaptive"

@@ -1,0 +1,42 @@
+{
+	"Q1": {
+        "query": "List all invoice dates along with the corresponding invoice amounts.",
+        "attributes": ["Invoice Date", "Invoice Amount"],
+        "difficulty": "0"
+	},
+	"Q2": {
+		"query": "Which addresses are linked to invoices over $10,000?",
+		"attributes": ["Address", "Invoice Amount"],
+		"diffculty": "1"
+	},
+	"Q3": {
+        "query": "Which countries have the highest total invoice amounts?",
+        "attributes": ["Country", "Invoice Amount"],
+        "difficulty": "2"
+	},
+	"Q4": {
+		"query": "What are the top 5 countries by number of invoices and how many do they have?",
+		"attributes": ["Country"],
+		"diffculty": "2"
+	},
+	"Q5": {
+		"query": "Which countries have total sales that exceed the global average sales per country?",
+		"attributes": ["Country", "Total Sale Amount"],
+		"diffculty": "2"
+	},
+	"Q6": {
+		"query": "What are the top 8 billing countries by the sum of invoice totals, and what are those totals?",
+		"attributes": ["Country", "Invoice Amount"],
+		"diffculty": "2"
+	},
+	"Q7": {
+		"query": "What are the average invoice totals for cities where the average is greater than $5?",
+		"attributes": ["City", "Invoice Amount"],
+		"diffculty": "2"
+	},
+	"Q8": {
+        "query": "What is the total invoice amount for each customer in each city?",
+        "attributes": ["Customer Name", "City", "Invoice Amount"],
+        "difficulty": "3"
+	}
+}

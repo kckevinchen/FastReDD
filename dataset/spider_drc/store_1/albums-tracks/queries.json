@@ -1,0 +1,14 @@
+{
+	"Q1": {
+		"query": "Find the longest track name and its duration for each album of the artist 'The Beatles'.",
+		"attributes": ["tracks.milliseconds", "tracks.name", "tracks.album_title", "albums.title", "albums.artist_name"],
+		"sql": "SELECT MAX(tracks.milliseconds), tracks.name FROM tracks JOIN albums ON tracks.album_title = albums.title WHERE albums.artist_name = 'The Beatles' GROUP BY tracks.album_title;",
+		"diffculty": "4"
+	},
+	"Q2": {
+		"query": "Show the average track price for each artist.",
+		"attributes": ["tracks.unit_price", "tracks.album_title", "albums.title", "albums.artist_name"],
+		"sql": "SELECT albums.artist_name, AVG(tracks.unit_price) FROM tracks JOIN albums ON tracks.album_title = albums.title GROUP BY albums.artist_name;",
+		"diffculty": "4"
+	}
+}

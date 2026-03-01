@@ -1,0 +1,8 @@
+{
+	"Q1": {
+		"query": "List all instructors, their department names, and the total credits of the courses they are teaching in the Spring 2024 semester.",
+		"attributes": ["teaches.semester", "teaches.year", "teaches.instructor_name", "teaches.course_title", "instructor.name", "instructor.dept_name", "course.title", "course.credits"],
+		"sql": "SELECT i.name, i.dept_name, SUM(c.credits) AS total_credits FROM teaches t JOIN instructor i ON t.instructor_name = i.name JOIN course c ON t.course_title = c.title WHERE t.semester = 'Spring' AND t.year = 2024 GROUP BY i.name, i.dept_name;",
+		"diffculty": "4"
+	}
+}

@@ -1,0 +1,177 @@
+# DDGT Schema Generation Configuration
+# Diversity-Driven Good-Turing adaptive sampling
+
+default_settings: &default
+  data_main: "dataset/"
+  exp_dataset_task_list: null
+
+# DDGT Schema Generation Experiment
+schemagen_ddgt:
+  <<: *default
+  
+  # Experiment metadata
+  mode: "gemini"  # or "deepseek", "cgpt", "together", "siliconflow", "local"
+  trial: 1
+  out_main: "outputs/schema_gen/ddgt/"
+  
+  # LLM Configuration
+  llm_model: "gemini-2.5-flash-lite"  # Model for schema generation
+  
+  # Dataset Configuration
+  # Format: "subfolder/dataset_name" (e.g., "spider_sqlite/bike_1")
+  dataset: "spider_sqlite/bike_1"
+  
+  # Data Loader Configuration
+  data_loader_type: "standard"  # Loader type: "standard" (default, unified loader)
+  
+  # Prompt Configuration
+  prompt:
+    prompt_path: "prompts/schemagen_4_0.txt"
+    prompt_version: "4d0"
+  
+  # Result parameter string (used for result file naming)
+  res_param_str: "4d0_ddgt"
+  
+  # Input/Output Field Names
+  in_fields:
+    doc: "Document"
+    log: "Record of Schema"
+  
+  out_fields:
+    res: "Assignment"
+    log: "Updated Record of Schema"
+    reason: "Reasoning"
+  
+  # Logging Configuration
+  console_log_level: "INFO"  # Console logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # DDGT Adaptive Sampling Configuration
+  adaptive_sampling:
+    enabled: true
+    algorithm: "ddgt"  # IMPORTANT: Set to "ddgt" for DDGT mode
+    
+    # DDGT Parameters (Section 3 of spec)
+    failure_probability: 0.05     # δ (delta): Allowed probability of missing a feature
+                                  # Lower = more conservative (processes more docs)
+                                  # Typical range: 0.01-0.10
+    
+    min_docs: 50                  # n_min: Minimum documents before checking stopping condition
+                                  # Higher = more conservative
+                                  # Typical range: 30-100
+    
+    batch_size: 5                 # k: Documents per diversity batch
+                                  # Larger batches = better diversity coverage
+                                  # Typical range: 3-10
+    
+    # Embedding Configuration (for diversity sampling)
+    use_embedding_selection: true
+    embedding_model: "models/embedding-001"  # Gemini embedding model
+    embedding_file: "embeddings/spider_sqlite_bike_1_embeddings.json"
+    
+    # Note: Embeddings must be pre-generated (e.g., in notebook PART 0.5)
+    # The embedding_file path should match the dataset being processed
+
+# DDGT with Conservative Parameters (high coverage, more docs)
+schemagen_ddgt_conservative:
+  <<: *default
+  mode: "gemini"
+  trial: 2
+  out_main: "outputs/schema_gen/ddgt_conservative/"
+  llm_model: "gemini-2.5-flash-lite"
+  dataset: "spider_sqlite/bike_1"
+  data_loader_type: "standard"
+  
+  prompt:
+    prompt_path: "prompts/schemagen_4_0.txt"
+    prompt_version: "4d0"
+  
+  res_param_str: "4d0_ddgt_conservative"
+  
+  in_fields:
+    doc: "Document"
+    log: "Record of Schema"
+  
+  out_fields:
+    res: "Assignment"
+    log: "Updated Record of Schema"
+    reason: "Reasoning"
+  
+  console_log_level: "INFO"
+  
+  adaptive_sampling:
+    enabled: true
+    algorithm: "ddgt"
+    
+    # Conservative parameters (best coverage)
+    failure_probability: 0.01     # Very low δ = high confidence
+    min_docs: 100                 # High minimum = more stable
+    batch_size: 10                # Larger batches = better coverage
+    
+    use_embedding_selection: true
+    embedding_model: "models/embedding-001"
+    embedding_file: "embeddings/spider_sqlite_bike_1_embeddings.json"
+
+# DDGT with Aggressive Parameters (fast, fewer docs)
+schemagen_ddgt_aggressive:
+  <<: *default
+  mode: "gemini"
+  trial: 3
+  out_main: "outputs/schema_gen/ddgt_aggressive/"
+  llm_model: "gemini-2.5-flash-lite"
+  dataset: "spider_sqlite/bike_1"
+  data_loader_type: "standard"
+  
+  prompt:
+    prompt_path: "prompts/schemagen_4_0.txt"
+    prompt_version: "4d0"
+  
+  res_param_str: "4d0_ddgt_aggressive"
+  
+  in_fields:
+    doc: "Document"
+    log: "Record of Schema"
+  
+  out_fields:
+    res: "Assignment"
+    log: "Updated Record of Schema"
+    reason: "Reasoning"
+  
+  console_log_level: "INFO"
+  
+  adaptive_sampling:
+    enabled: true
+    algorithm: "ddgt"
+    
+    # Aggressive parameters (fast)
+    failure_probability: 0.10     # Higher δ = lower confidence, stops earlier
+    min_docs: 30                  # Low minimum = faster stopping
+    batch_size: 3                 # Smaller batches = faster iterations
+    
+    use_embedding_selection: true
+    embedding_model: "models/embedding-001"
+    embedding_file: "embeddings/spider_sqlite_bike_1_embeddings.json"
+
+# Parameter Tuning Guidelines:
+#
+# failure_probability (δ):
+#   - Controls probabilistic coverage guarantee
+#   - Lower δ → more documents processed (better coverage)
+#   - Higher δ → fewer documents (faster, less confident)
+#   - Recommended: 0.01 (conservative), 0.05 (balanced), 0.10 (aggressive)
+#
+# min_docs (n_min):
+#   - Minimum samples before checking stopping condition
+#   - Prevents premature stopping
+#   - Should be ≥ 10-20 for stability
+#   - Larger datasets may need higher n_min
+#
+# batch_size (k):
+#   - Number of documents selected per diversity batch
+#   - Larger k → better embedding space coverage
+#   - Smaller k → more frequent stopping checks
+#   - Recommended: 3-10 depending on dataset size
+#
+# Expected Performance:
+#   - Document reduction: 50-90% (depends on dataset and parameters)
+#   - Schema quality: >90% match with baseline (proper tuning)
+#   - Time savings: Proportional to document reduction

@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "Charter == 1",
+        "StatusType == 'Active'",
+        "Magnet == 0"
+      ],
+      "optimal_order": [
+        "Charter == 1",
+        "StatusType == 'Active'",
+        "Magnet == 0"
+      ],
+      "token_cost": 230195
+    },
+    {
+      "queries": [
+        "StatusType == 'Active'",
+        "Magnet == 0",
+        "Virtual == 'N'"
+      ],
+      "optimal_order": [
+        "Virtual == 'N'",
+        "Magnet == 0",
+        "StatusType == 'Active'"
+      ],
+      "token_cost": 502335
+    }
+  ]
+}

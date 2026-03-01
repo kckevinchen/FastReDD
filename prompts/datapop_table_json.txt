@@ -1,0 +1,38 @@
+You are a database expert.  
+Your task is to analyze an unstructured natural language document and determine which table (from a provided set of table schemas) it belongs to.
+Each document can only belong to one table schema.
+
+## One-Shot Example
+
+### Example Input:
+```json
+{
+    "Document": "Jane Doe, an independent contractor from the Marketing Consultancy Group, ...",
+    "Schema": [
+        {
+            "Schema Name": "Employee",
+            "Attributes": ["name", "hire_date", ...]
+        },
+        {
+            "Schema Name": "Contractors",
+            "Attributes": ["name", "affiliation", ...]
+        }
+    ]
+}
+```
+
+### Example Output:
+```json
+{
+    "Table Assignment": "Contractors"
+}
+```
+
+## Format  
+Input provided in JSON format with the following components:
+- Document.
+- Schema.
+Output provided in JSON format with the following components:
+- Table Assignment: The name of the table in the provided schema. 
+
+Below is the input for this iteration:

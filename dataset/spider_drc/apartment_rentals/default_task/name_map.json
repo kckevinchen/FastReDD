@@ -1,0 +1,54 @@
+{
+  "table": {
+    "Apartment_Buildings": "Apartment_Buildings",
+    "Guests": "Guests",
+    "Apartment_Bookings": "Apartment_Bookings",
+    "Apartment_Facilities": "Apartment_Facilities",
+    "Apartments": "Apartments",
+    "View_Unit_Status": "View_Unit_Status"
+  },
+  "attribute": {
+    "Apartment_Buildings": {
+      "building_short_name": "building_short_name",
+      "building_full_name": "building_full_name",
+      "building_description": "building_description",
+      "building_address": "building_address",
+      "building_manager": "building_manager",
+      "building_phone": "building_phone"
+    },
+    "Guests": {
+      "gender_code": "gender_code",
+      "guest_first_name": "guest_first_name",
+      "guest_last_name": "guest_last_name",
+      "date_of_birth": "date_of_birth"
+    },
+    "Apartment_Bookings": {
+      "booking_status_code": "booking_status_code",
+      "booking_start_date": "booking_start_date",
+      "booking_end_date": "booking_end_date",
+      "apt_number": "apt_number",
+      "guest_first_name": "guest_first_name",
+      "guest_last_name": "guest_last_name"
+    },
+    "Apartment_Facilities": {
+      "facility_code": "facility_code",
+      "apt_number": "apt_number"
+    },
+    "Apartments": {
+      "apt_type_code": "apt_type_code",
+      "apt_number": "apt_number",
+      "bathroom_count": "bathroom_count",
+      "bedroom_count": "bedroom_count",
+      "room_count": "room_count",
+      "building_short_name": "building_short_name",
+      "building_full_name": "building_full_name"
+    },
+    "View_Unit_Status": {
+      "status_date": "status_date",
+      "available_yn": "available_yn",
+      "apt_number": "apt_number",
+      "booking_start_date": "booking_start_date",
+      "booking_end_date": "booking_end_date"
+    }
+  }
+}

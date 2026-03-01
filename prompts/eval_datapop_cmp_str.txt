@@ -1,0 +1,134 @@
+You are a database expert. 
+Your task is to compare the extracted data (prediction) from unstructured documents with the ground truth (gt) for tabular data extraction. 
+Your goal is to determine whether the **predicted attribute value** (as a string) semantically matches the **ground truth value** (as a string).  
+- The values do **not** need to be strictly identical but should convey the same meaning.  
+- Your response must include a clear reasoning explanation and a final result (`True` or `False`).  
+
+
+## Input Format (JSON)  
+The input consists of:  
+- **Prediction**: The extracted attribute name and value.  
+- **Ground Truth**: The reference attribute name and value.  
+
+Example format:  
+```json
+{
+    "Prediction": {
+        "Attribute Name": "...",
+        "Attribute Value": "..."
+    },
+    "Ground Truth": {
+        "Attribute Name": "...",
+        "Attribute Value": "..."
+    }
+}
+```
+
+## Output Format (JSON)  
+Your output should include:  
+- **Reasoning**: A concise explanation of the comparison (in 1-2 sentences).  
+- **Result**: `True` if the values match semantically, otherwise `False`.  
+
+Example format:  
+```json
+{
+    "Reasoning": "Explanation of why the prediction is correct or incorrect.",
+    "Result": true
+}
+```
+
+
+## Examples  
+
+### Example 1
+**Input:**  
+```json
+{
+    "Prediction": {
+        "Attribute Name": "Name",
+        "Attribute Value": "John Doe"
+    },
+    "Ground Truth": {
+        "Attribute Name": "Customer Name",
+        "Attribute Value": "John Doe"
+    }
+}
+```
+**Output:**  
+```json
+{
+    "Reasoning": "The predicted value 'John Doe' exactly matches the ground truth 'John Doe'. Therefore, the result is correct.",
+    "Result": true
+}
+```
+
+### Example 2
+**Input:**  
+```json
+{
+    "Prediction": {
+        "Attribute Name": "Price",
+        "Attribute Value": "25.5"
+    },
+    "Ground Truth": {
+        "Attribute Name": "Price in Dollars",
+        "Attribute Value": "25.50"
+    }
+}
+```
+**Output:**  
+```json
+{
+    "Reasoning": "The predicted value '25.5' is numerically equivalent to the ground truth '25.50' when considering decimal precision. Therefore, the result is correct.",
+    "Result": true
+}
+```
+
+### Example 3 
+**Input:**  
+```json
+{
+    "Prediction": {
+        "Attribute Name": "Length",
+        "Attribute Value": "31.1"
+    },
+    "Ground Truth": {
+        "Attribute Name": "Music Duration",
+        "Attribute Value": "31"
+    }
+}
+```
+**Output:**  
+```json
+{
+    "Reasoning": "The predicted value '31.1' does not match the ground truth '31' due to the additional decimal place. Therefore, the result is incorrect.",
+    "Result": false
+}
+```
+
+### Example 4
+**Input:**  
+```json
+{
+    "Prediction": {
+        "Attribute Name": "Milliseconds",
+        "Attribute Value": "780400"
+    },
+    "Ground Truth": {
+        "Attribute Name": "Seconds",
+        "Attribute Value": "780"
+    }
+}
+```
+**Output:**  
+```json
+{
+    "Reasoning": "780400 milliseconds is equivalent to 780.4 seconds, which is close to the ground truth value of '780'. Given the reasonable rounding difference, the result is considered correct.",
+    "Result": true
+}
+```
+
+## Instruction  
+Compare the given **Prediction** and **Ground Truth**, generate your reasoning, and output the final **Result** in JSON format.  
+Below is the input for this iteration:  
+

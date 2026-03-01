@@ -1,0 +1,109 @@
+[
+  {
+    "Schema Name": "Airlines",
+    "Attributes": [
+      {
+        "Attribute Name": "airline_name", 
+        "Description": "Name of the airline representing its unique identity."
+      },
+      {
+        "Attribute Name": "iata_code", 
+        "Description": "IATA code associated with the airline, used for ticketing and identification."
+      },
+      {
+        "Attribute Name": "icao_code", 
+        "Description": "ICAO code associated with the airline for international identification."
+      },
+      {
+        "Attribute Name": "callsign", 
+        "Description": "Unique callsign used to identify the airline during radio communications."
+      },
+      {
+        "Attribute Name": "country", 
+        "Description": "Country where the airline is based or registered."
+      },
+      {
+        "Attribute Name": "active", 
+        "Description": "Operational status of the airline, indicating whether it is active or inactive."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Airports",
+    "Attributes": [
+      {
+        "Attribute Name": "airport_name", 
+        "Description": "Name of the airport or facility serving travelers and cargo."
+      },
+      {
+        "Attribute Name": "city", 
+        "Description": "City where the airport is located."
+      },
+      {
+        "Attribute Name": "country", 
+        "Description": "Country where the airport is located."
+      },
+      {
+        "Attribute Name": "latitude", 
+        "Description": "Geographical coordinate indicating the north-south position of the airport."
+      },
+      {
+        "Attribute Name": "longitude", 
+        "Description": "Geographical coordinate indicating the east-west position of the airport."
+      },
+      {
+        "Attribute Name": "elevation", 
+        "Description": "Height of the airport above sea level, measured in feet."
+      },
+      {
+        "Attribute Name": "iata_code", 
+        "Description": "IATA code uniquely identifying the airport, including heliports."
+      },
+      {
+        "Attribute Name": "icao_code", 
+        "Description": "ICAO code providing international identification for the airport."
+      }
+    ]
+  },
+  {
+    "Schema Name": "FlightRoutes",
+    "Attributes": [
+      {
+        "Attribute Name": "airline_name", 
+        "Description": "Name of the airline operating the route."
+      },
+      {
+        "Attribute Name": "departure_airport_name", 
+        "Description": "Name of the airport where the flight commences."
+      },
+      {
+        "Attribute Name": "departure_airport_code", 
+        "Description": "IATA code of the airport where the flight commences."
+      },
+      {
+        "Attribute Name": "departure_country", 
+        "Description": "Country where the departure airport is located."
+      },
+      {
+        "Attribute Name": "arrival_airport_name", 
+        "Description": "Name of the airport where the flight terminates."
+      },
+      {
+        "Attribute Name": "arrival_airport_code", 
+        "Description": "IATA code of the airport where the flight terminates."
+      },
+      {
+        "Attribute Name": "arrival_country", 
+        "Description": "Country where the arrival airport is located."
+      },
+      {
+        "Attribute Name": "operation_focus", 
+        "Description": "Operational emphasis of the route, such as passenger transport or cargo logistics."
+      },
+      {
+        "Attribute Name": "route_type", 
+        "Description": "Nature of the route, specifying whether it is domestic or international."
+      }
+    ]
+  }
+]

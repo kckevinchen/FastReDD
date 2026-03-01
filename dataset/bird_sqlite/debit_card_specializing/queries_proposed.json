@@ -1,0 +1,26 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "Currency == 'CZK'",
+        "Segment contains 'SME'"
+      ],
+      "optimal_order": [
+        "Currency == 'CZK'",
+        "Segment contains 'SME'"
+      ],
+      "token_cost": 34616
+    },
+    {
+      "queries": [
+        "Currency == 'EUR'",
+        "Segment contains 'LAM'"
+      ],
+      "optimal_order": [
+        "Segment contains 'LAM'",
+        "Currency == 'EUR'"
+      ],
+      "token_cost": 27401
+    }
+  ]
+}

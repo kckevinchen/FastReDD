@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "subscription_type == 'Subscriber'",
+        "zip_code == 94107",
+        "start_station_name contains 'Harry Bridges Plaza'"
+      ],
+      "optimal_order": [
+        "start_station_name contains 'Harry Bridges Plaza'",
+        "zip_code == 94107",
+        "subscription_type == 'Subscriber'"
+      ],
+      "token_cost": 87175
+    },
+    {
+      "queries": [
+        "subscription_type == 'Customer'",
+        "start_station_name contains 'Harry Bridges Plaza'",
+        "duration >= 600"
+      ],
+      "optimal_order": [
+        "start_station_name contains 'Harry Bridges Plaza'",
+        "subscription_type == 'Customer'",
+        "duration >= 600"
+      ],
+      "token_cost": 90037
+    }
+  ]
+}

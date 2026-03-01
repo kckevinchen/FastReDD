@@ -1,0 +1,68 @@
+[
+  {
+    "Schema Name": "Wines",
+    "Attributes": [
+      {
+        "Attribute Name": "winery_name", 
+        "Description": "Name of the winery producing the wine."
+      },
+      {
+        "Attribute Name": "wine_name", 
+        "Description": "Specific name or label of the wine, alongside vintage as necessary."
+      },
+      {
+        "Attribute Name": "vintage_year", 
+        "Description": "Year of the wine's production."
+      },
+      {
+        "Attribute Name": "region", 
+        "Description": "Geographical area (e.g., state) where the wine is produced."
+      },
+      {
+        "Attribute Name": "price", 
+        "Description": "Suggested retail price of the wine."
+      },
+      {
+        "Attribute Name": "score", 
+        "Description": "Evaluation score given to the wine."
+      },
+      {
+        "Attribute Name": "production_volume", 
+        "Description": "Total number of cases produced."
+      },
+      {
+        "Attribute Name": "drinking_window", 
+        "Description": "Suggested period when wine should be consumed for optimal experience."
+      },
+      {
+        "Attribute Name": "grape_variety", 
+        "Description": "Name of the grape variety used to produce the wine."
+      },
+      {
+        "Attribute Name": "appellation", 
+        "Description": "Specific terroir or recognized quality region."
+      }
+    ]
+  },
+  {
+    "Schema Name": "Appellation",
+    "Attributes": [
+      {
+        "Attribute Name": "appellation", 
+        "Description": "Specific officially recognized area for wine production within the broader region."
+      },
+      {
+        "Attribute Name": "region_name", 
+        "Description": "General or broad name of the geographical region encompassing the wine-producing area."
+      },
+      {
+        "Attribute Name": "main_location", 
+        "Description": "The primary county or (and) state where the wine-producing area is located."
+      },
+      {
+        "Attribute Name": "ava_status", 
+        "Description": "Whether the region is recognized as an American Viticultural Area (AVA)."
+      }
+    ]
+  }
+]

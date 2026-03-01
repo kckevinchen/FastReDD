@@ -1,0 +1,25 @@
+{
+  "table": {
+    "CourseInformation": "course",
+    "CourseInstructorAssignments": "teaches",
+    "Instructors": "instructor"
+  },
+  "attribute": {
+    "course": {
+      "course_title": "title",
+      "credits": "credits",
+      "department": "dept_name"
+    },
+    "teaches": {
+      "course_title": "course_title",
+      "semester": "semester",
+      "offering_year": "year",
+      "instructor_name": "instructor_name"
+    },
+    "instructor": {
+      "instructor_name": "name",
+      "department": "dept_name",
+      "annual_salary": "salary"
+    }
+  }
+}

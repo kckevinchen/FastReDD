@@ -1,0 +1,30 @@
+{
+  "proposals": [
+    {
+      "queries": [
+        "apt_type_code == 'Duplex'",
+        "bedroom_count >= 3",
+        "bathroom_count >= 2"
+      ],
+      "optimal_order": [
+        "apt_type_code == 'Duplex'",
+        "bedroom_count >= 3",
+        "bathroom_count >= 2"
+      ],
+      "token_cost": 14866
+    },
+    {
+      "queries": [
+        "apt_type_code == 'Flat'",
+        "bedroom_count >= 2",
+        "bathroom_count >= 2"
+      ],
+      "optimal_order": [
+        "apt_type_code == 'Flat'",
+        "bathroom_count >= 2",
+        "bedroom_count >= 2"
+      ],
+      "token_cost": 14154
+    }
+  ]
+}

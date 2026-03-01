@@ -1,0 +1,172 @@
+default_settings: &default
+  data_main: "dataset/"
+  spider_path: "dataset/spider_update/"
+  exp_dataset_task_list: null
+  console_log_level: "WARNING"  # Console logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # Data Loader Configuration
+  data_loader_type: "spider"  # Options: "spider", "perfile", "sqlite"
+
+spider_1d0_1:  &spider_1d0_1
+  <<: *default
+  mode: "local"
+  trial: 0
+  torch_seed: 888
+  out_main: "outputs/data_population/spider_dsv2lite_1/"
+  exp_dataset_task_list: ["store_1/employees-customers-invoices"]
+  llm_model: "deepseek-ai/DeepSeek-V2-Lite-Chat"
+  llm_model_path: "llm_models/deepseek-ai/DeepSeek-V2-Lite-Chat"
+  res_param_str: "mdldsv2lite_prm1d0"
+  prompts:
+    prompt_table: "prompts/datapop_table_json.txt"
+    prompt_attr: "prompts/datapop_attr_json.txt"
+  eval:
+    mode: "deepseek"
+    llm_model: "deepseek-chat"
+    prompts:
+      datapop_cmp_str: "prompts/eval_datapop_cmp_str.txt"
+  trainer:
+    train_percentage: 0.8  # TODO
+    batch_size: 128
+    epochs: 200
+    early_stop_patience: 10
+    learning_rate: 0.0003
+  schemagen:
+    out_main: "outputs/schema_gen/spider_cgpt_1/"
+    param_str: "mdlgpt-4o_prm4d1_tmp1.0_tpp1.0"
+
+store_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/customers-invoices"]
+  # exp_fn_list: ["albums", "customers", "invoices", "tracks", 
+  #               "customers-invoices", "customers-employees", "albums-tracks", 
+  #               "employees-customers-invoices"]
+
+wine_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["wine_1/wine-appellations"]
+  # exp_fn_list: ["wine-grapes", "wine-appellations"]
+
+college_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/course-section", "college_2/course-teaches", "college_2/course-teaches-instructor"]
+  # exp_fn_list: ["course-section", "instructor-teaches", "course-teaches", "instructor-department", 
+  #               "department-student-instructor", "course-teaches-instructor", "course-section-classroom"]
+
+flight_1d0_1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines"]
+  # exp_fn_list: ["routes-airports", "routes-airlines", "routes-airports-airlines"]
+
+
+my_exp:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/employees"]
+  test_dataset_task: "store_1/customers"
+
+my_exp:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/customers"]
+  test_dataset_task: "store_1/customers"
+
+t3_store1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: [
+      "store_1/employees-customers-invoices", 
+      # "flight_4/routes-airports-airlines", 
+      # "college_2/course-teaches-instructor", 
+      # "college_2/course-section-classroom"
+    ]
+  test_dataset_task: "store_1/employees-customers-invoices"
+
+t3_flight1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: [
+      # "store_1/employees-customers-invoices", 
+      "flight_4/routes-airports-airlines", 
+      # "college_2/course-teaches-instructor", 
+      # "college_2/course-section-classroom"
+    ]
+  test_dataset_task: "flight_4/routes-airports-airlines"
+  cls_train_trials: [0]  # , 1, 2, 3, 4, 5, 6, 7
+
+t3_college1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/course-teaches-instructor"]
+  test_dataset_task: "college_2/course-teaches-instructor"
+  cls_train_trials: [0, 1, 2, 3, 4, 5, 6, 7]
+
+t3_college2:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/course-section-classroom"]
+  test_dataset_task: "college_2/course-section-classroom"
+
+
+t2_store1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/customers-invoices"]
+  test_dataset_task: "store_1/customers-invoices"
+  cls_train_trials: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+t2_store2:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/customers-employees"]
+  test_dataset_task: "store_1/customers-employees"
+
+t2_store3:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/albums-tracks"]
+  test_dataset_task: "store_1/albums-tracks"
+  
+t2_flight1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["flight_4/routes-airlines"]
+  test_dataset_task: "flight_4/routes-airlines"
+  cls_train_trials: [0]  # , 1, 2, 3, 4, 5, 6, 7
+  
+t2_flight2:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["flight_4/routes-airports"]
+  test_dataset_task: "flight_4/routes-airports"
+  cls_train_trials: [0]  # , 1, 2, 3, 4, 5, 6, 7
+
+t2_college1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/course-section"]
+  test_dataset_task: "college_2/course-section"
+  cls_train_trials: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11]
+
+t2_college2:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/instructor-teaches"]
+  test_dataset_task: "college_2/instructor-teaches"
+
+t2_college3:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/course-teaches"]
+  test_dataset_task: "college_2/course-teaches"
+  cls_train_trials: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+t2_college4:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["college_2/instructor-department"]
+  test_dataset_task: "college_2/instructor-department"
+
+t2_wine1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["wine_1/wine-grapes"]
+  test_dataset_task: "wine_1/wine-grapes"
+  cls_train_trials: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+t2_wine2:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["wine_1/wine-appellations"]
+  test_dataset_task: "wine_1/wine-appellations"
+  cls_train_trials: [0]  # , 1, 2, 3, 4, 5, 6, 7
+
+
+t1_store1:
+  <<: *spider_1d0_1
+  exp_dataset_task_list: ["store_1/albums"]
+  test_dataset_task: "store_1/albums"
+  cls_train_trials: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

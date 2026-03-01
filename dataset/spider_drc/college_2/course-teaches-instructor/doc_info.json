@@ -1,0 +1,3252 @@
+{
+  "0": {
+    "doc": "In the Fall of 2006, students had the opportunity to delve into the fascinating world of Embedded Systems, a course expertly taught by the knowledgeable instructor, Mingoz. This class promised to equip eager learners with the essential skills and insights needed to navigate the intricate field of embedded systems, which was increasingly becoming integral in various technological advancements.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "Mingoz",
+      "course_title": "Embedded Systems"
+    }
+  },
+  "1": {
+    "doc": "In the Spring semester of 2006, students were captivated by the intricate world of Graph Theory, a course expertly taught by the renowned instructor, DAgostino. His engaging lectures and deep insights into the subject left a lasting impact on all who attended.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2006",
+      "instructor_name": "DAgostino",
+      "course_title": "Graph Theory"
+    }
+  },
+  "2": {
+    "doc": "The course titled \"Astronomy,\" offered by the Cybernetics department, provides an exciting opportunity for students to explore the wonders of the universe. Worth 4 academic credits, this course promises to immerse participants in the fascinating study of celestial bodies, cosmic phenomena, and the fundamental principles that govern the heavens. With a focus on both theoretical knowledge and practical applications, students will gain valuable insights that could inspire future innovations in both science and technology.",
+    "fn": "course",
+    "data": {
+      "title": "Astronomy",
+      "dept_name": "Cybernetics",
+      "credits": "4"
+    }
+  },
+  "3": {
+    "doc": "The course titled \"Logic,\" offered by the Department of Electrical Engineering, provides students with a fundamental understanding of logical reasoning and its applications. With a weight of 4 academic credits, this course is designed to enhance critical thinking skills, making it an essential component of the curriculum for aspiring engineers.",
+    "fn": "course",
+    "data": {
+      "title": "Logic",
+      "dept_name": "Elec. Eng.",
+      "credits": "4"
+    }
+  },
+  "4": {
+    "doc": "Romero, an esteemed instructor in the field of Astronomy, brings a wealth of knowledge and experience to his department. With an annual salary of $79,070.08, he is well-compensated for his contributions to the academic community, inspiring students to explore the wonders of the universe.",
+    "fn": "instructor",
+    "data": {
+      "name": "Romero",
+      "dept_name": "Astronomy",
+      "salary": "79070.08"
+    }
+  },
+  "5": {
+    "doc": "The course titled \"Petroleum Engineering\" is offered by the Marketing department and provides students with a substantial academic experience, as it is worth 4 credits. This unique offering allows students to explore the intersection of engineering principles and marketing strategies within the realm of the petroleum industry.",
+    "fn": "course",
+    "data": {
+      "title": "Petroleum Engineering",
+      "dept_name": "Marketing",
+      "credits": "4"
+    }
+  },
+  "6": {
+    "doc": "The course titled \"European History,\" offered by the Political Science department, is designed to provide students with an in-depth understanding of significant events, cultures, and movements that have shaped Europe. With a value of 3 academic credits, this engaging class promises to enrich participants' knowledge and foster critical thinking about the complexities of European affairs throughout history.",
+    "fn": "course",
+    "data": {
+      "title": "European History",
+      "dept_name": "Pol. Sci.",
+      "credits": "3"
+    }
+  },
+  "7": {
+    "doc": "Tung is a dedicated instructor working in the Athletics department, where he plays a crucial role in promoting physical education and sportsmanship among students. With an annual salary of $50,482.03, he is committed to fostering a positive and engaging environment that encourages athletes to excel both on and off the field. His passion for athletics not only enriches the curriculum but also inspires students to pursue their athletic goals with determination.",
+    "fn": "instructor",
+    "data": {
+      "name": "Tung",
+      "dept_name": "Athletics",
+      "salary": "50482.03"
+    }
+  },
+  "8": {
+    "doc": "The Psychology department offers an intriguing course titled \"Visual BASIC,\" which provides students with a comprehensive introduction to programming concepts and their application in psychological research. This course, worth 4 academic credits, is designed to equip students with essential technical skills that they can utilize in various psychological studies and practices.",
+    "fn": "course",
+    "data": {
+      "title": "Visual BASIC",
+      "dept_name": "Psychology",
+      "credits": "4"
+    }
+  },
+  "9": {
+    "doc": "The course titled \"Assembly Language Programming\" is offered by the Cybernetics department and is valued at 3 academic credits. This engaging subject delves into the intricacies of low-level programming, equipping students with essential skills in coding directly for the hardware, which is fundamental for understanding computer architectures and system applications.",
+    "fn": "course",
+    "data": {
+      "title": "Assembly Language Programming",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "10": {
+    "doc": "Konstantinides, an esteemed member of the Languages department, dedicates his expertise to fostering a love for linguistics among students. With an annual salary of $32,570.50, he brings a wealth of knowledge and passion to the classroom, enriching the educational experience for all who have the privilege of learning from him.",
+    "fn": "instructor",
+    "data": {
+      "name": "Konstantinides",
+      "dept_name": "Languages",
+      "salary": "32570.5"
+    }
+  },
+  "11": {
+    "doc": "In the Spring of 2010, students were fortunate to have Luo as their instructor for a fascinating course titled \"The Beatles.\" This class delved into the iconic band's music, influence, and legacy, providing an enriching experience for all who participated.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2010",
+      "instructor_name": "Luo",
+      "course_title": "The Beatles"
+    }
+  },
+  "12": {
+    "doc": "In the Finance department, students have the opportunity to enroll in an engaging course titled \"Networking.\" This course, which carries a weight of 4 academic credits, is designed to equip learners with essential skills for building professional relationships in the financial sector. The curriculum promises to provide valuable insights and practical experiences, fostering connections that can advance their careers.",
+    "fn": "course",
+    "data": {
+      "title": "Networking",
+      "dept_name": "Finance",
+      "credits": "4"
+    }
+  },
+  "13": {
+    "doc": "In the Fall semester of 2002, students were captivated by the enchanting world of theatre under the guidance of their instructor, Liley, in a course aptly titled \"Drama.\" This class promised to explore the intricacies of performance and storytelling, allowing students to delve into the art of dramatic expression.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Liley",
+      "course_title": "Drama"
+    }
+  },
+  "14": {
+    "doc": "In the Fall of 2009, students gathered excitedly for the lively course titled \"Rock and Roll,\" skillfully led by the charismatic instructor, Morris. This class promised to explore the vibrant history and cultural impact of the genre, drawing participants into the world of rhythm and melody.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2009",
+      "instructor_name": "Morris",
+      "course_title": "Rock and Roll"
+    }
+  },
+  "15": {
+    "doc": "The course titled \"Groups and Rings\" offers an in-depth exploration of these mathematical structures, making it an intriguing addition to the curriculum. This course, which is part of the Civil Engineering department, is designed to provide students with 4 academic credits upon completion, reflecting its comprehensive nature and the significant commitment required to master the material.",
+    "fn": "course",
+    "data": {
+      "title": "Groups and Rings",
+      "dept_name": "Civil Eng.",
+      "credits": "4"
+    }
+  },
+  "16": {
+    "doc": "The course titled \"UNIX System Programming,\" offered by the Statistics department, is designed to provide students with an in-depth understanding of UNIX operating systems. Worth 4 academic credits, this course combines theoretical principles with practical skills, ensuring that participants are well-equipped to handle system programming tasks in a UNIX environment. It promises to be an enriching experience for those looking to enhance their technical expertise in this area.",
+    "fn": "course",
+    "data": {
+      "title": "UNIX System Programmming",
+      "dept_name": "Statistics",
+      "credits": "4"
+    }
+  },
+  "17": {
+    "doc": "The intriguing course titled \"Tort Law,\" offered by the Department of Cybernetics, delves into the legal principles surrounding civil wrongs and liabilities. With a robust curriculum, students can earn 4 academic credits, enhancing their understanding of how law intersects with technology and society. This unique blend makes it an essential offering for those interested in the dynamic field of Cybernetics.",
+    "fn": "course",
+    "data": {
+      "title": "Tort Law",
+      "dept_name": "Cybernetics",
+      "credits": "4"
+    }
+  },
+  "18": {
+    "doc": "The course titled \"Plasma Physics,\" offered by the Department of Electrical Engineering, provides an in-depth study of the behaviors and properties of plasma, all while allowing students to earn 4 academic credits. This engaging subject not only attracts those interested in cutting-edge technology but also lays a solid foundation for future developments in various engineering fields.",
+    "fn": "course",
+    "data": {
+      "title": "Plasma Physics",
+      "dept_name": "Elec. Eng.",
+      "credits": "4"
+    }
+  },
+  "19": {
+    "doc": "The \"International Practicum\" course, offered by the Department of Computer Science, is designed to provide students with a unique global perspective in their field. This immersive program is worth 4 academic credits, allowing participants to gain practical experience while enhancing their technical skills in an international context.",
+    "fn": "course",
+    "data": {
+      "title": "International Practicum",
+      "dept_name": "Comp. Sci.",
+      "credits": "4"
+    }
+  },
+  "20": {
+    "doc": "In the Fall of 2002, students had the unique opportunity to explore the fascinating world of Marine Mammals under the guidance of their instructor, Gustafsson. The course not only delved into the biology and behavior of these remarkable creatures but also emphasized their conservation and role in ocean ecosystems.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Gustafsson",
+      "course_title": "Marine Mammals"
+    }
+  },
+  "21": {
+    "doc": "\"Multivariable Calculus,\" a challenging yet fascinating course, is offered by the Accounting department. Students enrolled in this rigorous class will earn 3 academic credits as they delve into the complexities of functions of several variables, enhancing their mathematical skills and preparing them for advanced topics in their academic journey.",
+    "fn": "course",
+    "data": {
+      "title": "Multivariable Calculus",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "22": {
+    "doc": "Enthusiastic students in the Computer Science department are diving into the fascinating world of Topology, a course that explores the concepts of space, continuity, and dimension. Worth 4 academic credits, this course promises to enrich the minds of those eager to unravel the complexities of mathematical structures.",
+    "fn": "course",
+    "data": {
+      "title": "Topology",
+      "dept_name": "Comp. Sci.",
+      "credits": "4"
+    }
+  },
+  "23": {
+    "doc": "In the Spring semester of 2003, the classroom was abuzz with excitement as students enrolled in the challenging course titled \"Mechanics,\" guided by the knowledgeable instructor, DAgostino. His expertise and engaging teaching style were instrumental in helping students grasp the fundamental principles of mechanics, laying a solid foundation for their future studies in physics and engineering.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2003",
+      "instructor_name": "DAgostino",
+      "course_title": "Mechanics"
+    }
+  },
+  "24": {
+    "doc": "The FOCAL Programming course, offered by the Psychology department, provides an in-depth exploration of programming concepts tailored for psychological applications. With a substantial investment of four academic credits, students who enroll can expect a rigorous and enriching experience that combines technical skills with psychological insights, preparing them for innovative work in both fields.",
+    "fn": "course",
+    "data": {
+      "title": "FOCAL Programming",
+      "dept_name": "Psychology",
+      "credits": "4"
+    }
+  },
+  "25": {
+    "doc": "During the Spring semester of 2002, Morris took on the role of instructor for the intriguing course titled \"Heat Transfer.\" This class attracted students eager to explore the principles and applications of thermal energy, guided by Morris\u2019s expertise in the subject.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2002",
+      "instructor_name": "Morris",
+      "course_title": "Heat Transfer"
+    }
+  },
+  "26": {
+    "doc": "In the vibrant Fall semester of 2001, a noteworthy course titled \"International Practicum\" was offered, skillfully instructed by Wieland. This course presented an exciting opportunity for students to engage with global perspectives, enhancing their understanding and appreciation of international dynamics.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2001",
+      "instructor_name": "Wieland",
+      "course_title": "International Practicum"
+    }
+  },
+  "27": {
+    "doc": "In the fall of 2010, Morris took the helm to guide students through the intricacies of \"International Trade.\" This course not only opened doors to global economic principles but also prepared eager learners for a career in the interconnected world of commerce.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2010",
+      "instructor_name": "Morris",
+      "course_title": "International Trade"
+    }
+  },
+  "28": {
+    "doc": "In the Fall of 2009, students had the opportunity to delve into the intricacies of Tort Law under the expert guidance of their instructor, Bourrier. This course offered a comprehensive exploration of legal principles surrounding personal injury and civil wrongs, making it a pivotal part of the academic year for those interested in the legal field.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2009",
+      "instructor_name": "Bourrier",
+      "course_title": "Tort Law"
+    }
+  },
+  "29": {
+    "doc": "The course titled \"Geology,\" offered by the Psychology department, delves into the fascinating interplay between geological processes and psychological factors, allowing students to earn 3 academic credits. This unique combination challenges conventional boundaries, inviting learners to explore how our understanding of the Earth's processes can influence human behavior and mental states.",
+    "fn": "course",
+    "data": {
+      "title": "Geology",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "30": {
+    "doc": "The course titled \"UNIX System Programming\" is offered by the Geology department and is worth 4 academic credits. This intriguing course not only equips students with essential programming skills but also highlights the intersection of technology and earth sciences.",
+    "fn": "course",
+    "data": {
+      "title": "UNIX System Programmming",
+      "dept_name": "Geology",
+      "credits": "4"
+    }
+  },
+  "31": {
+    "doc": "The course titled \"Arabic,\" offered by the Biology department, is an intriguing opportunity for students to earn 3 academic credits. This unique blend of language study within a scientific context invites learners to explore the connections between language, culture, and biological sciences, enriching their educational experience.",
+    "fn": "course",
+    "data": {
+      "title": "Arabic",
+      "dept_name": "Biology",
+      "credits": "3"
+    }
+  },
+  "32": {
+    "doc": "Instructor Gutierrez, a dedicated member of the Statistics department, earns an annual salary of $45,310.53. His expertise in the field contributes significantly to the academic environment, reflecting the value placed on statistical education in today\u2019s data-driven world.",
+    "fn": "instructor",
+    "data": {
+      "name": "Gutierrez",
+      "dept_name": "Statistics",
+      "salary": "45310.53"
+    }
+  },
+  "33": {
+    "doc": "In the Fall semester of 2002, students had the opportunity to explore the fascinating world of light and vision in the course titled \"Optics,\" expertly taught by the knowledgeable instructor, Sullivan. This course delved into the principles and applications of optics, providing a comprehensive understanding of how light behaves and interacts with various materials. ",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Sullivan",
+      "course_title": "Optics"
+    }
+  },
+  "34": {
+    "doc": "The course titled \"Greek Tragedy,\" offered by the Psychology department, is designed to provide an in-depth exploration of ancient narratives that have profoundly influenced modern thought. Worth 4 academic credits, this class delves into the psychological underpinnings of classic tragedies, inviting students to analyze themes of fate, morality, and human emotion that resonate even in today's society.",
+    "fn": "course",
+    "data": {
+      "title": "Greek Tragedy",
+      "dept_name": "Psychology",
+      "credits": "4"
+    }
+  },
+  "35": {
+    "doc": "The course titled \"Plastics\" is offered by the Computer Science department and is designed to provide students with a comprehensive understanding of the properties and applications of plastic materials. Worth 4 academic credits, this course blends theory with practical insights, preparing students for real-world challenges in materials science and engineering.",
+    "fn": "course",
+    "data": {
+      "title": "Plastics",
+      "dept_name": "Comp. Sci.",
+      "credits": "4"
+    }
+  },
+  "36": {
+    "doc": "Bawa, an esteemed instructor in the Athletics department, commands an impressive annual salary of $72,140.88, reflecting the expertise and dedication brought to their role.",
+    "fn": "instructor",
+    "data": {
+      "name": "Bawa",
+      "dept_name": "Athletics",
+      "salary": "72140.88"
+    }
+  },
+  "37": {
+    "doc": "The course titled \"Transaction Processing,\" offered by the Psychology department, is an intriguing exploration of how transaction systems influence human behavior and decision-making. This engaging course is designed to provide students with three academic credits, equipping them with both theoretical knowledge and practical skills in understanding complex transactional frameworks within psychological contexts.",
+    "fn": "course",
+    "data": {
+      "title": "Transaction Processing",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "38": {
+    "doc": "Bourrier is a dedicated instructor in the field of Computer Science, where their expertise shines through in both teaching and research. With an impressive annual salary of $80,797.83, Bourrier exemplifies the commitment to excellence that is often found in academia. Their contributions to the department not only impact students but also set a high standard for fellow educators.",
+    "fn": "instructor",
+    "data": {
+      "name": "Bourrier",
+      "dept_name": "Comp. Sci.",
+      "salary": "80797.83"
+    }
+  },
+  "39": {
+    "doc": "The course titled \"Existentialism\" is a fascinating offering from the Athletics department, designed to challenge students' perspectives on life and their place in the universe. Worth three academic credits, this course blends philosophical inquiry with concepts of personal well-being, emphasizing the importance of individual experience and athleticism in understanding one's existence.",
+    "fn": "course",
+    "data": {
+      "title": "Existentialism",
+      "dept_name": "Athletics",
+      "credits": "3"
+    }
+  },
+  "40": {
+    "doc": "The course titled \"Virology,\" offered by the Biology department, provides students with an in-depth understanding of viruses and their impact on living organisms. This engaging class is worth 3 academic credits, making it a valuable addition to any biology curriculum for those interested in the microscopic world and its implications for health and disease.",
+    "fn": "course",
+    "data": {
+      "title": "Virology",
+      "dept_name": "Biology",
+      "credits": "3"
+    }
+  },
+  "41": {
+    "doc": "In the spring of 2006, students eagerly gathered to attend the Compiler Design course, expertly led by the knowledgeable instructor, DAgostino. This semester promised an exciting exploration into the intricate world of compilers, equipping students with essential skills and understanding of this foundational topic in computer science.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2006",
+      "instructor_name": "DAgostino",
+      "course_title": "Compiler Design"
+    }
+  },
+  "42": {
+    "doc": "Lent, an esteemed instructor in the Mechanical Engineering department, earns an impressive annual salary of $107,978.47, reflecting his expertise and dedication to the field. His contributions to the department not only enhance the academic environment but also inspire the next generation of engineers.",
+    "fn": "instructor",
+    "data": {
+      "name": "Lent",
+      "dept_name": "Mech. Eng.",
+      "salary": "107978.47"
+    }
+  },
+  "43": {
+    "doc": "The course titled \"Electron Microscopy,\" offered by the Mechanical Engineering department, carries a total of 3 academic credits. This engaging subject delves into the intricate world of microscopy, providing students with valuable insights and practical skills essential for advanced research and engineering applications.",
+    "fn": "course",
+    "data": {
+      "title": "Electron Microscopy",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "44": {
+    "doc": "The course titled \"Fiction Writing,\" offered by the Mechanical Engineering department, provides an engaging opportunity for students to delve into the creative process of storytelling. This 3-credit class invites participants to explore their imaginations and enhance their writing skills while bridging the gap between engineering and the arts.",
+    "fn": "course",
+    "data": {
+      "title": "Fiction Writing",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "45": {
+    "doc": "The course titled \"Colloid and Surface Chemistry\" is a fascinating offering from the Math department. Worth a total of 3 academic credits, it delves into the intricate interactions between phases and surfaces at the molecular level, making it an essential study for students interested in both theoretical and practical aspects of chemistry.",
+    "fn": "course",
+    "data": {
+      "title": "Colloid and Surface Chemistry",
+      "dept_name": "Math",
+      "credits": "3"
+    }
+  },
+  "46": {
+    "doc": "In the vibrant Spring of 2007, students eagerly gathered to delve into the intricacies of \"Plasma Physics.\" Under the expert guidance of their instructor, Gustafsson, the classroom buzzed with discussions and experiments, as they explored the fascinating properties of ionized gases. This course not only ignited their passion for plasma but also equipped them with a deeper understanding of a field essential to various scientific and technological advancements.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2007",
+      "instructor_name": "Gustafsson",
+      "course_title": "Plasma Physics"
+    }
+  },
+  "47": {
+    "doc": "Jaekel, an esteemed member of the Athletics department, is recognized not only for his expertise in the field but also for his impressive annual salary of $103,146.87. His role demonstrates the significant value placed on athletic excellence and coaching within the institution, highlighting the importance of nurturing talent and fostering a winning spirit among students.",
+    "fn": "instructor",
+    "data": {
+      "name": "Jaekel",
+      "dept_name": "Athletics",
+      "salary": "103146.87"
+    }
+  },
+  "48": {
+    "doc": "The course titled \"Music of the 90s,\" offered by the Math department, provides an opportunity for students to explore the rich sounds and cultural significance of that vibrant decade in music. This engaging course is worth 4 academic credits, making it a substantial addition to any student's curriculum, blending the seemingly disparate worlds of mathematics and musical expression.",
+    "fn": "course",
+    "data": {
+      "title": "Music of the 90s",
+      "dept_name": "Math",
+      "credits": "4"
+    }
+  },
+  "49": {
+    "doc": "The course titled \"Thermodynamics,\" offered by the Geology department, is a fascinating exploration into the principles governing energy and heat. With a curriculum that is both rigorous and rewarding, students earn 3 academic credits for their participation in this course, which promises to deepen their understanding of the physical processes that shape our planet.",
+    "fn": "course",
+    "data": {
+      "title": "Thermodynamics",
+      "dept_name": "Geology",
+      "credits": "3"
+    }
+  },
+  "50": {
+    "doc": "Kean is an esteemed instructor in the English department, where he passionately imparts his knowledge to students. With an annual salary of $35,023.18, he dedicates his efforts to enriching the academic environment and fostering a love for literature among his pupils.",
+    "fn": "instructor",
+    "data": {
+      "name": "Kean",
+      "dept_name": "English",
+      "salary": "35023.18"
+    }
+  },
+  "51": {
+    "doc": "The course titled \"Electron Microscopy,\" offered by the English department, provides an in-depth exploration of this fascinating field, allowing students to earn 4 academic credits. This unique intersection of science and literary analysis invites learners to appreciate the intricate details of both microscopic images and the language that describes them.",
+    "fn": "course",
+    "data": {
+      "title": "Electron Microscopy",
+      "dept_name": "English",
+      "credits": "4"
+    }
+  },
+  "52": {
+    "doc": "The \"Corporate Law\" course, offered by the Comp. Sci. department, is a comprehensive program that carries 4 academic credits. This course delves into the intricacies of legal principles as they apply to the corporate world, equipping students with a solid understanding of the legal framework that governs business operations.",
+    "fn": "course",
+    "data": {
+      "title": "Corporate Law",
+      "dept_name": "Comp. Sci.",
+      "credits": "4"
+    }
+  },
+  "53": {
+    "doc": "The course titled \"Thermal Physics,\" offered by the Cybernetics department, provides an in-depth exploration of thermodynamic principles and their applications. With a significant value of 4 academic credits, this course is designed to equip students with a robust understanding of both theoretical and practical aspects of thermal phenomena.",
+    "fn": "course",
+    "data": {
+      "title": "Thermal Physics",
+      "dept_name": "Cybernetics",
+      "credits": "4"
+    }
+  },
+  "54": {
+    "doc": "In the realm of Cybernetics, Bietzk has established quite a reputation as an instructor, earning an impressive annual salary of $117,836.50. His expertise not only enriches the department but also inspires the next generation of minds eager to delve into the fascinating world of technology and robotics.",
+    "fn": "instructor",
+    "data": {
+      "name": "Bietzk",
+      "dept_name": "Cybernetics",
+      "salary": "117836.5"
+    }
+  },
+  "55": {
+    "doc": "The course titled \"Cognitive Psychology,\" offered by the Finance department, is a comprehensive exploration into the intricacies of human thought processes. This engaging curriculum is valued at 3 academic credits, allowing students to delve into the relationship between cognitive functions and financial decision-making.",
+    "fn": "course",
+    "data": {
+      "title": "Cognitive Psychology",
+      "dept_name": "Finance",
+      "credits": "3"
+    }
+  },
+  "56": {
+    "doc": "In the fascinating realm of Cybernetics, students have the opportunity to immerse themselves in the exciting course titled \"Game Programming.\" This course promises to be quite rewarding, offering a total of 4 academic credits for those who enroll. Aspiring game developers will delve into the intricacies of programming, blending creativity with technology to bring their gaming ideas to life.",
+    "fn": "course",
+    "data": {
+      "title": "Game Programming",
+      "dept_name": "Cybernetics",
+      "credits": "4"
+    }
+  },
+  "57": {
+    "doc": "The course titled \"Music of the 80s,\" offered by the Mechanical Engineering department, allows students to delve into the vibrant sounds and cultural movements of that iconic decade. With a total of 4 academic credits, this class is designed to provide an engaging exploration of the pop, rock, and emerging electronic music that defined the era, making it a unique addition to the curriculum for students from various disciplines.",
+    "fn": "course",
+    "data": {
+      "title": "Music of the 80s",
+      "dept_name": "Mech. Eng.",
+      "credits": "4"
+    }
+  },
+  "58": {
+    "doc": "The course titled \"Aquatic Chemistry,\" offered by the Athletics department, provides an in-depth exploration of chemical principles as they apply to aquatic environments. This engaging class is worth 4 academic credits, making it a substantial addition to any student's curriculum.",
+    "fn": "course",
+    "data": {
+      "title": "Aquatic Chemistry",
+      "dept_name": "Athletics",
+      "credits": "4"
+    }
+  },
+  "59": {
+    "doc": "The course titled \"Aerodynamics,\" offered by the Languages department, provides students with an engaging opportunity to dive into the principles of fluid dynamics while earning 3 academic credits. This unique blend showcases how diverse academic disciplines can explore complex theories, helping learners appreciate the interplay between language and scientific concepts.",
+    "fn": "course",
+    "data": {
+      "title": "Aerodynamics",
+      "dept_name": "Languages",
+      "credits": "3"
+    }
+  },
+  "60": {
+    "doc": "In the Fall semester of 2001, students had the unique opportunity to delve into the fascinating world of \"Aquatic Chemistry,\" a course expertly taught by the knowledgeable instructor, Dale. The course offered a comprehensive insight into the chemical processes that occur in aquatic environments, blending theoretical concepts with practical applications, making it a memorable experience for all involved.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2001",
+      "instructor_name": "Dale",
+      "course_title": "Aquatic Chemistry"
+    }
+  },
+  "61": {
+    "doc": "The course titled \"Antidisestablishmentarianism in Modern America\" is an intriguing exploration offered by the Biology department. Worth four academic credits, this class delves into the intersections of political thought and contemporary societal issues, providing students with a unique perspective on a historically charged term within a modern context.",
+    "fn": "course",
+    "data": {
+      "title": "Antidisestablishmentarianism in Modern America",
+      "dept_name": "Biology",
+      "credits": "4"
+    }
+  },
+  "62": {
+    "doc": "The course titled \"Electricity and Magnetism,\" offered by the Civil Engineering department, provides students with an engaging opportunity to explore the fundamental principles of these essential subjects. Worth 3 academic credits, this class not only enhances the understanding of electrical and magnetic phenomena but also equips aspiring civil engineers with critical insights that are applicable in their field.",
+    "fn": "course",
+    "data": {
+      "title": "Electricity and Magnetism",
+      "dept_name": "Civil Eng.",
+      "credits": "3"
+    }
+  },
+  "63": {
+    "doc": "In the Fall of 2003, students gathered in anticipation for the enlightening course on \"Tort Law,\" guided by the knowledgeable instructor, Dale. This semester promised to unravel the complexities of civil wrongs, equipping learners with essential insights and critical thinking skills in the fascinating realm of law.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2003",
+      "instructor_name": "Dale",
+      "course_title": "Tort Law"
+    }
+  },
+  "64": {
+    "doc": "The course titled \"Decision Support Systems,\" offered by the Civil Engineering department, promises an engaging curriculum worth three academic credits. This class is designed to equip students with the knowledge and skills necessary to make informed decisions within the field of civil engineering, blending theoretical foundations with practical applications to enhance analytical capabilities.",
+    "fn": "course",
+    "data": {
+      "title": "Decison Support Systems",
+      "dept_name": "Civil Eng.",
+      "credits": "3"
+    }
+  },
+  "65": {
+    "doc": "In the Spring semester of 2001, students had the opportunity to immerse themselves in the Arabic language under the guidance of the knowledgeable instructor, Valtchev. This course not only opened doors to understanding a rich and diverse culture but also equipped learners with essential language skills that would serve them well in various aspects of communication and travel.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2001",
+      "instructor_name": "Valtchev",
+      "course_title": "Arabic"
+    }
+  },
+  "66": {
+    "doc": "Valtchev, a dedicated instructor in the Biology department, earns an impressive annual salary of $77,036.18, reflecting his expertise and commitment to nurturing future scientists.",
+    "fn": "instructor",
+    "data": {
+      "name": "Valtchev",
+      "dept_name": "Biology",
+      "salary": "77036.18"
+    }
+  },
+  "67": {
+    "doc": "The \"Aquatic Chemistry\" course, offered by the Cybernetics department, is an intriguing academic endeavor that provides students with 3 valuable credits. This course dives into the captivating intersection of chemical processes in aquatic environments, equipping learners with knowledge that is essential for understanding and managing our planet's water systems.",
+    "fn": "course",
+    "data": {
+      "title": "Aquatic Chemistry",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "68": {
+    "doc": "The course titled \"Sanitary Engineering,\" offered by the Athletics department, is designed to provide students with a comprehensive understanding of hygiene and public health systems. This robust course is worth 4 academic credits, making it a significant component of the curriculum for those looking to specialize in this critical area of health and safety.",
+    "fn": "course",
+    "data": {
+      "title": "Sanitary Engineering",
+      "dept_name": "Athletics",
+      "credits": "4"
+    }
+  },
+  "69": {
+    "doc": "Sarkar is an esteemed instructor working in the Department of Political Science, where he passionately imparts his knowledge to students. His expertise and dedication to teaching are reflected not just in the classroom, but also in his impressive annual salary of $87,549.80, which underscores the value placed on his contributions to the academic community.",
+    "fn": "instructor",
+    "data": {
+      "name": "Sarkar",
+      "dept_name": "Pol. Sci.",
+      "salary": "87549.8"
+    }
+  },
+  "70": {
+    "doc": "In an intriguing blend of disciplines, the course titled \"Quantum Mechanics\" is offered by the Accounting department, emphasizing the department's commitment to innovate and expand its curriculum. This comprehensive class carries a weight of 4 academic credits, allowing students to deeply explore the complex principles of quantum theory while also connecting it, in unexpected ways, to the financial principles of accounting.",
+    "fn": "course",
+    "data": {
+      "title": "Quantum Mechanics",
+      "dept_name": "Accounting",
+      "credits": "4"
+    }
+  },
+  "71": {
+    "doc": "In the bustling world of academia, Professor Bondi stands out as a prominent figure within the Computer Science department. With an impressive annual salary of $115,469.11, Bondi not only exemplifies expertise in the field but also reflects the value placed on educators in this critical discipline.",
+    "fn": "instructor",
+    "data": {
+      "name": "Bondi",
+      "dept_name": "Comp. Sci.",
+      "salary": "115469.11"
+    }
+  },
+  "72": {
+    "doc": "The \"International Practicum\" course, offered by the Department of History, provides students with a valuable opportunity to engage in global historical contexts. This immersive course is worth 3 academic credits, allowing students to deepen their understanding of historical perspectives while gaining practical experience.",
+    "fn": "course",
+    "data": {
+      "title": "International Practicum",
+      "dept_name": "History",
+      "credits": "3"
+    }
+  },
+  "73": {
+    "doc": "Lembr, an esteemed instructor in the Accounting department, has dedicated his career to shaping the minds of future financial experts. With an annual salary of $32,241.56, he embodies both passion for teaching and expertise in his field, contributing significantly to the academic environment.",
+    "fn": "instructor",
+    "data": {
+      "name": "Lembr",
+      "dept_name": "Accounting",
+      "salary": "32241.56"
+    }
+  },
+  "74": {
+    "doc": "The course titled \"Bacteriology\" is intriguingly offered by the Physics department, blending traditional physical sciences with the microscopic world of bacteria. With a value of 4 academic credits, this course promises to provide a comprehensive exploration of bacterial phenomena and their significance in various scientific fields. Students enrolling in this course will not only delve into the intricacies of bacteriology but also appreciate the unique interdisciplinary approach that Physics brings to understanding biological processes.",
+    "fn": "course",
+    "data": {
+      "title": "Bacteriology",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "75": {
+    "doc": "In the Spring of 2002, students were fortunate to be guided by the talented instructor Voronina in their exploration of the dynamic field of Journalism. This course provided an invaluable opportunity for aspiring journalists to hone their skills and understand the nuances of storytelling in the ever-evolving media landscape.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2002",
+      "instructor_name": "Voronina",
+      "course_title": "Journalism"
+    }
+  },
+  "76": {
+    "doc": "Enrolled in the intriguing course titled \"Introduction to Burglary,\" students will delve into the fascinating intersection of cybernetics and crime prevention. Offered by the esteemed Cybernetics department, this class is designed to provide four academic credits, ensuring that participants gain essential knowledge while advancing their academic journeys. With an innovative approach to understanding security systems, this course promises to equip learners with valuable insights into the complexities of safeguarding against digital threats.",
+    "fn": "course",
+    "data": {
+      "title": "Introduction to Burglary",
+      "dept_name": "Cybernetics",
+      "credits": "4"
+    }
+  },
+  "77": {
+    "doc": "The course \"Fractal Geometry,\" offered by the Civil Engineering department, delves into the fascinating world of intricate patterns and shapes found in nature and mathematics. With a rigorous curriculum that is worth 4 academic credits, students will explore the practical applications of fractals in various engineering projects, enhancing both their analytical skills and creative thinking. This innovative course promises to be a significant addition to the academic offerings in the realm of civil engineering.",
+    "fn": "course",
+    "data": {
+      "title": "Fractal Geometry",
+      "dept_name": "Civil Eng.",
+      "credits": "4"
+    }
+  },
+  "78": {
+    "doc": "The \"Virology\" course, offered by the Languages department, provides an in-depth look at the fascinating world of viruses. Students can earn 4 academic credits while exploring this essential subject, enriching their understanding of both language and science through a unique interdisciplinary approach.",
+    "fn": "course",
+    "data": {
+      "title": "Virology",
+      "dept_name": "Languages",
+      "credits": "4"
+    }
+  },
+  "79": {
+    "doc": "The course titled \"Elastic Structures,\" offered by the Languages department, is a fascinating exploration that awards students 4 academic credits upon completion. This unique course dives into the complexities of language and its structures, presenting an innovative blend of linguistic theory and practical application that will undoubtedly engage students seeking to expand their understanding of language.",
+    "fn": "course",
+    "data": {
+      "title": "Elastic Structures",
+      "dept_name": "Languages",
+      "credits": "4"
+    }
+  },
+  "80": {
+    "doc": "In an unexpected crossover between the realms of accounting and feline care, the course titled \"How to Groom your Cat\" emerges as a unique offering. This intriguing class, led by the Accounting department, awards students 3 academic credits upon completion. It's a perfect blend for those who wish to learn the fine art of cat grooming while still engaging with principles of financial literacy!",
+    "fn": "course",
+    "data": {
+      "title": "How to Groom your Cat",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "81": {
+    "doc": "In the Fall semester of 2009, students had the opportunity to enhance their financial acumen by enrolling in an Accounting course, expertly led by instructor Mahmoud. His engaging teaching style and in-depth knowledge of the subject made the class both informative and enjoyable, leaving a lasting impression on the cohort eager to master the principles of accounting.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2009",
+      "instructor_name": "Mahmoud",
+      "course_title": "Accounting"
+    }
+  },
+  "82": {
+    "doc": "Sakurai, a dedicated instructor in the English department, enjoys an annual salary of $118,143.98, reflecting their commitment to education and the value placed on their expertise.",
+    "fn": "instructor",
+    "data": {
+      "name": "Sakurai",
+      "dept_name": "English",
+      "salary": "118143.98"
+    }
+  },
+  "83": {
+    "doc": "The course titled \"Religion\" is offered by the English department and is designed to provide students with an intriguing exploration of various religious beliefs, practices, and their cultural impacts. This course carries a total of 3 academic credits, reflecting the commitment and depth of study required to engage with its comprehensive materials.",
+    "fn": "course",
+    "data": {
+      "title": "Religion",
+      "dept_name": "English",
+      "credits": "3"
+    }
+  },
+  "84": {
+    "doc": "The course titled \"Corporate Law,\" which is offered by the History department, provides students with a comprehensive understanding of legal principles that govern corporate entities. Worth 3 academic credits, this class delves into the intricate relationship between law and business, making it a pivotal part of the curriculum for aspiring professionals in the field.",
+    "fn": "course",
+    "data": {
+      "title": "Corporate Law",
+      "dept_name": "History",
+      "credits": "3"
+    }
+  },
+  "85": {
+    "doc": "Desyl, a dedicated instructor in the Languages department, passionately engages with students while earning an impressive annual salary of $48,803.38. Her commitment to fostering language skills has made a significant impact on her pupils, and she continually inspires them to explore the beauty of linguistics.",
+    "fn": "instructor",
+    "data": {
+      "name": "Desyl",
+      "dept_name": "Languages",
+      "salary": "48803.38"
+    }
+  },
+  "86": {
+    "doc": "In the Fall of 2007, students eagerly gathered to embark on an exciting journey into the world of technology with the course titled \"Mobile Computing.\" Under the guidance of their knowledgeable instructor, Voronina, they explored the rapidly evolving landscape of mobile technologies, gaining insights that would shape their future careers in this dynamic field.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2007",
+      "instructor_name": "Voronina",
+      "course_title": "Mobile Computing"
+    }
+  },
+  "87": {
+    "doc": "Morris is a dedicated instructor working in the Marketing department, where he plays a vital role in shaping future marketing professionals. With an annual salary of $43,770.36, he is committed to providing quality education and mentorship to his students, fostering a learning environment that encourages creativity and strategic thinking.",
+    "fn": "instructor",
+    "data": {
+      "name": "Morris",
+      "dept_name": "Marketing",
+      "salary": "43770.36"
+    }
+  },
+  "88": {
+    "doc": "The course titled \"Game Programming,\" offered by the Computer Science department, explores the fascinating world of interactive entertainment and digital design. With a substantial workload, this engaging course is worth 4 academic credits, providing students with both theoretical knowledge and practical skills in game development.",
+    "fn": "course",
+    "data": {
+      "title": "Game Programming",
+      "dept_name": "Comp. Sci.",
+      "credits": "4"
+    }
+  },
+  "89": {
+    "doc": "In the Fall of 2003, students gathered eager to learn about the intricacies of water and wastewater systems in a course titled \"Sanitary Engineering.\" Under the guidance of the knowledgeable instructor, Tung, they delved into essential topics that would shape their understanding of public health and environmental safety. This engaging class aimed to prepare future engineers for the crucial role they would play in ensuring clean water and effective sanitation in communities around the world.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2003",
+      "instructor_name": "Tung",
+      "course_title": "Sanitary Engineering"
+    }
+  },
+  "90": {
+    "doc": "During the Spring semester of 2008, students had the opportunity to delve into the fascinating world of Embedded Systems under the guidance of the instructor, Mingoz. This course explored the intricate relationship between software and hardware, preparing learners for the challenges of modern technological applications.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "Mingoz",
+      "course_title": "Embedded Systems"
+    }
+  },
+  "91": {
+    "doc": "In the Spring semester of 2001, the course titled \"Systems Software\" was expertly taught by instructor Bawa. This class attracted students eager to delve into the intricacies of software systems, guided by Bawa's extensive knowledge and experience in the field.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2001",
+      "instructor_name": "Bawa",
+      "course_title": "Systems Software"
+    }
+  },
+  "92": {
+    "doc": "In an unexpected twist, the Accounting department is offering a unique course titled \"The Music of the Ramones.\" This intriguing class, worth 4 academic credits, promises to explore the iconic punk band's influence on music and culture, blending financial literacy with the rhythmic spirit of rock and roll. Students enrolled in this course can look forward to a creative curriculum that fuses their studies in accounting with the vibrant legacy of one of music history's most celebrated groups.",
+    "fn": "course",
+    "data": {
+      "title": "The Music of the Ramones",
+      "dept_name": "Accounting",
+      "credits": "4"
+    }
+  },
+  "93": {
+    "doc": "Choll, an esteemed instructor in the Statistics department, has an annual salary of $57,807.09. With a passion for teaching and a commitment to fostering a deep understanding of statistical concepts, Choll plays a pivotal role in shaping the future of aspiring statisticians.",
+    "fn": "instructor",
+    "data": {
+      "name": "Choll",
+      "dept_name": "Statistics",
+      "salary": "57807.09"
+    }
+  },
+  "94": {
+    "doc": "The course titled \"Mobile Computing,\" offered by the Physics department, provides students with an engaging opportunity to explore the dynamic world of mobile technology. With a total of 3 academic credits awarded upon completion, this course serves as a valuable addition to the curriculum, equipping learners with essential knowledge and skills in this rapidly evolving field.",
+    "fn": "course",
+    "data": {
+      "title": "Mobile Computing",
+      "dept_name": "Physics",
+      "credits": "3"
+    }
+  },
+  "95": {
+    "doc": "The course titled \"Manufacturing,\" offered by the Finance department, provides an engaging exploration into the financial implications and management strategies within the manufacturing industry. Students enrolled in this class can earn 3 academic credits, making it a valuable addition to their curriculum.",
+    "fn": "course",
+    "data": {
+      "title": "Manufacturing",
+      "dept_name": "Finance",
+      "credits": "3"
+    }
+  },
+  "96": {
+    "doc": "The \"Number Theory\" course, worth 4 academic credits, is offered by the Accounting department. This intriguing course delves into the fascinating world of numbers, exploring their properties and relationships in a way that is invaluable for students aiming to strengthen their analytical skills in the field of accounting.",
+    "fn": "course",
+    "data": {
+      "title": "Number Theory",
+      "dept_name": "Accounting",
+      "credits": "4"
+    }
+  },
+  "97": {
+    "doc": "\"The IBM 360 Architecture\" is a fascinating course offered by the History department, allowing students to delve into the intricate details of one of computing's pivotal milestones. With a credit value of 3, this course not only enriches their understanding of historical technological developments but also enhances their academic portfolio.",
+    "fn": "course",
+    "data": {
+      "title": "The IBM 360 Architecture",
+      "dept_name": "History",
+      "credits": "3"
+    }
+  },
+  "98": {
+    "doc": "In an intriguing crossover between disciplines, the Psychology department offers a fascinating course titled \"Environmental Law.\" This course, worth 3 academic credits, invites students to explore the intricate legal frameworks that govern environmental issues, merging psychological insights with ecological concerns. Engaging with topics that resonate across fields, this course aims to equip students with a comprehensive understanding of how law impacts our environment and the psychological factors that drive human interaction with nature.",
+    "fn": "course",
+    "data": {
+      "title": "Environmental Law",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "99": {
+    "doc": "In the Fall semester of 2003, students were excited to embark on a journey through the cosmos in a course titled \"Astronautics,\" skillfully instructed by Ullman. This engaging class delved into the principles of space exploration, captivating the imaginations of aspiring astronauts and engineers alike.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2003",
+      "instructor_name": "Ullman ",
+      "course_title": "Astronautics"
+    }
+  },
+  "100": {
+    "doc": "The course titled \"Operating Systems,\" although typically associated with the realm of computer science, is intriguingly offered by the Marketing department. Students can earn 3 academic credits upon completion of this course, which promises a unique perspective on the intersection of technical systems and marketing principles. This innovative approach might just attract those looking to expand their understanding of how operating systems can influence marketing strategies in the digital age.",
+    "fn": "course",
+    "data": {
+      "title": "Operating Systems",
+      "dept_name": "Marketing",
+      "credits": "3"
+    }
+  },
+  "101": {
+    "doc": "The course titled \"Environmental Law\" is offered by the Department of Astronomy. This unique class, valued at 4 academic credits, delves into the legal frameworks surrounding environmental issues, providing students with a comprehensive understanding of how the law intersects with ecological concerns.",
+    "fn": "course",
+    "data": {
+      "title": "Environmental Law",
+      "dept_name": "Astronomy",
+      "credits": "4"
+    }
+  },
+  "102": {
+    "doc": "In the Spring of 2010, students eagerly gathered for a course titled \"Music of the 90s,\" guided by the enthusiastic instructor, Sakurai. This engaging class aimed to immerse learners in the vibrant sounds and cultural trends that defined the decade, creating a nostalgic experience for those who grew up during that time.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2010",
+      "instructor_name": "Sakurai",
+      "course_title": "Music of the 90s"
+    }
+  },
+  "103": {
+    "doc": "In the Fall of 2010, the classroom buzzed with anticipation as students gathered to embark on their journey through the fascinating world of \"Numerical Methods,\" a course expertly taught by the esteemed instructor, Valtchev. This course promised to deepen their understanding of mathematical techniques crucial for solving complex problems across various fields. The vibrant discussions and challenging assignments helped mold a generation of thinkers eager to apply their newfound knowledge.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2010",
+      "instructor_name": "Valtchev",
+      "course_title": "Numerical Methods"
+    }
+  },
+  "104": {
+    "doc": "In the Spring semester of 2007, the course titled \"The Music of the Ramones\" was passionately taught by instructor Lembr. This unique class likely explored the influential sounds and cultural impact of the iconic punk rock band, offering students a deep dive into their music and legacy.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2007",
+      "instructor_name": "Lembr",
+      "course_title": "The Music of the Ramones"
+    }
+  },
+  "105": {
+    "doc": "Luo, an esteemed instructor in the English department, earns a commendable annual salary of $88,791.45. With a passion for literature and language, Luo dedicates his expertise to nurturing the minds of his students, enriching their academic journey with profound insights and a love for the written word.",
+    "fn": "instructor",
+    "data": {
+      "name": "Luo",
+      "dept_name": "English",
+      "salary": "88791.45"
+    }
+  },
+  "106": {
+    "doc": "The course titled \"Differential Geometry,\" offered by the Astronomy department, is an intensive 4-credit class that delves into the fascinating interactions between geometry and the cosmos. Students enrolled in this course will explore complex mathematical concepts, enhancing their understanding of the universe's structure through the lens of differential geometry.",
+    "fn": "course",
+    "data": {
+      "title": "Differential Geometry",
+      "dept_name": "Astronomy",
+      "credits": "4"
+    }
+  },
+  "107": {
+    "doc": "In the Spring semester of 2003, students were fortunate to be guided by instructor Dale as they delved into the intricacies of Finite Element Analysis, a pivotal course that laid the groundwork for their understanding of complex engineering problems. The atmosphere in the classroom was vibrant, with Dale's engaging teaching style inspiring a love for the subject among his students.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2003",
+      "instructor_name": "Dale",
+      "course_title": "Finite Element Analysis"
+    }
+  },
+  "108": {
+    "doc": "In the Spring of 2005, students had the unique opportunity to explore the works of Shakespeare under the guidance of the esteemed instructor, Wieland. This engaging course promised to delve deep into the timeless themes and intricate characters of the playwright, enriching the students\u2019 understanding of literature from a bygone era.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2005",
+      "instructor_name": "Wieland",
+      "course_title": "Shakespeare"
+    }
+  },
+  "109": {
+    "doc": "The course titled \"Finite Element Analysis\" is offered by the Cybernetics department and is worth 3 academic credits. This course delves into advanced computational techniques and is essential for students looking to deepen their understanding of engineering and mathematical modeling.",
+    "fn": "course",
+    "data": {
+      "title": "Finite Element Analysis",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "110": {
+    "doc": "The course titled \"Biostatistics\" is offered by the Finance department and holds a value of 3 academic credits. This intriguing blend of statistics and finance equips students with essential quantitative skills, allowing them to interpret data effectively in various financial contexts. Whether analyzing market trends or assessing the risk of investments, Biostatistics stands as a vital component of the curriculum.",
+    "fn": "course",
+    "data": {
+      "title": "Biostatistics",
+      "dept_name": "Finance",
+      "credits": "3"
+    }
+  },
+  "111": {
+    "doc": "Instructor Moreira is a dedicated member of the Accounting department, earning an impressive annual salary of $71,351.42. His expertise and commitment to teaching have made a significant impact on his students and the academic community alike.",
+    "fn": "instructor",
+    "data": {
+      "name": "Moreira",
+      "dept_name": "Accounting",
+      "salary": "71351.42"
+    }
+  },
+  "112": {
+    "doc": "In the Fall of 2002, Choll took center stage as the instructor for the engaging course titled \"Physical Chemistry.\" Students eagerly filled the classroom, ready to immerse themselves in the intricate world of chemical principles and reactions that define matter on a molecular level.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Choll",
+      "course_title": "Physical Chemistry"
+    }
+  },
+  "113": {
+    "doc": "Enthusiastic students with a passion for music will find an exciting opportunity in the course titled \"The Music of the Ramones.\" Offered by the Physics department, this unique class delves into the profound impact of punk rock on culture and society, all while earning a solid 4 academic credits. It promises to be an engaging experience that combines the rhythm of music with intellectual exploration.",
+    "fn": "course",
+    "data": {
+      "title": "The Music of the Ramones",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "114": {
+    "doc": "In the vibrant Spring of 2007, students eagerly gathered in lecture halls to learn about the fascinating world of marine life under the guidance of Professor Gustafsson. His course, aptly titled \"Marine Mammals,\" delved into the complexities of these majestic creatures, enriching the minds of all enrolled with knowledge about their behaviors, habitats, and the conservation efforts critical for their survival. It was a semester marked by excitement and discovery, as pupils explored the depths of oceans and the rich ecology that marine mammals contribute to.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2007",
+      "instructor_name": "Gustafsson",
+      "course_title": "Marine Mammals"
+    }
+  },
+  "115": {
+    "doc": "Bertolino is an esteemed member of the Mechanical Engineering department, where he dedicates his expertise to guiding the next generation of engineers. His annual salary of $51,647.57 reflects his commitment and the value he brings to his role as an instructor in this specialized field.",
+    "fn": "instructor",
+    "data": {
+      "name": "Bertolino",
+      "dept_name": "Mech. Eng.",
+      "salary": "51647.57"
+    }
+  },
+  "116": {
+    "doc": "The course titled \"Operating Systems,\" which is offered by the Department of Psychology, provides students with an insightful perspective on the relationship between human cognition and computer systems. With a worth of 3 academic credits, this course aims to bridge the gap between psychological principles and technological applications, preparing students for a multifaceted understanding of both fields.",
+    "fn": "course",
+    "data": {
+      "title": "Operating Systems",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "117": {
+    "doc": "\"Composition and Literature\" is an intriguing course offered by the Statistics department, allowing students to earn 4 academic credits. This course not only enhances students' writing skills but also deepens their understanding of literary concepts, bridging the gap between quantitative data and the art of storytelling.",
+    "fn": "course",
+    "data": {
+      "title": "Composition and Literature",
+      "dept_name": "Statistics",
+      "credits": "4"
+    }
+  },
+  "118": {
+    "doc": "The course titled \"Sanitary Engineering,\" offered by the History department, provides students with a comprehensive understanding of the historical implications and developments in sanitation practices. With a weight of 3 academic credits, this course not only delves into the technical aspects of sanitary systems but also explores their significance in shaping societies throughout history.",
+    "fn": "course",
+    "data": {
+      "title": "Sanitary Engineering",
+      "dept_name": "History",
+      "credits": "3"
+    }
+  },
+  "119": {
+    "doc": "The course titled \"Heat Transfer,\" offered by the Marketing department, provides a unique perspective on the interplay between marketing strategies and thermodynamic principles. With a substantial value of 4 academic credits, students engaging in this course can expect to delve into the elements of heat transfer while enhancing their understanding of its applications in the marketing world.",
+    "fn": "course",
+    "data": {
+      "title": "Heat Transfer",
+      "dept_name": "Marketing",
+      "credits": "4"
+    }
+  },
+  "120": {
+    "doc": "In the realm of academia, the course titled \"Image Processing\" stands out, bridging the creative and technical worlds. Offered by the Accounting department, it invites students to explore the intricate methods of interpreting and manipulating visual data. This intriguing course is worth 3 academic credits, promising not only to enrich the students' knowledge but also to enhance their skill set in the increasingly important field of digital imaging.",
+    "fn": "course",
+    "data": {
+      "title": "Image Processing",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "121": {
+    "doc": "The course titled \"Strength of Materials,\" offered by the Athletics department, is designed to provide students with a comprehensive understanding of the physical properties and behavior of materials. This engaging class is worth 3 academic credits, making it a valuable addition to any student's curriculum focused on athletics and materials science.",
+    "fn": "course",
+    "data": {
+      "title": "Strength of Materials",
+      "dept_name": "Athletics",
+      "credits": "3"
+    }
+  },
+  "122": {
+    "doc": "The course titled \"Multimedia Design,\" offered by the History department, stands out as a unique blend of artistic expression and historical context. With a substantial value of 4 academic credits, it not only enriches students' understanding of multimedia tools but also deepens their appreciation for historical narratives conveyed through various mediums. This course promises to engage students in the dynamic intersection of design and history, making it an enriching experience for those eager to explore these fields.",
+    "fn": "course",
+    "data": {
+      "title": "Multimedia Design",
+      "dept_name": "History",
+      "credits": "4"
+    }
+  },
+  "123": {
+    "doc": "In the Fall of 2005, students eagerly gathered for a course titled \"Embedded Systems,\" expertly guided by the knowledgeable instructor, Mingoz. The semester promised to be an exciting journey into the world of embedded technology, captivating the minds of aspiring engineers.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2005",
+      "instructor_name": "Mingoz",
+      "course_title": "Embedded Systems"
+    }
+  },
+  "124": {
+    "doc": "The course titled \"Music of the 50s,\" offered by the History department, delves into the vibrant sounds and cultural significance of music from that iconic decade. Students enrolled in this engaging class can earn 3 academic credits while exploring the rhythms that shaped an era and influenced countless artists in the years to come.",
+    "fn": "course",
+    "data": {
+      "title": "Music of the 50s",
+      "dept_name": "History",
+      "credits": "3"
+    }
+  },
+  "125": {
+    "doc": "In the Spring of 2001, students eagerly gathered for the Biostatistics course, expertly led by their instructor, Mingoz. This course not only introduced the fundamentals of statistical methods but also explored their applications in the fields of biology and health sciences, equipping students with valuable analytical skills for their future endeavors.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2001",
+      "instructor_name": "Mingoz",
+      "course_title": "Biostatistics"
+    }
+  },
+  "126": {
+    "doc": "The course titled \"Accounting,\" offered by the Geology department, provides students with 3 academic credits. This unique blend of topics invites students from different disciplines to understand the financial aspects within the geosciences.",
+    "fn": "course",
+    "data": {
+      "title": "Accounting",
+      "dept_name": "Geology",
+      "credits": "3"
+    }
+  },
+  "127": {
+    "doc": "The course titled \"Quantum Mechanics,\" offered by the Department of Electrical Engineering, provides an in-depth exploration of the principles and applications of quantum theory. With a robust academic worth of 4 credits, this course attracts students eager to delve into the fascinating world where the classical laws of physics are surpassed by the intriguing behaviors of particles at the quantum level.",
+    "fn": "course",
+    "data": {
+      "title": "Quantum Mechanics",
+      "dept_name": "Elec. Eng.",
+      "credits": "4"
+    }
+  },
+  "128": {
+    "doc": "The \"Creative Writing\" course, offered by the Mechanical Engineering department, is an exciting opportunity for students eager to develop their literary skills. With a value of 4 academic credits, this course encourages participants to explore their creativity and express their ideas through writing, making it a unique blend of technical and artistic education.",
+    "fn": "course",
+    "data": {
+      "title": "Creative Writing",
+      "dept_name": "Mech. Eng.",
+      "credits": "4"
+    }
+  },
+  "129": {
+    "doc": "The course titled \"Diffusion and Phase Transformation\" offered by the Mechanical Engineering department dives deep into intricate concepts that are crucial for understanding material behaviors. With a solid worth of 3 academic credits, this course not only enhances theoretical knowledge but also equips students with practical insights applicable in various engineering fields.",
+    "fn": "course",
+    "data": {
+      "title": "Diffusion and Phase Transformation",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "130": {
+    "doc": "Bancilhon is a dedicated instructor in the Political Science department, where he imparts his knowledge and expertise to eager students. With an impressive annual salary of $87,958.01, he is well-compensated for his contributions to the academic community. His passion for political studies and commitment to education make him a valuable asset to the department.",
+    "fn": "instructor",
+    "data": {
+      "name": "Bancilhon",
+      "dept_name": "Pol. Sci.",
+      "salary": "87958.01"
+    }
+  },
+  "131": {
+    "doc": "In the Fall semester of 2006, students eagerly gathered for a course titled \"Multimedia Design,\" led by the experienced instructor, Lent. This class promised to explore the fascinating intersection of creativity and technology, equipping students with the skills needed to thrive in the digital age.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "Lent",
+      "course_title": "Multimedia Design"
+    }
+  },
+  "132": {
+    "doc": "The course titled \"Optics,\" offered by the Math department, provides an engaging exploration into the fascinating world of light and its interactions. With a total of 3 academic credits, students will delve into the principles of optics, gaining theoretical knowledge and practical skills that are essential in various scientific fields. This course promises to be an enlightening journey for those eager to uncover the mysteries of vision and light phenomenon.",
+    "fn": "course",
+    "data": {
+      "title": "Optics",
+      "dept_name": "Math",
+      "credits": "3"
+    }
+  },
+  "133": {
+    "doc": "The \"International Finance\" course, offered by the Athletics department, provides students with an insightful understanding of global monetary systems and the dynamics of financial markets. This engaging course is worth 3 academic credits, making it a valuable addition to any student's academic journey.",
+    "fn": "course",
+    "data": {
+      "title": "International Finance",
+      "dept_name": "Athletics",
+      "credits": "3"
+    }
+  },
+  "134": {
+    "doc": "In the Fall semester of 2002, students eagerly gathered for an engaging course titled \"Image Processing,\" expertly taught by the knowledgeable instructor, Romero. This class promised to delve into the fascinating world of digital imagery, exploring techniques and theories that would shape the future of visual computing. Romero's enthusiasm for the subject inspired students as they embarked on their journey into the intricacies of image manipulation.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Romero",
+      "course_title": "Image Processing"
+    }
+  },
+  "135": {
+    "doc": "The course titled \"Environmental Law,\" offered by the Math department, provides students with a comprehensive understanding of the legal frameworks that govern environmental protection and policy. With a substantial allocation of 4 academic credits, this class aims to equip students with the necessary knowledge to navigate the complexities of environmental legislation and its implications in various contexts.",
+    "fn": "course",
+    "data": {
+      "title": "Environmental Law",
+      "dept_name": "Math",
+      "credits": "4"
+    }
+  },
+  "136": {
+    "doc": "The course titled \"Romantic Literature\" is offered by the Department of Civil Engineering and is worth 3 academic credits. This unique blend of literature and engineering reflects an interesting interdisciplinary approach, inviting students from various backgrounds to explore the artistic expressions of love and passion that shaped a significant era in literature.",
+    "fn": "course",
+    "data": {
+      "title": "Romantic Literature",
+      "dept_name": "Civil Eng.",
+      "credits": "3"
+    }
+  },
+  "137": {
+    "doc": "Hau, an esteemed instructor in the Accounting department, boasts an impressive annual salary of $43,966.29, reflecting their expertise and dedication to their field.",
+    "fn": "instructor",
+    "data": {
+      "name": "Hau",
+      "dept_name": "Accounting",
+      "salary": "43966.29"
+    }
+  },
+  "138": {
+    "doc": "In a surprising twist, the English department is offering a unique course titled \"Number Theory,\" which delves into the fascinating world of mathematical concepts and their linguistic connections. This intriguing class is worth 4 academic credits, offering students an opportunity to explore the intersection of numbers and language, fostering a deeper understanding of both.",
+    "fn": "course",
+    "data": {
+      "title": "Number Theory",
+      "dept_name": "English",
+      "credits": "4"
+    }
+  },
+  "139": {
+    "doc": "The course titled \"Ponzi Schemes,\" offered by the Civil Engineering department, delves into the intricacies of financial fraud and the engineering mindset applied to uncovering such schemes. With a focus on analysis and critical thinking, students will earn 3 academic credits upon completion. This course not only enhances their understanding of deceptive financial practices but also equips them with the analytical tools to navigate complex problems in engineering contexts.",
+    "fn": "course",
+    "data": {
+      "title": "Ponzi Schemes",
+      "dept_name": "Civil Eng.",
+      "credits": "3"
+    }
+  },
+  "140": {
+    "doc": "The course titled \"Music of the 50s,\" despite its intriguing subject matter, is offered by the Geology department and is valued at 3 academic credits. This unique integration of music history within a traditionally scientific curriculum presents an exciting opportunity for students to explore the cultural landscapes of the 1950s while simultaneously engaging with geological principles.",
+    "fn": "course",
+    "data": {
+      "title": "Music of the 50s",
+      "dept_name": "Geology",
+      "credits": "3"
+    }
+  },
+  "141": {
+    "doc": "The course titled \"Banking and Finance,\" surprisingly offered by the Astronomy department, provides students with an intriguing blend of financial principles nestled within the cosmic context. This unique class is designed to confer 3 academic credits, making it a valuable addition to any student's curriculum. ",
+    "fn": "course",
+    "data": {
+      "title": "Banking and Finance",
+      "dept_name": "Astronomy",
+      "credits": "3"
+    }
+  },
+  "142": {
+    "doc": "In the Spring semester of 2008, students had the opportunity to delve into the fascinating world of marine life through the course titled \"Marine Mammals,\" expertly taught by Instructor Mahmoud. His engaging lectures and comprehensive insights made the subject come alive, sparking students' interest in the rich diversity and ecology of marine mammals.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "Mahmoud",
+      "course_title": "Marine Mammals"
+    }
+  },
+  "143": {
+    "doc": "In the vibrant Fall of 2009, Dale took charge of an exhilarating course titled \"Surfing.\" With his guidance, students had the unique opportunity to ride the waves while gaining insights not only into the art of surfing but also into the ocean's mysteries. It was a season filled with adventure and skill development, as Dale shared his passion for the sport with eager learners.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2009",
+      "instructor_name": "Dale",
+      "course_title": "Surfing"
+    }
+  },
+  "144": {
+    "doc": "In the fall of 2010, the engaging course titled \"Environmental Law\" was offered, guiding students through the intricate landscape of legal principles that govern the environment. Under the expert guidance of instructor Lembr, the class delved into pressing ecological issues and the legal frameworks designed to protect our planet, making for a thought-provoking learning experience.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2010",
+      "instructor_name": "Lembr",
+      "course_title": "Environmental Law"
+    }
+  },
+  "145": {
+    "doc": "In the Spring semester of 2007, students were fortunate to learn from the esteemed instructor, DAgostino, who was teaching the intriguing course titled \"Graph Theory.\" This class delved deep into the fascinating world of graphs, exploring their structures and the various ways they can be applied in mathematical problems and real-world scenarios.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2007",
+      "instructor_name": "DAgostino",
+      "course_title": "Graph Theory"
+    }
+  },
+  "146": {
+    "doc": "Enthusiastic students eager to dive into the world of programming can enroll in the captivating course titled \"C Programming,\" offered by the Athletics department. This course, worth 3 academic credits, combines the rigor of technical skills with the spirit of sports, providing a unique educational experience that encourages both mental and physical agility.",
+    "fn": "course",
+    "data": {
+      "title": "C  Programming",
+      "dept_name": "Athletics",
+      "credits": "3"
+    }
+  },
+  "147": {
+    "doc": "In the Spring of 2004, students in a thought-provoking course titled \"Death and Taxes\" had the privilege of being taught by the intriguing instructor, Morris. The course delved into the complex relationship between mortality and financial obligations, inviting students to engage with both profound and practical themes.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2004",
+      "instructor_name": "Morris",
+      "course_title": "Death and Taxes"
+    }
+  },
+  "148": {
+    "doc": "The course titled \"African History,\" offered by the Cybernetics department, provides students with an insightful exploration of the continent's past. Worth 3 academic credits, this class promises to enrich learners with a deeper understanding of historical events and cultural developments in Africa.",
+    "fn": "course",
+    "data": {
+      "title": "African History",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "149": {
+    "doc": "In the Spring of 2008, students eagerly gathered for a captivating course titled \"Elastic Structures,\" skillfully taught by the knowledgeable instructor, Dale. This class promised to unravel the complexities of structural dynamics and the fascinating mechanics of elasticity, providing students with hands-on experience and theoretical insights. Dale's engaging teaching style made learning about the intricate behavior of materials both enjoyable and enlightening.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "Dale",
+      "course_title": "Elastic Structures"
+    }
+  },
+  "150": {
+    "doc": "The course titled \"The Renaissance,\" offered by the Civil Engineering department, provides an enriching exploration of significant historical developments and their impact on contemporary society. This engaging class is worth 4 academic credits, highlighting its depth and significance within the curriculum. Students enrolled can expect to delve into the transformative cultural, artistic, and scientific movements that defined the Renaissance period.",
+    "fn": "course",
+    "data": {
+      "title": "The Renaissance",
+      "dept_name": "Civil Eng.",
+      "credits": "4"
+    }
+  },
+  "151": {
+    "doc": "In an unexpected twist, the \"Organic Chemistry\" course, typically associated with the science department, is being offered through the English department. This unique setup allows students to earn 4 academic credits while delving into the intricate world of organic compounds and molecular structures, all framed through a literary lens. Such interdisciplinary courses not only challenge conventional categorization but also encourage a broader understanding of subjects in academia.",
+    "fn": "course",
+    "data": {
+      "title": "Organic Chemistry",
+      "dept_name": "English",
+      "credits": "4"
+    }
+  },
+  "152": {
+    "doc": "Mingoz, a dedicated instructor in the Finance department, enjoys an impressive annual salary of $105,311.38, reflecting his expertise and commitment to teaching the intricacies of financial management. His role not only highlights his proficiency in the subject but also contributes significantly to shaping the future of aspiring finance professionals.",
+    "fn": "instructor",
+    "data": {
+      "name": "Mingoz",
+      "dept_name": "Finance",
+      "salary": "105311.38"
+    }
+  },
+  "153": {
+    "doc": "The course titled \"Quantum Mechanics,\" offered by the Cybernetics department, captivates students with its complex yet fascinating principles of the quantum world. This academic endeavor is valued at 3 credits, making it a substantial addition to the curriculum for those eager to delve into the intricacies of quantum theory and its applications.",
+    "fn": "course",
+    "data": {
+      "title": "Quantum Mechanics",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "154": {
+    "doc": "Ullman, a dedicated instructor in the Accounting department, brings expertise and passion to the classroom, earning an impressive annual salary of $47,307.10 for his contributions to educating future financial professionals.",
+    "fn": "instructor",
+    "data": {
+      "name": "Ullman ",
+      "dept_name": "Accounting",
+      "salary": "47307.1"
+    }
+  },
+  "155": {
+    "doc": "The course titled \"Martian History,\" offered by the Biology department, delves into the fascinating exploration of Mars and its potential for past life. This intriguing class is valued at 3 academic credits, making it a substantial part of the curriculum for students eager to understand the red planet's mysteries and the implications for life beyond Earth.",
+    "fn": "course",
+    "data": {
+      "title": "Martian History",
+      "dept_name": "Biology",
+      "credits": "3"
+    }
+  },
+  "156": {
+    "doc": "The course titled \"The Monkeys,\" offered by the History department, provides an engaging exploration of the significance of primates throughout human history. Worth 4 academic credits, this class promises to enlighten students on various historical perspectives while delving into the fascinating interactions between humans and monkeys.",
+    "fn": "course",
+    "data": {
+      "title": "The Monkeys",
+      "dept_name": "History",
+      "credits": "4"
+    }
+  },
+  "157": {
+    "doc": "In the Fall semester of 2002, the vibrant course titled \"The Music of the Ramones\" was enthusiastically taught by the esteemed instructor Ullman. This class offered students a unique opportunity to delve into the iconic punk rock sounds of the legendary band, exploring both their music and cultural impact.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Ullman ",
+      "course_title": "The Music of the Ramones"
+    }
+  },
+  "158": {
+    "doc": "The course titled \"Medieval Civilization or Lack Thereof,\" offered by the English department, invites students to embark on an intriguing exploration of the medieval period, earning 3 academic credits in the process. This thought-provoking class promises to challenge conventional narratives and deepen understanding of a fascinating time in history.",
+    "fn": "course",
+    "data": {
+      "title": "Medieval Civilization or Lack Thereof",
+      "dept_name": "English",
+      "credits": "3"
+    }
+  },
+  "159": {
+    "doc": "In the vibrant Spring of 2010, students eagerly gathered to explore the rhythms and melodies that shaped an era in a course titled \"Music of the 50s.\" Under the enthusiastic guidance of their instructor, Mahmoud, they delved into the cultural and historical significance of this iconic decade, appreciating how its music influenced generations to come. It was a semester filled with nostalgia, lively discussions, and a deeper understanding of the sounds that defined a pivotal time in music history.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2010",
+      "instructor_name": "Mahmoud",
+      "course_title": "Music of the 50s"
+    }
+  },
+  "160": {
+    "doc": "In the vibrant Spring of 2008, students eagerly gathered in their lecture halls to delve into the fascinating complexities of World History, guided by the expertise of their instructor, Jaekel. The course promised to take its participants on an enlightening journey through time, exploring significant events and cultural movements that have shaped the world we live in today.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "Jaekel",
+      "course_title": "World History"
+    }
+  },
+  "161": {
+    "doc": "The course titled \"Marine Mammals\" is offered by the Department of Cybernetics and provides students with an opportunity to explore the fascinating world of marine wildlife. With a focus on the intricate relationships between technology and biology, this course is structured to award students 3 academic credits upon completion, making it a valuable addition to their educational journey.",
+    "fn": "course",
+    "data": {
+      "title": "Marine Mammals",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "162": {
+    "doc": "In an innovative twist on traditional studies, the Athletics department proudly presents a unique course titled \"Cat Herding.\" This engaging class offers three academic credits and promises to challenge students' thinking and skills in unexpected ways. Through this course, participants will dive into the art of managing and leading groups that are notoriously difficult to control, providing a fun and educational experience unlike any other.",
+    "fn": "course",
+    "data": {
+      "title": "Cat Herding",
+      "dept_name": "Athletics",
+      "credits": "3"
+    }
+  },
+  "163": {
+    "doc": "The course titled \"Graphics,\" offered by the Finance department, provides students with an opportunity to earn 3 academic credits. This intriguing course aims to blend artistic concepts with financial principles, fostering a unique skill set beneficial for those looking to enhance their career in the financial industry.",
+    "fn": "course",
+    "data": {
+      "title": "Graphics",
+      "dept_name": "Finance",
+      "credits": "3"
+    }
+  },
+  "164": {
+    "doc": "The course titled \"Calculus\" is offered by the Political Science department and is designed to provide students with a comprehensive understanding of mathematical principles. With a weight of 4 academic credits, this course not only enhances the mathematical skills of the students but also strengthens their analytical abilities, essential for navigating complex political landscapes.",
+    "fn": "course",
+    "data": {
+      "title": "Calculus",
+      "dept_name": "Pol. Sci.",
+      "credits": "4"
+    }
+  },
+  "165": {
+    "doc": "The course titled \"Journalism,\" housed within the Astronomy department, offers an intriguing blend of storytelling and scientific inquiry, providing students with 4 academic credits for their engagement. This unique approach invites students to explore the cosmos while honing their journalistic skills, making it an exciting option for those interested in both fields.",
+    "fn": "course",
+    "data": {
+      "title": "Journalism",
+      "dept_name": "Astronomy",
+      "credits": "4"
+    }
+  },
+  "166": {
+    "doc": "In the Fall of 2003, students eagerly gathered for a course titled \"Visual BASIC,\" where they were guided by the knowledgeable instructor, DAgostino. This course not only introduced them to the fundamentals of programming but also sparked their creativity in developing software applications, laying a solid foundation for their future endeavors in computer science.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2003",
+      "instructor_name": "DAgostino",
+      "course_title": "Visual BASIC"
+    }
+  },
+  "167": {
+    "doc": "The course titled \"International Trade\" is an intriguing offering from the Cybernetics department, designed to immerse students in the complexities of global commerce and economic interactions. With a substantial value of 4 academic credits, this course promises to provide a comprehensive understanding of trade mechanisms and their implications in today\u2019s interconnected world. It not only equips students with essential knowledge but also prepares them for various career paths in the ever-evolving landscape of international business.",
+    "fn": "course",
+    "data": {
+      "title": "International Trade",
+      "dept_name": "Cybernetics",
+      "credits": "4"
+    }
+  },
+  "168": {
+    "doc": "Atanassov, a dedicated instructor in the field of Statistics, is known for his engaging teaching style and deep knowledge of his subject. With an impressive annual salary of $84,982.92, he has established himself not only as a respected member of the academic community but also as a pivotal contributor to the advancement of statistical education.",
+    "fn": "instructor",
+    "data": {
+      "name": "Atanassov",
+      "dept_name": "Statistics",
+      "salary": "84982.92"
+    }
+  },
+  "169": {
+    "doc": "The course titled \"Composition and Literature,\" offered by the Department of Cybernetics, is an intriguing opportunity for students to delve into the complexities of language and narrative. With a value of 3 academic credits, this course promises to enrich participants not only in their writing skills but also in their understanding of literature's role in a technology-driven world.",
+    "fn": "course",
+    "data": {
+      "title": "Composition and Literature",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "170": {
+    "doc": "The course titled \"International Communication,\" offered by the Astronomy department, delves into the nuances of global interactions and exchanges. With a credit value of 4, it promises an enriching academic experience, inviting students to explore the complexities of communication across cultures and borders. This unique integration of communication studies within a department primarily focused on the cosmos illustrates the interdisciplinary approach to education, fostering a broader understanding of how various fields intersect.",
+    "fn": "course",
+    "data": {
+      "title": "International Communication",
+      "dept_name": "Astronomy",
+      "credits": "4"
+    }
+  },
+  "171": {
+    "doc": "The course titled \"Astronautics\" is intriguingly presented by the Accounting department and is designed to offer students three academic credits. This unique combination suggests a fascinating approach to learning, merging the complexities of space exploration with principles of finance and management. Students enrolled in this course will gain insights that could very well launch their understanding of both fields into new heights.",
+    "fn": "course",
+    "data": {
+      "title": "Astronautics",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "172": {
+    "doc": "The course titled \"World History,\" offered by the Athletics department, provides students with an enriching experience worth 4 academic credits. This unique combination highlights the importance of understanding global events and cultural development within the broad spectrum of athletic studies.",
+    "fn": "course",
+    "data": {
+      "title": "World History",
+      "dept_name": "Athletics",
+      "credits": "4"
+    }
+  },
+  "173": {
+    "doc": "DAgostino, a dedicated instructor in the Psychology department, contributes greatly to the academic community with an annual salary of $59,706.49. His expertise in the field not only enhances the learning experience for students but also underscores the department's commitment to providing high-quality education in psychology.",
+    "fn": "instructor",
+    "data": {
+      "name": "DAgostino",
+      "dept_name": "Psychology",
+      "salary": "59706.49"
+    }
+  },
+  "174": {
+    "doc": "The course titled \"Compiler Design,\" offered by the Electrical Engineering department, provides students with an in-depth understanding of the intricacies involved in designing and implementing compilers. With a value of 3 academic credits, this course equips learners with essential skills that are vital in the realm of computer science and software development.",
+    "fn": "course",
+    "data": {
+      "title": "Compiler Design",
+      "dept_name": "Elec. Eng.",
+      "credits": "3"
+    }
+  },
+  "175": {
+    "doc": "Dale has made quite an impact in the field of Cybernetics, where he dedicates his expertise as an instructor. His hard work and commitment to the discipline are reflected in his impressive annual salary of $93,348.83, allowing him to thrive both professionally and personally within this innovative department.",
+    "fn": "instructor",
+    "data": {
+      "name": "Dale",
+      "dept_name": "Cybernetics",
+      "salary": "93348.83"
+    }
+  },
+  "176": {
+    "doc": "In the Fall of 2005, students had the exciting opportunity to immerse themselves in the world of programming through the course titled \"FOCAL Programming,\" expertly instructed by DAgostino. This course not only provided a deep dive into programming concepts but also fostered a collaborative learning environment where students could thrive.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2005",
+      "instructor_name": "DAgostino",
+      "course_title": "FOCAL Programming"
+    }
+  },
+  "177": {
+    "doc": "Gustafsson, a dedicated instructor in the field of Electrical Engineering, showcases his expertise and commitment to education with an impressive annual salary of $82,534.37. His contributions to the department highlight his knowledge and the vital role he plays in shaping the future of aspiring engineers.",
+    "fn": "instructor",
+    "data": {
+      "name": "Gustafsson",
+      "dept_name": "Elec. Eng.",
+      "salary": "82534.37"
+    }
+  },
+  "178": {
+    "doc": "The course titled \"Animal Behavior\" is a fascinating offering from the Psychology department, designed to provide students with a comprehensive understanding of the intricacies of animal actions and interactions. With a commitment of 3 academic credits, this course encourages learners to delve into the various factors influencing behavior across different species, bridging the gap between psychology and ethology.",
+    "fn": "course",
+    "data": {
+      "title": "Animal Behavior",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "179": {
+    "doc": "In the Spring of 2002, students gathered excitedly in classrooms to dive into the intricacies of \"Manufacturing,\" a course expertly led by the knowledgeable instructor, Mingoz. This semester marked a significant opportunity for learners to explore the various aspects and innovations within the manufacturing industry, guided by Mingoz\u2019s valuable insights and experience.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2002",
+      "instructor_name": "Mingoz",
+      "course_title": "Manufacturing"
+    }
+  },
+  "180": {
+    "doc": "Enthusiastic students will have the opportunity to delve into \"The Music of Dave Edmunds,\" a captivating course offered by the Physics department. This engaging class not only explores the fascinating intersections of music and science but is also worth 4 academic credits, making it a valuable addition to any student's curriculum.",
+    "fn": "course",
+    "data": {
+      "title": "The Music of Dave Edmunds",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "181": {
+    "doc": "The course titled \"Japanese,\" offered by the Computer Science department, provides students with three academic credits. This engaging class not only introduces learners to the intricacies of the Japanese language but also opens the door to understanding the culture and technology associated with it. Students enrolled in this course are sure to gain valuable skills that enhance their global communication capabilities.",
+    "fn": "course",
+    "data": {
+      "title": "Japanese",
+      "dept_name": "Comp. Sci.",
+      "credits": "3"
+    }
+  },
+  "182": {
+    "doc": "The course titled \"Milton\" delves into the fascinating world of finance, offering students an opportunity to engage with complex financial concepts. As part of the Finance department, this course is designed to impart valuable knowledge over three academic credits, ensuring that students gain a thorough understanding of the subject matter.",
+    "fn": "course",
+    "data": {
+      "title": "Milton",
+      "dept_name": "Finance",
+      "credits": "3"
+    }
+  },
+  "183": {
+    "doc": "The \"C Programming\" course, offered by the Languages department, is an engaging opportunity for students eager to delve into the world of coding. With a weight of 3 academic credits, this course promises to equip learners with essential programming skills that are highly applicable in various fields.",
+    "fn": "course",
+    "data": {
+      "title": "C  Programming",
+      "dept_name": "Languages",
+      "credits": "3"
+    }
+  },
+  "184": {
+    "doc": "Voronina, a dedicated instructor in the Physics department, commands an impressive annual salary of $121,141.99, reflecting her expertise and commitment to the field of education. Her role is vital as she guides and inspires students to explore the intricate laws of nature and the universe through her teaching.",
+    "fn": "instructor",
+    "data": {
+      "name": "Voronina",
+      "dept_name": "Physics",
+      "salary": "121141.99"
+    }
+  },
+  "185": {
+    "doc": "\"Compiler Design,\" a fascinating course offered by the Department of Electrical Engineering, provides students with an opportunity to delve into the intricate world of programming languages and their interpreters. As a three-credit course, it promises to equip learners with essential knowledge and skills that are vital in the field of computer science and engineering.",
+    "fn": "course",
+    "data": {
+      "title": "Compiler Design",
+      "dept_name": "Elec. Eng.",
+      "credits": "3"
+    }
+  },
+  "186": {
+    "doc": "In the dynamic realm of academia, the course titled \"Real-Time Database Systems\" stands out, offered by the esteemed Accounting department. This program is designed for those looking to deepen their understanding of databases that operate in real-time settings, and it carries a value of 3 academic credits. Students enrolling in this course can expect to gain invaluable skills essential for modern data management and analytics in the fast-paced world of business.",
+    "fn": "course",
+    "data": {
+      "title": "Real-Time Database Systems",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "187": {
+    "doc": "In the Spring semester of 2007, the course titled \"Visual BASIC\" was expertly guided by the instructor DAgostino. This class offered an engaging opportunity for students to dive into the world of programming, unlocking the potential of their creativity through coding in Visual BASIC.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2007",
+      "instructor_name": "DAgostino",
+      "course_title": "Visual BASIC"
+    }
+  },
+  "188": {
+    "doc": "The course titled \"Elastic Structures,\" offered by the Cybernetics department, is designed to provide students with a comprehensive understanding of the principles governing flexible and adaptable systems. Valued at 3 academic credits, this course invites learners to explore the fascinating interactions between mechanics and technology, equipping them with knowledge that is essential for innovative applications in various fields.",
+    "fn": "course",
+    "data": {
+      "title": "Elastic Structures",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "189": {
+    "doc": "In the Spring of 2003, students were captivated by the intricate narratives of ancient times as they enrolled in a course titled \"Greek Tragedy.\" Under the guidance of the esteemed instructor Mahmoud, they delved into the profound themes and dramatic expressions that have resonated through centuries.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2003",
+      "instructor_name": "Mahmoud",
+      "course_title": "Greek Tragedy"
+    }
+  },
+  "190": {
+    "doc": "In the Fall of 2004, students enrolled in a captivating course titled \"Graphics,\" where they had the pleasure of learning under the guidance of the esteemed instructor, Mingoz. This semester promised to be an exciting journey into the world of visual design and creativity, encouraging students to explore new techniques and concepts.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2004",
+      "instructor_name": "Mingoz",
+      "course_title": "Graphics"
+    }
+  },
+  "191": {
+    "doc": "In the Fall semester of 2009, students had the opportunity to delve into the intricacies of global economies under the guidance of Instructor Jaekel, who led the course titled \"International Trade.\" This course provided invaluable insights into the dynamics of trade between nations, equipping learners with a comprehensive understanding of the subject matter.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2009",
+      "instructor_name": "Jaekel",
+      "course_title": "International Trade"
+    }
+  },
+  "192": {
+    "doc": "The course titled \"Thermodynamics,\" surprisingly offered by the English department, is a comprehensive class that carries a weight of 4 academic credits. This unique integration of subjects promises to engage students in exploring the principles of heat energy and its transformation while enhancing their understanding of language and literature.",
+    "fn": "course",
+    "data": {
+      "title": "Thermodynamics",
+      "dept_name": "English",
+      "credits": "4"
+    }
+  },
+  "193": {
+    "doc": "The \"Networking\" course, offered by the Astronomy department, provides students with an insightful exploration of how various celestial systems interact and communicate. This intriguing course is designed to earn students 3 academic credits, enhancing their understanding of the vast universe and the connections within it.",
+    "fn": "course",
+    "data": {
+      "title": "Networking",
+      "dept_name": "Astronomy",
+      "credits": "3"
+    }
+  },
+  "194": {
+    "doc": "In the Spring of 2009, students had the unique opportunity to delve into the complexities of human emotion through the course titled \"Greek Tragedy,\" expertly led by the knowledgeable instructor, DAgostino. This class not only explored the rich narratives and themes of ancient Greek playwrights but also drew connections to the timeless human experience, making it a memorable addition to the academic year.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2009",
+      "instructor_name": "DAgostino",
+      "course_title": "Greek Tragedy"
+    }
+  },
+  "195": {
+    "doc": "The \"Embedded Systems\" course, offered by the Finance department, provides an in-depth exploration of the intricacies of integrating hardware and software systems. With a credit value of 4, this course promises to equip students with the knowledge and skills necessary to navigate the evolving landscape of technology in financial applications.",
+    "fn": "course",
+    "data": {
+      "title": "Embedded Systems",
+      "dept_name": "Finance",
+      "credits": "4"
+    }
+  },
+  "196": {
+    "doc": "Wieland, a dedicated instructor in the Department of Political Science, earns an impressive annual salary of $124,651.41. His expertise and commitment to his field undoubtedly contribute to the enriching academic environment for his students.",
+    "fn": "instructor",
+    "data": {
+      "name": "Wieland",
+      "dept_name": "Pol. Sci.",
+      "salary": "124651.41"
+    }
+  },
+  "197": {
+    "doc": "The course titled \"Journalism,\" intriguingly offered by the Physics department, provides students with an opportunity to earn 4 academic credits. This unique pairing of disciplines invites learners to explore the intersection of scientific inquiry and effective communication, making it a fascinating choice for those looking to expand their academic horizons.",
+    "fn": "course",
+    "data": {
+      "title": "Journalism",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "198": {
+    "doc": "In the Spring semester of 2005, students in the calculus class had the privilege of learning under the guidance of instructor Wieland. This course challenged learners to explore the intricacies of calculus, a subject that forms the foundation for many advanced mathematical concepts.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2005",
+      "instructor_name": "Wieland",
+      "course_title": "Calculus"
+    }
+  },
+  "199": {
+    "doc": "In the Fall semester of 2003, students were fortunate to have Kean as their instructor for the challenging yet fascinating course titled \"Organic Chemistry.\" This class not only deepened their understanding of complex chemical compounds but also sparked a curiosity for the intricate connections within organic molecules. The experience fostered a vibrant learning environment, where Kean's expertise guided students through the complexities of the subject matter.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2003",
+      "instructor_name": "Kean",
+      "course_title": "Organic Chemistry"
+    }
+  },
+  "200": {
+    "doc": "In the Spring of 2008, students had the unique opportunity to learn from the esteemed instructor Ullman in a captivating course titled \"Race Car Driving.\" This class not only promised excitement but also aimed to delve into the intricacies of the sport, offering insights that could ignite a passion for racing among participants.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "Ullman ",
+      "course_title": "Race Car Driving"
+    }
+  },
+  "201": {
+    "doc": "In the Fall semester of 2007, students had the opportunity to delve into the intricacies of the Japanese language under the expert guidance of instructor Bourrier. This course not only aimed to introduce learners to the fundamentals of Japanese but also fostered a deeper appreciation of the culture associated with it, making the academic experience both enriching and memorable.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2007",
+      "instructor_name": "Bourrier",
+      "course_title": "Japanese"
+    }
+  },
+  "202": {
+    "doc": "The \"Sensor Networks\" course, offered by the Astronomy department, provides an in-depth exploration of the intricate systems that allow for the collection and transmission of data from various celestial sources. Worth 4 academic credits, this course equips students with the essential knowledge and skills to understand how these networks operate and their significance in modern astronomy.",
+    "fn": "course",
+    "data": {
+      "title": "Sensor Networks",
+      "dept_name": "Astronomy",
+      "credits": "4"
+    }
+  },
+  "203": {
+    "doc": "Embark on a journey through the enchanting world of \"Romantic Literature,\" a captivating course offered by the Languages department. This engaging program, which is worth 3 academic credits, delves into the profound themes of love and passion that have inspired writers throughout history. Students will explore the intricate emotions and imaginative depths found in literary works that define the Romantic era, making it a truly enriching experience for anyone passionate about literature.",
+    "fn": "course",
+    "data": {
+      "title": "Romantic Literature",
+      "dept_name": "Languages",
+      "credits": "3"
+    }
+  },
+  "204": {
+    "doc": "The course titled \"Death and Taxes\" is an intriguing offering from the Marketing department, designed to provide students with a profound understanding of the intersection between life events and financial considerations. Worth three academic credits, this course promises to engage participants in a critical examination of how marketing strategies play a role in navigating the inevitable aspects of life and fiscal responsibility.",
+    "fn": "course",
+    "data": {
+      "title": "Death and Taxes",
+      "dept_name": "Marketing",
+      "credits": "3"
+    }
+  },
+  "205": {
+    "doc": "The course titled \"Automobile Mechanics\" is offered by the Political Science department and carries a weight of 4 academic credits. This unique combination highlights the interdisciplinary approach of the curriculum, inviting students to explore the intricate relationship between machinery and political systems. Whether it\u2019s understanding policy implications of automotive technology or engaging in discussions about the future of transportation, students can expect a comprehensive and enriching experience in this course.",
+    "fn": "course",
+    "data": {
+      "title": "Automobile Mechanics",
+      "dept_name": "Pol. Sci.",
+      "credits": "4"
+    }
+  },
+  "206": {
+    "doc": "Instructor McKinnon is a dedicated member of the Cybernetics department, where their expertise contributes significantly to the academic community. With an impressive annual salary of $94,333.99, McKinnon exemplifies the commitment and knowledge that are essential in this rapidly evolving field.",
+    "fn": "instructor",
+    "data": {
+      "name": "McKinnon",
+      "dept_name": "Cybernetics",
+      "salary": "94333.99"
+    }
+  },
+  "207": {
+    "doc": "In the Spring of 2008, a fascinating course titled \"Networking\" was offered, led by the knowledgeable instructor, Mingoz. This class attracted students eager to delve into the intricacies of network systems and their applications.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "Mingoz",
+      "course_title": "Networking"
+    }
+  },
+  "208": {
+    "doc": "The course titled \"The Music of Donovan,\" offered by the Electrical Engineering department, stands out as a unique offering that speaks to the intersection of technology and art. With a robust value of 4 academic credits, this course invites students to explore the intricate melodies and lyrical depth of Donovan's music, enriching their understanding of sound while honing their engineering skills.",
+    "fn": "course",
+    "data": {
+      "title": "The Music of Donovan",
+      "dept_name": "Elec. Eng.",
+      "credits": "4"
+    }
+  },
+  "209": {
+    "doc": "The course titled \"Differential Geometry,\" offered by the Department of Cybernetics, delves into the fascinating intersection of mathematics and theoretical concepts. With a robust credit value of 4 academic credits, it promises to equip students with a deep understanding of curved spaces and manifolds, essential for advanced studies and applications in various scientific fields.",
+    "fn": "course",
+    "data": {
+      "title": "Differential Geometry",
+      "dept_name": "Cybernetics",
+      "credits": "4"
+    }
+  },
+  "210": {
+    "doc": "The Biostatistics course, offered by the Geology department, provides an exciting opportunity for students to delve into the statistical methods relevant to biological contexts. This course is valued at 3 academic credits, making it a significant addition to any student's academic journey, particularly for those interested in the intersection of data analysis and environmental sciences.",
+    "fn": "course",
+    "data": {
+      "title": "Biostatistics",
+      "dept_name": "Geology",
+      "credits": "3"
+    }
+  },
+  "211": {
+    "doc": "In the Spring of 2007, students gathered to delve into the complexities of financial systems under the expert guidance of instructor Ullman. The course, aptly titled \"Bankruptcy,\" offered a comprehensive exploration of the legal and economic aspects surrounding this critical subject, equipping learners with valuable insights for their future careers.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2007",
+      "instructor_name": "Ullman ",
+      "course_title": "Bankruptcy"
+    }
+  },
+  "212": {
+    "doc": "In an intriguing blend of sound and syllables, the course titled \"The Music of Dave Edmunds\" invites students to explore the rich tapestry of musical genius within the realm of electronic engineering. Offered by the Department of Electrical Engineering, this unique class is designed to provide learners with 3 academic credits, allowing them to dive deep into the nuances of music technology and its application through the lens of Edmunds' work. This course not only promises an engaging curriculum but also seeks to harmonize the art of music with the science of engineering.",
+    "fn": "course",
+    "data": {
+      "title": "The Music of Dave Edmunds",
+      "dept_name": "Elec. Eng.",
+      "credits": "3"
+    }
+  },
+  "213": {
+    "doc": "Murata, a dedicated instructor in the Athletics department, earns an impressive annual salary of $61,387.56. With a passion for sports and education, Murata plays a vital role in shaping the athletic prowess of students, fostering both their physical abilities and teamwork skills.",
+    "fn": "instructor",
+    "data": {
+      "name": "Murata",
+      "dept_name": "Athletics",
+      "salary": "61387.56"
+    }
+  },
+  "214": {
+    "doc": "The course titled \"Differential Geometry,\" offered by the Physics department, provides an in-depth exploration of the mathematical principles underlying curves and surfaces. This rigorous academic offering is worth 3 credits, making it a valuable addition to any student's curriculum who seeks to deepen their understanding of geometry in a physical context.",
+    "fn": "course",
+    "data": {
+      "title": "Differential Geometry",
+      "dept_name": "Physics",
+      "credits": "3"
+    }
+  },
+  "215": {
+    "doc": "Pingr is a dedicated instructor in the Statistics Department, where they share their passion for numbers and data analysis with students. With an impressive annual salary of $59,303.62, Pingr's expertise not only contributes to the academic success of the department but also reflects their commitment to teaching and research in the field.",
+    "fn": "instructor",
+    "data": {
+      "name": "Pingr",
+      "dept_name": "Statistics",
+      "salary": "59303.62"
+    }
+  },
+  "216": {
+    "doc": "In the fascinating realm of Astronomy, a new course titled \"Image Processing\" has been introduced, designed to delve into the intricacies of analyzing visual data. This engaging course carries a weight of 3 academic credits, providing students with the opportunity to enhance their skills in interpreting images in the context of celestial studies. As participants explore the cutting-edge techniques used in image processing, they will gain valuable insights into the universe's mysteries through visual representation.",
+    "fn": "course",
+    "data": {
+      "title": "Image Processing",
+      "dept_name": "Astronomy",
+      "credits": "3"
+    }
+  },
+  "217": {
+    "doc": "The \"Drama\" course, offered by the Languages department, is an engaging opportunity for students to immerse themselves in the world of theatrical arts. Worth 4 academic credits, this course promises to enrich participants' understanding of dramatic expression, storytelling, and performance techniques.",
+    "fn": "course",
+    "data": {
+      "title": "Drama",
+      "dept_name": "Languages",
+      "credits": "4"
+    }
+  },
+  "218": {
+    "doc": "Enrolled in the Comp. Sci. department, students are excited to take on the challenges of the \"Computability Theory\" course, which is designed to deepen their understanding of the limits of computation. This intriguing course is worth 3 academic credits, providing valuable insights that will undoubtedly enhance their studies in computer science.",
+    "fn": "course",
+    "data": {
+      "title": "Computability Theory",
+      "dept_name": "Comp. Sci.",
+      "credits": "3"
+    }
+  },
+  "219": {
+    "doc": "In the Spring of 2004, students eagerly gathered under the guidance of their instructor, Ullman, to delve into the fascinating world of feline care with the course entitled \"How to Groom Your Cat.\" This unique class offered insights and techniques that not only enriched the students' understanding of grooming practices but also strengthened the bond between them and their furry companions.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2004",
+      "instructor_name": "Ullman ",
+      "course_title": "How to Groom your Cat"
+    }
+  },
+  "220": {
+    "doc": "Mird is a dedicated instructor in the Marketing department, where he plays a pivotal role in shaping future marketing professionals. With an impressive annual salary of $119,921.41, he not only reflects the value of his expertise but also the significant contributions he makes to the academic landscape.",
+    "fn": "instructor",
+    "data": {
+      "name": "Mird",
+      "dept_name": "Marketing",
+      "salary": "119921.41"
+    }
+  },
+  "221": {
+    "doc": "In the Fall of 2010, students enrolled in the enlightening course titled \"International Communication\" under the guidance of instructor Romero. This course offered a unique perspective on global \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435, allowing participants to explore the complexities of communication across cultures.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2010",
+      "instructor_name": "Romero",
+      "course_title": "International Communication"
+    }
+  },
+  "222": {
+    "doc": "The intriguing course titled \"International Finance,\" which is offered by the Computer Science department, provides students with an in-depth understanding of global financial systems. Worth 3 academic credits, this course explores the intricate relationships between countries' economies and the financial markets that shape them.",
+    "fn": "course",
+    "data": {
+      "title": "International Finance",
+      "dept_name": "Comp. Sci.",
+      "credits": "3"
+    }
+  },
+  "223": {
+    "doc": "In the Fall of 2007, students had the unique opportunity to delve into the fascinating world of Fractal Geometry, guided by the insightful instruction of Professor Shuming. This course not only explored the intricate patterns and self-similar structures that define fractals but also inspired a deeper appreciation for the beauty of mathematics in nature.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2007",
+      "instructor_name": "Shuming",
+      "course_title": "Fractal Geometry"
+    }
+  },
+  "224": {
+    "doc": "Enrolling in \"The Music of Donovan,\" a captivating 4-credit course offered by the Physics department, students have the opportunity to explore the unique intersection of music and scientific principles. This course delves into the profound impact of Donovan's melodies, allowing participants to appreciate both artistic expression and the underlying physics that can define sound.",
+    "fn": "course",
+    "data": {
+      "title": "The Music of Donovan",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "225": {
+    "doc": "Shuming, a dedicated instructor in the Physics department, earns an impressive annual salary of $108,011.81. His passion for teaching and research contributes significantly to the academic environment, inspiring students to explore the wonders of the universe.",
+    "fn": "instructor",
+    "data": {
+      "name": "Shuming",
+      "dept_name": "Physics",
+      "salary": "108011.81"
+    }
+  },
+  "226": {
+    "doc": "In the Spring semester of 2008, students were eager to learn about \"Transaction Processing,\" a course taught by the knowledgeable instructor DAgostino. The curriculum delved into the intricacies of processing transactions, equipping learners with essential skills for the ever-evolving digital landscape.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "DAgostino",
+      "course_title": "Transaction Processing"
+    }
+  },
+  "227": {
+    "doc": "The course titled \"Geology,\" offered by the Mechanical Engineering department, carries a weight of 3 academic credits. This intriguing subject not only delves into the earth's physical structure and substances but also prepares students for a deeper understanding of the planet's processes.",
+    "fn": "course",
+    "data": {
+      "title": "Geology",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "228": {
+    "doc": "The course titled \"Greek Tragedy,\" offered by the Statistics department, provides students with a unique opportunity to earn 4 academic credits. This intriguing blend of literature and analytical thinking encourages learners to explore the depths of tragic narratives while applying statistical concepts to better understand the data-driven aspects of these historical texts.",
+    "fn": "course",
+    "data": {
+      "title": "Greek Tragedy",
+      "dept_name": "Statistics",
+      "credits": "4"
+    }
+  },
+  "229": {
+    "doc": "The course titled \"Data Mining,\" offered by the Accounting department, carries a weight of 3 academic credits. This innovative course aims to equip students with the skills necessary to analyze large datasets, fostering a deeper understanding of data-driven decision-making within the realm of accounting.",
+    "fn": "course",
+    "data": {
+      "title": "Data Mining",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "230": {
+    "doc": "Yazdi, an esteemed instructor in the Athletics department, proudly earns an annual salary of $98,333.65, reflecting the dedication and expertise he brings to the field of sports education. His commitment to fostering athletic excellence inspires both students and colleagues alike.",
+    "fn": "instructor",
+    "data": {
+      "name": "Yazdi",
+      "dept_name": "Athletics",
+      "salary": "98333.65"
+    }
+  },
+  "231": {
+    "doc": "One of the intriguing courses offered by the Biology department is titled \"Composition and Literature.\" This unique class, which encompasses a blend of creative and analytical skills, is valued at 4 academic credits. It invites students to explore the interplay between the written word and biological themes, providing a fresh perspective on how literature can enhance understanding of living systems.",
+    "fn": "course",
+    "data": {
+      "title": "Composition and Literature",
+      "dept_name": "Biology",
+      "credits": "4"
+    }
+  },
+  "232": {
+    "doc": "The Marketing Department offers an intriguing course titled \"Rock and Roll,\" which provides students with 3 academic credits. This unique class intertwines the captivating history of rock music with marketing principles, allowing students to explore the commercial impact of this iconic genre.",
+    "fn": "course",
+    "data": {
+      "title": "Rock and Roll",
+      "dept_name": "Marketing",
+      "credits": "3"
+    }
+  },
+  "233": {
+    "doc": "In the Spring of 2010, students eagerly gathered for an unconventional course titled \"Cat Herding.\" Under the guidance of their enthusiastic instructor, Tung, they embarked on a unique learning experience that promised to challenge their perception of traditional teaching methods. This innovative course captivated the imagination of its participants, blending humor with valuable life skills and leaving a lasting impression on all involved.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2010",
+      "instructor_name": "Tung",
+      "course_title": "Cat Herding"
+    }
+  },
+  "234": {
+    "doc": "The course titled \"Sailing\" offered by the Math department is an engaging option for students, granting them 4 academic credits. This unique course not only helps students navigate the world of watercraft but also connects mathematical principles with practical sailing techniques.",
+    "fn": "course",
+    "data": {
+      "title": "Sailing",
+      "dept_name": "Math",
+      "credits": "4"
+    }
+  },
+  "235": {
+    "doc": "The course titled \"Race Car Driving,\" offered by the Accounting department, is an exciting opportunity for students to delve into the world of motorsports while earning 4 academic credits. This unique curriculum blends the thrill of high-speed racing with essential financial principles, making it an ideal choice for those who aspire to manage racing teams or understand the finances behind automotive events.",
+    "fn": "course",
+    "data": {
+      "title": "Race Car Driving",
+      "dept_name": "Accounting",
+      "credits": "4"
+    }
+  },
+  "236": {
+    "doc": "The course titled \"Surfing,\" offered by the innovative Department of Cybernetics, provides students with an intriguing blend of physical activity and theoretical knowledge. Earning 3 academic credits, this unique class is designed to not only teach the mechanics of riding the waves but also to explore the technological advancements in the field of surfboard design and oceanic data analysis. It's an exciting opportunity for students to engage with both the physical and digital realms in a truly dynamic way.",
+    "fn": "course",
+    "data": {
+      "title": "Surfing",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "237": {
+    "doc": "The course titled \"Heat Transfer\" is offered by the Geology department, providing students with a comprehensive understanding of how thermal energy is transferred. Enrolling in this course grants students 3 academic credits, an essential part of their academic progression.",
+    "fn": "course",
+    "data": {
+      "title": "Heat Transfer",
+      "dept_name": "Geology",
+      "credits": "3"
+    }
+  },
+  "238": {
+    "doc": "The course titled \"Fractal Geometry,\" offered by the Mechanical Engineering department, is a comprehensive exploration of intricate mathematical concepts that delight both students and educators alike. With a robust value of 4 academic credits, this intriguing subject invites learners to delve into the complexities of patterns and structures that resonate throughout nature and engineering.",
+    "fn": "course",
+    "data": {
+      "title": "Fractal Geometry",
+      "dept_name": "Mech. Eng.",
+      "credits": "4"
+    }
+  },
+  "239": {
+    "doc": "The course titled \"Systems Software,\" offered by the Cybernetics department, is an engaging opportunity for students to delve into the intricacies of software systems. With a value of 3 academic credits, this course promises to equip learners with vital skills and knowledge essential in today's technology-driven landscape.",
+    "fn": "course",
+    "data": {
+      "title": "Systems Software",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "240": {
+    "doc": "In the Spring of 2004, students gathered eagerly for the \"Plastics\" course, enthusiastically led by the knowledgeable instructor, Bondi. This class aimed to dive deep into the fascinating world of plastics, exploring everything from their chemical properties to their applications in modern industries.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2004",
+      "instructor_name": "Bondi",
+      "course_title": "Plastics"
+    }
+  },
+  "241": {
+    "doc": "The course titled \"Geology\" is offered by the Cybernetics department and carries a weight of 3 academic credits. This intriguing class promises to explore the intricate relationships between Earth's systems and technological advancements, making it a unique addition to the curriculum.",
+    "fn": "course",
+    "data": {
+      "title": "Geology",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "242": {
+    "doc": "In the Spring of 2010, students gathered eagerly for a class on \"Greek Tragedy,\" skillfully led by their instructor, Mahmoud. His passion for the subject brought the ancient tales to life, captivating learners as they delved into the complexities of fate, morality, and the human experience portrayed in these timeless works.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2010",
+      "instructor_name": "Mahmoud",
+      "course_title": "Greek Tragedy"
+    }
+  },
+  "243": {
+    "doc": "Pimenta, an esteemed instructor in the dynamic field of Cybernetics, boasts an impressive annual salary of $79,866.95. With a passion for advancing knowledge in this cutting-edge discipline, Pimenta plays a crucial role in shaping the future of technology and innovation.",
+    "fn": "instructor",
+    "data": {
+      "name": "Pimenta",
+      "dept_name": "Cybernetics",
+      "salary": "79866.95"
+    }
+  },
+  "244": {
+    "doc": "The course titled \"Greek Tragedy,\" offered by the Geology department, provides an intriguing exploration into the depths of classical literature while also being worth 3 academic credits. This unique blend of subjects allows students to delve into the dramatic narratives of ancient Greece, intertwining the study of geology with rich literary tradition.",
+    "fn": "course",
+    "data": {
+      "title": "Greek Tragedy",
+      "dept_name": "Geology",
+      "credits": "3"
+    }
+  },
+  "245": {
+    "doc": "In the Finance department, an exciting course titled \"Video Gaming\" is now available. This innovative class, which offers 3 academic credits, explores the intersection of gaming and financial principles, preparing students for the evolving digital economy.",
+    "fn": "course",
+    "data": {
+      "title": "Video Gaming",
+      "dept_name": "Finance",
+      "credits": "3"
+    }
+  },
+  "246": {
+    "doc": "In the Fall semester of 2005, Professor Sakurai took the helm of an intriguing course titled \"Fractal Geometry.\" This class delved into the fascinating world of intricate patterns and mathematical beauty, offering students a unique perspective on the intersection of art and science. As the leaves turned golden and the autumn air filled with anticipation, students gathered to explore the profound implications of fractals, guided by the expertise of their dedicated instructor.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2005",
+      "instructor_name": "Sakurai",
+      "course_title": "Fractal Geometry"
+    }
+  },
+  "247": {
+    "doc": "The \"C Programming\" course, offered by the Mechanical Engineering department, is a comprehensive class that carries 4 academic credits. This course is designed to equip students with essential skills in programming, focusing on the C language, which is pivotal in various engineering applications.",
+    "fn": "course",
+    "data": {
+      "title": "C  Programming",
+      "dept_name": "Mech. Eng.",
+      "credits": "4"
+    }
+  },
+  "248": {
+    "doc": "In the Spring semester of 2002, students had the unique opportunity to delve into the fascinating world of Decision Support Systems, a course expertly taught by the knowledgeable instructor, Vicentino. This class not only offered insights into the intricacies of decision-making processes but also equipped learners with essential tools and methodologies that are invaluable in the realm of data analysis and strategic planning.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2002",
+      "instructor_name": "Vicentino",
+      "course_title": "Decison Support Systems"
+    }
+  },
+  "249": {
+    "doc": "In the Fall of 2003, students had the unique opportunity to delve into the whimsical world of feline care under the expert guidance of instructor Atanassov. The course, aptly titled \"Care and Feeding of Cats,\" captivated learners eager to understand the nuances of looking after their feline friends.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2003",
+      "instructor_name": "Atanassov",
+      "course_title": "Care and Feeding of Cats"
+    }
+  },
+  "250": {
+    "doc": "The course titled \"Design and Analysis of Algorithms\" is offered by the Mechanical Engineering department. This rigorous class is worth 3 academic credits and delves into the intricacies of algorithm design and their systematic analysis, equipping students with essential skills for their future endeavors in engineering and technology.",
+    "fn": "course",
+    "data": {
+      "title": "Design and Analysis of Algorithms",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "251": {
+    "doc": "In an intriguing cross-disciplinary approach, the Psychology department offers a 3-credit course titled \"Geology.\" This unique course aims to deepen students' understanding of Earth's processes and materials, providing insights that may enhance their grasp of human behavior within various environmental contexts. Students enrolled in this course can expect a fascinating exploration of geological concepts intertwined with psychological perspectives.",
+    "fn": "course",
+    "data": {
+      "title": "Geology",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "252": {
+    "doc": "The course titled \"Compiler Design\" is intriguingly offered by the Department of Psychology, reflecting an interdisciplinary approach to education. With a weight of 4 academic credits, this course promises to delve into the intricacies of compiler construction, making it a substantial addition to any student's learning journey.",
+    "fn": "course",
+    "data": {
+      "title": "Compiler Design",
+      "dept_name": "Psychology",
+      "credits": "4"
+    }
+  },
+  "253": {
+    "doc": "The Immunology course, offered by the Biology department, provides students with an in-depth understanding of the immune system and its functions. This rigorous program is worth 3 academic credits, making it a valuable addition to the curriculum for those pursuing studies in the life sciences.",
+    "fn": "course",
+    "data": {
+      "title": "Immunology",
+      "dept_name": "Biology",
+      "credits": "3"
+    }
+  },
+  "254": {
+    "doc": "The course titled \"Music 2 New for your Instructor\" is an innovative offering from the Finance department, designed to integrate musical concepts into financial education. This engaging course carries a weight of 4 academic credits, highlighting its importance in the curriculum and its potential impact on students' learning experiences.",
+    "fn": "course",
+    "data": {
+      "title": "Music 2 New for your Instructor",
+      "dept_name": "Finance",
+      "credits": "4"
+    }
+  },
+  "255": {
+    "doc": "In the Spring of 2003, students eagerly gathered to attend the course titled \"Bankruptcy,\" led by the knowledgeable instructor, Ullman. The course explored the complexities and intricacies of bankruptcy law, preparing students for the challenges that lie ahead in the financial world.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2003",
+      "instructor_name": "Ullman ",
+      "course_title": "Bankruptcy"
+    }
+  },
+  "256": {
+    "doc": "The course titled \"Existentialism,\" offered by the Accounting department, delves into profound philosophical questions while also providing students with 3 academic credits. This unique blend of accounting and existential thought invites learners to explore not just financial principles, but the meaning of life and decision-making in a professional context.",
+    "fn": "course",
+    "data": {
+      "title": "Existentialism",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "257": {
+    "doc": "In the Mechanical Engineering department, students have the opportunity to explore diverse subjects that extend beyond traditional engineering topics. One such course is titled \"The Music of Donovan,\" where participants can delve into the artistic and cultural significance of music, all while earning 3 academic credits. This unique offering adds an enriching dimension to the curriculum, allowing students to blend their engineering studies with a creative exploration of music.",
+    "fn": "course",
+    "data": {
+      "title": "The Music of Donovan",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "258": {
+    "doc": "In the Fall of 2002, students were fortunate to delve into the intriguing realms of \"Martian History,\" a course expertly guided by the esteemed instructor, Queiroz. This unique offering provided an opportunity to explore the in-depth narratives and scientific discussions surrounding the fascinating history of Mars, making it a memorable part of that semester's academic journey.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Queiroz",
+      "course_title": "Martian History"
+    }
+  },
+  "259": {
+    "doc": "In the fall semester of 2007, students were under the guidance of Dale as they explored the intricacies of Systems Software. The course captivated many with its challenging topics and hands-on projects, making it a memorable part of their academic journey. Dale's expertise helped to illuminate the complexities of software systems, preparing students for future challenges in the tech world.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2007",
+      "instructor_name": "Dale",
+      "course_title": "Systems Software"
+    }
+  },
+  "260": {
+    "doc": "In the Fall semester of 2010, students had the unique opportunity to delve into the intricacies of computing with the course titled \"The IBM 360 Architecture.\" Under the guidance of the knowledgeable instructor, Sarkar, learners engaged with the fundamental concepts that shaped modern computing architecture, all while exploring the historical significance of the IBM 360 system.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2010",
+      "instructor_name": "Sarkar",
+      "course_title": "The IBM 360 Architecture"
+    }
+  },
+  "261": {
+    "doc": "The course titled \"Marine Mammals,\" offered by the Geology department, provides students with an engaging opportunity to explore the fascinating world of marine life. This comprehensive course is worth 4 academic credits, ensuring that students immerse themselves in a detailed study of these remarkable creatures and their habitats.",
+    "fn": "course",
+    "data": {
+      "title": "Marine Mammals",
+      "dept_name": "Geology",
+      "credits": "4"
+    }
+  },
+  "262": {
+    "doc": "In an intriguing course titled \"How to Succeed in Business Without Really Trying,\" offered by the Languages department, students have the opportunity to earn 4 academic credits. This engaging class is designed to equip learners with essential skills for navigating the business world, all while maintaining a light-hearted approach to the subject matter.",
+    "fn": "course",
+    "data": {
+      "title": "How to Succeed in Business Without Really Trying",
+      "dept_name": "Languages",
+      "credits": "4"
+    }
+  },
+  "263": {
+    "doc": "In an intriguing twist of academic offerings, the English department has introduced a course titled \"Computational Biology,\" which delves into the intersection of biology, computer science, and data analysis. This innovative course is designed to provide students with three academic credits, enriching their understanding of how computational methods can be applied to biological research.",
+    "fn": "course",
+    "data": {
+      "title": "Computational Biology",
+      "dept_name": "English",
+      "credits": "3"
+    }
+  },
+  "264": {
+    "doc": "In the Spring semester of 2006, students eagerly gathered in the lecture hall, excited to delve into the complexities of \"Operating Systems.\" Under the expert guidance of instructor Morris, they embarked on a journey that would deepen their understanding of the critical components that power computers. Morris, known for his engaging teaching style, inspired his students to explore theoretical concepts and practical applications alike, making the course a memorable experience for all.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2006",
+      "instructor_name": "Morris",
+      "course_title": "Operating Systems"
+    }
+  },
+  "265": {
+    "doc": "In the realm of academia, a fascinating course titled \"Database System Concepts\" is offered by the Department of Political Science. This course, designed to immerse students in the intricacies of database management, carries a weight of 4 academic credits, making it a substantial addition to any student's curriculum.",
+    "fn": "course",
+    "data": {
+      "title": "Database System Concepts",
+      "dept_name": "Pol. Sci.",
+      "credits": "4"
+    }
+  },
+  "266": {
+    "doc": "The course titled \"Security,\" offered by the Cybernetics department, provides students with an in-depth understanding of safeguarding digital information. With a total of 3 academic credits, this course is a valuable addition for anyone looking to enhance their knowledge in the ever-evolving field of cybersecurity.",
+    "fn": "course",
+    "data": {
+      "title": "Security",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "267": {
+    "doc": "In the Fall semester of 2002, the engaging course titled \"Corporate Law\" was expertly taught by the knowledgeable instructor, Bondi. Students were immersed in the intricacies of legal principles governing businesses, guided by Bondi's insights and experience in the field.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Bondi",
+      "course_title": "Corporate Law"
+    }
+  },
+  "268": {
+    "doc": "In the vibrant Spring of 2006, students eagerly gathered in classrooms to delve into the fascinating world of thermodynamics under the expert guidance of their instructor, Mahmoud. The course, aptly titled \"Heat Transfer,\" was designed to unravel the complex principles governing the movement of heat and energy, captivating the minds of many aspiring engineers and scientists.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2006",
+      "instructor_name": "Mahmoud",
+      "course_title": "Heat Transfer"
+    }
+  },
+  "269": {
+    "doc": "In the Fall semester of 2009, students had the unique opportunity to learn under the guidance of instructor Mingoz, who was passionately teaching the course titled \"Music 2 New for your Instructor.\" This course promised to explore innovative approaches to music education, fostering a creative atmosphere for its participants.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2009",
+      "instructor_name": "Mingoz",
+      "course_title": "Music 2 New for your Instructor"
+    }
+  },
+  "270": {
+    "doc": "The course titled \"Graph Theory\" is an intriguing offering from the Psychology department, providing students with an opportunity to explore the fascinating intersections between mathematical concepts and psychological principles. With a credit value of 3, this course promises to enrich the academic experience of those who enroll, as they uncover the complexities of graph structures and their applications in understanding social networks and behavioral patterns.",
+    "fn": "course",
+    "data": {
+      "title": "Graph Theory",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "271": {
+    "doc": "In the Spring of 2005, students were fortunate to have Pimenta as their instructor for the engaging course titled \"Bioinformatics.\" This course delved into the intersection of biology and computer science, providing learners with the necessary tools to analyze and interpret biological data. Under Pimenta's guidance, the class explored various methodologies and applications that are essential in today's scientific research.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2005",
+      "instructor_name": "Pimenta",
+      "course_title": "Bioinformatics"
+    }
+  },
+  "272": {
+    "doc": "In the Spring of 2003, students gathered eagerly in the lecture hall to embark on an enlightening journey through \"World History,\" a course masterfully guided by the experienced instructor, Mingoz. As the semester unfolded, the classroom became a vibrant space for exploring the intricate tapestry of our past, enriched by the engaging discussions led by Mingoz.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2003",
+      "instructor_name": "Mingoz",
+      "course_title": "World History"
+    }
+  },
+  "273": {
+    "doc": "In the Fall of 2006, students eagerly gathered to delve into the intricacies of Tort Law, a course expertly led by the knowledgeable instructor, Professor Sakurai. This semester promised an engaging exploration of legal principles, providing students with essential insights into the complexities of civil wrongs and the implications surrounding them.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "Sakurai",
+      "course_title": "Tort Law"
+    }
+  },
+  "274": {
+    "doc": "Sullivan, an esteemed instructor in the Department of Electrical Engineering, commands an impressive annual salary of $90,038.09, reflecting their expertise and contribution to the field.",
+    "fn": "instructor",
+    "data": {
+      "name": "Sullivan",
+      "dept_name": "Elec. Eng.",
+      "salary": "90038.09"
+    }
+  },
+  "275": {
+    "doc": "In the Fall of 2005, students had the privilege of engaging in an intriguing course titled \"Computational Biology,\" expertly guided by the knowledgeable instructor, Kean. This course offered a deep dive into the intersection of biology and computer science, setting the stage for exploring innovative solutions to complex biological problems.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2005",
+      "instructor_name": "Kean",
+      "course_title": "Computational Biology"
+    }
+  },
+  "276": {
+    "doc": "In the realm of academic pursuits, the course titled \"Differential Equations\" stands out as a critical component offered by the Department of Mechanical Engineering. This engaging class holds a weight of 3 academic credits, making it a substantial addition to any student's curriculum. As students delve into the complexities of differential equations, they equip themselves with the mathematical tools essential for solving intricate problems in engineering and science.",
+    "fn": "course",
+    "data": {
+      "title": "Differential Equations",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "277": {
+    "doc": "The course titled \"Industrial Organization,\" offered by the Languages department, is an intellectually stimulating option that carries a weight of 4 academic credits. This class promises to explore the intricate dynamics of industrial structures and their implications, making it a valuable addition to any curriculum for students eager to delve into the economy's organizational aspects.",
+    "fn": "course",
+    "data": {
+      "title": "Industrial Organization",
+      "dept_name": "Languages",
+      "credits": "4"
+    }
+  },
+  "278": {
+    "doc": "The course titled \"Groups and Rings,\" valued at 4 academic credits, is offered by the Languages department. This class promises to delve into the intriguing world of algebraic structures, allowing students to explore the fundamental concepts of group theory and ring theory while enhancing their mathematical understanding within a linguistic context.",
+    "fn": "course",
+    "data": {
+      "title": "Groups and Rings",
+      "dept_name": "Languages",
+      "credits": "4"
+    }
+  },
+  "279": {
+    "doc": "In the Spring of 2010, students had the opportunity to delve into the fascinating world of Journalism under the guidance of the esteemed instructor Voronina. This course not only equipped them with essential skills for reporting and writing but also encouraged critical thinking about media and its impact on society.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2010",
+      "instructor_name": "Voronina",
+      "course_title": "Journalism"
+    }
+  },
+  "280": {
+    "doc": "Enrolled in the Statistics department, students have the wonderful opportunity to take the course titled \"Care and Feeding of Cats.\" This engaging course is worth 3 academic credits and promises to blend statistical analysis with the fascinating world of feline management.",
+    "fn": "course",
+    "data": {
+      "title": "Care and Feeding of Cats",
+      "dept_name": "Statistics",
+      "credits": "3"
+    }
+  },
+  "281": {
+    "doc": "The course titled \"Shakespeare,\" offered by the Department of Political Science, delves into the intricate themes and historical contexts surrounding the plays and poetry of one of the greatest playwrights in the English language. Worth four academic credits, this immersive class invites students to explore the intersections of literature and politics, enriching their understanding of both art and social dynamics.",
+    "fn": "course",
+    "data": {
+      "title": "Shakespeare",
+      "dept_name": "Pol. Sci.",
+      "credits": "4"
+    }
+  },
+  "282": {
+    "doc": "Soisalon-Soininen is an esteemed instructor in the Psychology department, earning an annual salary of $62,579.61. With a commitment to fostering understanding of the human mind, they contribute significantly to the academic environment, inspiring students and colleagues alike.",
+    "fn": "instructor",
+    "data": {
+      "name": "Soisalon-Soininen",
+      "dept_name": "Psychology",
+      "salary": "62579.61"
+    }
+  },
+  "283": {
+    "doc": "The course titled \"Existentialism,\" offered by the Finance department, delves into profound philosophical inquiries while integrating financial principles. Worth 3 academic credits, it promises to challenge students' perceptions and encourage them to explore the underlying questions of existence within the context of their chosen field. This unique blend of philosophy and finance allows students to not only grasp complex financial concepts but also reflect on the broader implications of their work and life choices.",
+    "fn": "course",
+    "data": {
+      "title": "Existentialism",
+      "dept_name": "Finance",
+      "credits": "3"
+    }
+  },
+  "284": {
+    "doc": "The course titled \"RPG Programming,\" offered by the Political Science department, is an engaging 4-credit class that delves into the fascinating world of role-playing game development. This unique offering invites students to explore the intricate dynamics of storytelling, character development, and interactive design, all within the framework of political narratives.",
+    "fn": "course",
+    "data": {
+      "title": "RPG Programming",
+      "dept_name": "Pol. Sci.",
+      "credits": "4"
+    }
+  },
+  "285": {
+    "doc": "The course titled \"International Trade\" is offered by the Math department and is worth 3 academic credits. This intriguing blend of mathematics and global economics provides students with a unique perspective on the complexities of trade relations between nations, equipping them with analytical skills that are essential in today's interconnected world.",
+    "fn": "course",
+    "data": {
+      "title": "International Trade",
+      "dept_name": "Math",
+      "credits": "3"
+    }
+  },
+  "286": {
+    "doc": "The course titled \"Hydraulics\" is an intriguing offering from the Physics department, designed to grant students 4 academic credits. This course delves into the principles governing the behavior of fluids, providing both theoretical insights and practical applications crucial for aspiring engineers and physicists.",
+    "fn": "course",
+    "data": {
+      "title": "Hydraulics",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "287": {
+    "doc": "In the Fall semester of 2007, students had the opportunity to delve into the fascinating world of \"Colloid and Surface Chemistry\" under the guidance of the esteemed instructor, Sakurai. This course explored the intricate interactions and behaviors of colloidal systems, providing a rich learning experience for all those enrolled.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2007",
+      "instructor_name": "Sakurai",
+      "course_title": "Colloid and Surface Chemistry"
+    }
+  },
+  "288": {
+    "doc": "The \"International Trade\" course, offered by the Marketing department, is a stimulating academic opportunity that carries 3 credits. This course delves into the complexities of global commerce, equipping students with the knowledge and skills needed to navigate the intricate world of international markets.",
+    "fn": "course",
+    "data": {
+      "title": "International Trade",
+      "dept_name": "Marketing",
+      "credits": "3"
+    }
+  },
+  "289": {
+    "doc": "The course titled \"Bioinformatics,\" offered by the Cybernetics department, is designed to give students a comprehensive introduction to the intersection of biology and technology. With a value of 3 academic credits, this course aims to equip learners with essential skills and knowledge relevant in today's data-driven scientific landscape.",
+    "fn": "course",
+    "data": {
+      "title": "Bioinformatics",
+      "dept_name": "Cybernetics",
+      "credits": "3"
+    }
+  },
+  "290": {
+    "doc": "In the Fall of 2006, students gathered to immerse themselves in the rhythms and melodies of iconic punk rock as they enrolled in a course titled \"The Music of the Ramones.\" Under the guidance of the knowledgeable instructor, Voronina, learners explored not only the band's powerful sound but also the impact they had on music and culture. This class promised an engaging experience for anyone passionate about understanding the legacy of the Ramones.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "Voronina",
+      "course_title": "The Music of the Ramones"
+    }
+  },
+  "291": {
+    "doc": "The course titled \"Microeconomics,\" offered by the Finance department, is designed to provide students with a comprehensive understanding of economic principles at the individual and business levels. With a substantial weight of 4 academic credits, this course promises to equip learners with essential skills and knowledge relevant to the financial landscape.",
+    "fn": "course",
+    "data": {
+      "title": "Microeconomics",
+      "dept_name": "Finance",
+      "credits": "4"
+    }
+  },
+  "292": {
+    "doc": "The course titled \"Immunology\" offered by the Civil Engineering department is designed to provide students with a comprehensive understanding of the immune system. With a total of 4 academic credits, this course promises to deliver an in-depth exploration of immune responses, making it a valuable addition to the curriculum for those interested in the intersection of civil engineering and biological systems.",
+    "fn": "course",
+    "data": {
+      "title": "Immunology",
+      "dept_name": "Civil Eng.",
+      "credits": "4"
+    }
+  },
+  "293": {
+    "doc": "In the Fall of 2002, Dale took on the responsibility of teaching the intriguing course titled \"Differential Geometry.\" Students were introduced to complex concepts and theories under his guidance, making that semester a memorable one for all who participated.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2002",
+      "instructor_name": "Dale",
+      "course_title": "Differential Geometry"
+    }
+  },
+  "294": {
+    "doc": "During the Spring semester of 2009, students had the opportunity to delve into the complexities of UNIX System Programming under the guidance of instructor Atanassov. This course not only equipped them with vital programming skills but also prepared them to navigate the intricacies of the UNIX operating system, laying a solid foundation for their future endeavors in the field of computer science.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2009",
+      "instructor_name": "Atanassov",
+      "course_title": "UNIX System Programmming"
+    }
+  },
+  "295": {
+    "doc": "In the Fall semester of 2006, students gathered to delve into the intricate world of finance under the guidance of their esteemed instructor, Voronina. The course, aptly titled \"Cost Accounting,\" equipped them with essential skills and knowledge critical for understanding the dynamics of managing costs in various business scenarios. It was a term filled with enlightening discussions and practical applications, preparing them for future challenges in the ever-evolving landscape of accounting.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "Voronina",
+      "course_title": "Cost Accounting"
+    }
+  },
+  "296": {
+    "doc": "The course titled \"Elastic Structures\" is an intriguing offering from the English department, designed to provide students with a comprehensive understanding of the subject. It carries a weight of 3 academic credits, reflecting the depth and commitment required to engage with the material. Whether exploring the interplay of language and structure or examining the nuances of literary forms, this course promises to captivate and challenge its attendees.",
+    "fn": "course",
+    "data": {
+      "title": "Elastic Structures",
+      "dept_name": "English",
+      "credits": "3"
+    }
+  },
+  "297": {
+    "doc": "Mahmoud, a dedicated instructor in the Geology department, earns an impressive annual salary of $99,382.59. His expertise and passion for the subject contribute significantly to the academic environment, inspiring students to delve deeper into the wonders of the Earth.",
+    "fn": "instructor",
+    "data": {
+      "name": "Mahmoud",
+      "dept_name": "Geology",
+      "salary": "99382.59"
+    }
+  },
+  "298": {
+    "doc": "The course titled \"Hebrew,\" offered by the Civil Engineering department, provides students with 3 academic credits. This unique offering not only enriches the curriculum but also enhances the cultural understanding necessary for students in the engineering field.",
+    "fn": "course",
+    "data": {
+      "title": "Hebrew",
+      "dept_name": "Civil Eng.",
+      "credits": "3"
+    }
+  },
+  "299": {
+    "doc": "Yin, a dedicated instructor in the English department, enjoys a fulfilling career that comes with an annual salary of $46,397.59. Her passion for teaching and literature inspires her students, as she navigates the world of academia, nurturing the literary talents of the next generation.",
+    "fn": "instructor",
+    "data": {
+      "name": "Yin",
+      "dept_name": "English",
+      "salary": "46397.59"
+    }
+  },
+  "300": {
+    "doc": "The \"Geology\" course, offered by the Math department, provides an insightful exploration of the Earth's structure, processes, and history. With a robust curriculum designed to deepen understanding of geologic phenomena, this course is worth 4 academic credits, making it a significant addition to any student's educational journey.",
+    "fn": "course",
+    "data": {
+      "title": "Geology",
+      "dept_name": "Math",
+      "credits": "4"
+    }
+  },
+  "301": {
+    "doc": "The course titled \"Marine Mammals,\" offered by the Department of Electrical Engineering, immerses students in the fascinating world of marine life. This engaging program is structured to provide three academic credits, ensuring students receive valuable knowledge while also contributing to their overall academic progress.",
+    "fn": "course",
+    "data": {
+      "title": "Marine Mammals",
+      "dept_name": "Elec. Eng.",
+      "credits": "3"
+    }
+  },
+  "302": {
+    "doc": "The course titled \"Systems Software,\" which falls under the auspices of the History department, offers students an engaging opportunity to delve into the technological aspects of historical computing systems. Students enrolling in this course will earn 3 academic credits, reflecting its comprehensive curriculum designed to bridge the gap between historical knowledge and modern software systems.",
+    "fn": "course",
+    "data": {
+      "title": "Systems Software",
+      "dept_name": "History",
+      "credits": "3"
+    }
+  },
+  "303": {
+    "doc": "Levine, an esteemed instructor in the Department of Electrical Engineering, enjoys an impressive annual salary of $89,805.83. His expertise not only enriches the academic environment but also underscores the value placed on educators in this vital field.",
+    "fn": "instructor",
+    "data": {
+      "name": "Levine",
+      "dept_name": "Elec. Eng.",
+      "salary": "89805.83"
+    }
+  },
+  "304": {
+    "doc": "In the Fall of 2007, students eagerly gathered to attend the Journalism course, skillfully led by their instructor, Romero. The vibrant atmosphere of the classroom was filled with discussions about the latest news trends and the essentials of media ethics, as students explored the art of storytelling and the responsibility that comes with it.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2007",
+      "instructor_name": "Romero",
+      "course_title": "Journalism"
+    }
+  },
+  "305": {
+    "doc": "The course titled \"Medieval Civilization or Lack Thereof\" is offered by the Languages department and carries a weight of 4 academic credits. This intriguing class invites students to explore the complexities and nuances of medieval history, examining the cultural and societal dynamics of the period.",
+    "fn": "course",
+    "data": {
+      "title": "Medieval Civilization or Lack Thereof",
+      "dept_name": "Languages",
+      "credits": "4"
+    }
+  },
+  "306": {
+    "doc": "The course titled \"Computability Theory,\" offered by the Math department, stands out as a fascinating exploration into the boundaries of what can be computed. Worth three academic credits, it promises to enrich the minds of students eager to delve into this profound and fundamental area of study.",
+    "fn": "course",
+    "data": {
+      "title": "Computability Theory",
+      "dept_name": "Math",
+      "credits": "3"
+    }
+  },
+  "307": {
+    "doc": "Arinb, an esteemed instructor in the Statistics department, enjoys an annual salary of $54,805.11. With a keen interest in data analysis and research, Arinb contributes significantly to the academic community, inspiring students to appreciate the nuances of statistics.",
+    "fn": "instructor",
+    "data": {
+      "name": "Arinb",
+      "dept_name": "Statistics",
+      "salary": "54805.11"
+    }
+  },
+  "308": {
+    "doc": "In the Fall semester of 2004, students eagerly gathered in the classroom to delve into the fascinating world of \"Video Gaming,\" a course expertly guided by the knowledgeable instructor, D'Agostino. This innovative class not only explored the artistic and technical aspects of video games but also examined their cultural impact and significance in society. It was a unique opportunity for those passionate about gaming to gain insights from an experienced mentor during an era when the gaming industry was rapidly evolving.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2004",
+      "instructor_name": "DAgostino",
+      "course_title": "Video Gaming"
+    }
+  },
+  "309": {
+    "doc": "The course titled \"Compiler Design,\" offered by the Finance department, is an exciting opportunity for students to earn 4 academic credits. This course delves into the intricate world of programming languages and the technology behind them, providing a valuable educational experience for those interested in the financial implications of software development.",
+    "fn": "course",
+    "data": {
+      "title": "Compiler Design",
+      "dept_name": "Finance",
+      "credits": "4"
+    }
+  },
+  "310": {
+    "doc": "The course titled \"Stream Processing\" is an exciting addition offered by the Physics department, allowing students to earn 4 academic credits. This engaging subject delves into the intricate world of data streams, providing learners with essential skills applicable to modern technologies and applications.",
+    "fn": "course",
+    "data": {
+      "title": "Stream Processing",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "311": {
+    "doc": "Arias, a dedicated instructor in the Statistics department, earns an impressive annual salary of $104,563.38. Passionate about numbers and data, Arias brings a wealth of knowledge to the classroom, inspiring students to appreciate the beauty of statistics in everyday life.",
+    "fn": "instructor",
+    "data": {
+      "name": "Arias",
+      "dept_name": "Statistics",
+      "salary": "104563.38"
+    }
+  },
+  "312": {
+    "doc": "Enrolling in the course titled \"Differential Geometry\" not only sparks curiosity but also provides students with a deep dive into advanced mathematical concepts. Offered by the Statistics department, this engaging course is worth 3 academic credits, making it a valuable addition to any student's curriculum. Whether one is looking to enhance their analytical skills or broaden their understanding of geometric theories, this course promises to be an enlightening experience.",
+    "fn": "course",
+    "data": {
+      "title": "Differential Geometry",
+      "dept_name": "Statistics",
+      "credits": "3"
+    }
+  },
+  "313": {
+    "doc": "The course titled \"Recursive Function Theory,\" offered by the Astronomy department, dives deep into the fascinating world of recursion within mathematical functions. With a robust curriculum, this course is worth 4 academic credits, making it a significant component of the student's academic journey. Students enrolled can expect to explore complex concepts while applying their knowledge to various astronomical phenomena.",
+    "fn": "course",
+    "data": {
+      "title": "Recursive Function Theory",
+      "dept_name": "Astronomy",
+      "credits": "4"
+    }
+  },
+  "314": {
+    "doc": "Queiroz, a dedicated instructor in the Biology department, earns an annual salary of $45,538.32, reflecting his commitment to educating the next generation of scientists.",
+    "fn": "instructor",
+    "data": {
+      "name": "Queiroz",
+      "dept_name": "Biology",
+      "salary": "45538.32"
+    }
+  },
+  "315": {
+    "doc": "In the Spring of 2006, an engaging course titled \"Video Gaming\" was offered, led by the talented instructor Mingoz. Students eager to explore the intricate world of video games gathered to learn under his guidance, diving deep into both the technical and artistic aspects of this modern medium.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2006",
+      "instructor_name": "Mingoz",
+      "course_title": "Video Gaming"
+    }
+  },
+  "316": {
+    "doc": "In the Fall of 2006, students eagerly gathered for a captivating course on Bacteriology, expertly taught by the esteemed instructor, Voronina. This semester promised to offer an in-depth exploration of the fascinating world of bacteria, blending theoretical knowledge with practical insights.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "Voronina",
+      "course_title": "Bacteriology"
+    }
+  },
+  "317": {
+    "doc": "In the Spring semester of 2005, students were fortunate to be guided by the expertise of Instructor DAgostino in an engaging course on Geology. This class offered a fascinating exploration of the Earth\u2019s processes, captivating the minds of those eager to delve into the complexities of the planet we inhabit.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2005",
+      "instructor_name": "DAgostino",
+      "course_title": "Geology"
+    }
+  },
+  "318": {
+    "doc": "The course titled \"Numerical Methods,\" which is offered by the Geology department, carries a weight of 4 academic credits. This class promises to equip students with essential quantitative skills vital for various applications in geological studies. Whether you\u2019re diving into data analysis or modeling geological phenomena, this course provides a rich foundation in numerical techniques essential for aspiring geologists.",
+    "fn": "course",
+    "data": {
+      "title": "Numerical Methods",
+      "dept_name": "Geology",
+      "credits": "4"
+    }
+  },
+  "319": {
+    "doc": "The Accounting department offers an intriguing course titled \"Bankruptcy,\" which is worth 3 academic credits. This course provides students with essential knowledge and insights into the complexities of bankruptcy, equipping them with the skills needed to navigate such financial challenges effectively.",
+    "fn": "course",
+    "data": {
+      "title": "Bankruptcy",
+      "dept_name": "Accounting",
+      "credits": "3"
+    }
+  },
+  "320": {
+    "doc": "In the Spring of 2004, students at the university had the unique opportunity to learn from the esteemed instructor Bondi, who was at the helm of the engaging course titled \"International Practicum.\" This course provided a valuable platform for students to delve into international studies, fostering a deeper understanding of global practices and perspectives.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2004",
+      "instructor_name": "Bondi",
+      "course_title": "International Practicum"
+    }
+  },
+  "321": {
+    "doc": "Delving into the intriguing world of technology, the course titled \"Service-Oriented Architectures\" offers students a comprehensive understanding of modern software design principles. Offered by the Computer Science department, this course is an excellent opportunity for aspiring developers and architects to earn 4 academic credits, deepening their skills and knowledge in this critical area of study.",
+    "fn": "course",
+    "data": {
+      "title": "Service-Oriented Architectures",
+      "dept_name": "Comp. Sci.",
+      "credits": "4"
+    }
+  },
+  "322": {
+    "doc": "Vicentino, a dedicated instructor in the Department of Electrical Engineering, earns an annual salary of $34,272.67. With a passion for teaching and shaping the minds of future engineers, Vicentino plays a vital role in the academic community, imparting knowledge and expertise to students eager to delve into the world of electrical engineering.",
+    "fn": "instructor",
+    "data": {
+      "name": "Vicentino",
+      "dept_name": "Elec. Eng.",
+      "salary": "34272.67"
+    }
+  },
+  "323": {
+    "doc": "Enrolling in the \"Numerical Methods\" course offered by the Biology department provides students with a valuable opportunity to delve into mathematical techniques applicable in biological research. This course is worth 3 academic credits, making it a substantial addition to any student's curriculum as it equips them with essential skills for analyzing complex biological data.",
+    "fn": "course",
+    "data": {
+      "title": "Numerical Methods",
+      "dept_name": "Biology",
+      "credits": "3"
+    }
+  },
+  "324": {
+    "doc": "The course titled \"The Beatles\" is an intriguing offering from the Math department, where students can earn 3 academic credits. This unique course likely explores the mathematical concepts and patterns found in the music of one of the most iconic bands in history, blending the worlds of mathematics and music in a creative and engaging way.",
+    "fn": "course",
+    "data": {
+      "title": "The Beatles",
+      "dept_name": "Math",
+      "credits": "3"
+    }
+  },
+  "325": {
+    "doc": "The course titled \"Mobile Computing,\" offered by the Geology department, provides students with an engaging opportunity to earn 3 academic credits. This innovative course delves into the intersection of technology and geological sciences, equipping participants with the skills needed to leverage mobile technology in various geological applications.",
+    "fn": "course",
+    "data": {
+      "title": "Mobile Computing",
+      "dept_name": "Geology",
+      "credits": "3"
+    }
+  },
+  "326": {
+    "doc": "In the Fall semester of 2006, students had the unique opportunity to engage with the enchanting rhythms and melodies of \"The Music of Donovan,\" a course expertly led by the charismatic instructor, Gustafsson. This class explored the rich musical legacy of Donovan, inviting participants to delve deep into his iconic songs and the cultural narratives they embody.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "Gustafsson",
+      "course_title": "The Music of Donovan"
+    }
+  },
+  "327": {
+    "doc": "In the Fall semester of 2006, students had the opportunity to delve into the fascinating world of computing by taking a course titled \"The IBM 360 Architecture.\" Under the guidance of the instructor, DAgostino, learners explored the intricacies and innovations of this iconic computer architecture, which played a pivotal role in shaping the landscape of modern computing.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2006",
+      "instructor_name": "DAgostino",
+      "course_title": "The IBM 360 Architecture"
+    }
+  },
+  "328": {
+    "doc": "In the Spring semester of 2003, students were fortunate to have Dale as their instructor for the captivating course titled \"African History.\" This class not only delved into the rich tapestry of African cultures and histories but also offered a unique perspective on the continent's past and its influence on the present. Under Dale's guidance, the course became a vibrant exploration of Africa's diverse heritage.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2003",
+      "instructor_name": "Dale",
+      "course_title": "African History"
+    }
+  },
+  "329": {
+    "doc": "The course titled \"Latin\" is offered by the Department of Mechanical Engineering, providing students with a unique opportunity to delve into the rich linguistic and cultural history of ancient Rome. This engaging course is worth 3 academic credits, making it a valuable addition to the curriculum for those looking to broaden their academic horizons.",
+    "fn": "course",
+    "data": {
+      "title": "Latin",
+      "dept_name": "Mech. Eng.",
+      "credits": "3"
+    }
+  },
+  "330": {
+    "doc": "Dusserre, an esteemed instructor in the Marketing department, earns an impressive annual salary of $66,143.25. His expertise in the field contributes significantly to shaping the next generation of marketing professionals.",
+    "fn": "instructor",
+    "data": {
+      "name": "Dusserre",
+      "dept_name": "Marketing",
+      "salary": "66143.25"
+    }
+  },
+  "331": {
+    "doc": "In the Fall semester of 2009, students eager to delve into the fascinating world of technology and art gathered for a course titled \"Image Processing\". Under the guidance of the knowledgeable instructor, Romero, they embarked on a journey to explore the techniques and tools that enable the manipulation and analysis of images. This course not only equipped them with essential skills for their academic endeavors but also sparked their creativity in the visual domain.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2009",
+      "instructor_name": "Romero",
+      "course_title": "Image Processing"
+    }
+  },
+  "332": {
+    "doc": "The \"Video Gaming\" course, offered by the Psychology department, delves into the intricate relationship between gaming and the human mind. Worth 3 academic credits, this intriguing course invites students to explore the psychological impacts of gaming, uncovering both its potential benefits and drawbacks.",
+    "fn": "course",
+    "data": {
+      "title": "Video Gaming",
+      "dept_name": "Psychology",
+      "credits": "3"
+    }
+  },
+  "333": {
+    "doc": "In the Fall semester of 2008, the esteemed instructor Bietzk led a course titled \"Elastic Structures.\" Students had the unique opportunity to delve into the fascinating world of structural mechanics, guided by Bietzk's expertise and passion for the subject. This course became a cornerstone for many aspiring engineers, laying the groundwork for their future endeavors in the field.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2008",
+      "instructor_name": "Bietzk",
+      "course_title": "Elastic Structures"
+    }
+  },
+  "334": {
+    "doc": "The \"Game Design\" course, offered by the Computer Science department, promises an engaging exploration of the principles and practices of designing video games. This exciting class is worth 4 academic credits, providing students with both foundational knowledge and practical skills essential for entering the dynamic world of game development.",
+    "fn": "course",
+    "data": {
+      "title": "Game Design",
+      "dept_name": "Comp. Sci.",
+      "credits": "4"
+    }
+  },
+  "335": {
+    "doc": "In the Spring of 2008, students eagerly gathered, ready to embrace the waves and sunshine under the guidance of their instructor, Dale. The course titled \"Surfing\" promised thrilling adventures and the opportunity to learn not just how to ride the waves, but also to appreciate the beauty of the ocean. With Dale's expertise, the class was set to experience a semester filled with excitement and skill-building in the art of surfing.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "Dale",
+      "course_title": "Surfing"
+    }
+  },
+  "336": {
+    "doc": "In the Fall semester of 2004, students had the unique opportunity to delve into the fascinating world of \"Aquatic Chemistry,\" a course meticulously guided by Professor Tung. His expertise and engaging teaching style brought a vibrant energy to the classroom, enriching the learning experience for all enrolled.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Fall",
+      "year": "2004",
+      "instructor_name": "Tung",
+      "course_title": "Aquatic Chemistry"
+    }
+  },
+  "337": {
+    "doc": "In the Spring of 2008, the course titled \"Animal Behavior\" captivated students under the guidance of the esteemed instructor, DAgostino.",
+    "fn": "teaches",
+    "data": {
+      "semester": "Spring",
+      "year": "2008",
+      "instructor_name": "DAgostino",
+      "course_title": "Animal Behavior"
+    }
+  },
+  "338": {
+    "doc": "The course titled \"Cost Accounting,\" offered by the Physics department, provides students with an in-depth understanding of financial principles and practices. With a focus on analytical techniques, this engaging course is designed to award students 4 academic credits upon completion, highlighting its importance within the broader curriculum. Students can expect to explore the intricacies of costs and financial decision-making, all within the context of a department known for its rigorous academic standards.",
+    "fn": "course",
+    "data": {
+      "title": "Cost Accounting",
+      "dept_name": "Physics",
+      "credits": "4"
+    }
+  },
+  "339": {
+    "doc": "The course titled \"Tort Law\" is offered by the Civil Engineering department and is valued at 3 academic credits. This intriguing class delves into the complexities of civil liability and legal concepts that shape personal and property rights, making it a valuable addition to the curriculum for those interested in understanding the nuances of legal frameworks within civil engineering contexts.",
+    "fn": "course",
+    "data": {
+      "title": "Tort Law",
+      "dept_name": "Civil Eng.",
+      "credits": "3"
+    }
+  },
+  "340": {
+    "doc": "Liley, a dedicated instructor in the Languages department, is passionate about sharing the beauty of different languages with her students. With an impressive annual salary of $90,891.69, Liley contributes significantly to the academic environment, fostering an appreciation for cultural diversity through language learning. Her expertise not only enriches the curriculum but also inspires her students to explore the world beyond their own borders.",
+    "fn": "instructor",
+    "data": {
+      "name": "Liley",
+      "dept_name": "Languages",
+      "salary": "90891.69"
+    }
+  },
+  "341": {
+    "doc": "The course titled \"Mechanics\" is an intriguing offering from the Psychology department, providing students with a comprehensive exploration of fundamental principles that may connect physical laws to mental processes. With a robust value of 4 academic credits, this course promises an enriching educational experience, paving the way for students to bridge the gap between the tangible and the psychological.",
+    "fn": "course",
+    "data": {
+      "title": "Mechanics",
+      "dept_name": "Psychology",
+      "credits": "4"
+    }
+  },
+  "342": {
+    "doc": "The \"International Trade\" course, offered by the Athletics department, provides students with valuable insights into the global market dynamics and trade practices. With a credit value of 3, this course not only enhances knowledge but also enriches the academic experience for those eager to explore the complexities of trade on an international scale.",
+    "fn": "course",
+    "data": {
+      "title": "International Trade",
+      "dept_name": "Athletics",
+      "credits": "3"
+    }
+  },
+  "343": {
+    "doc": "In an intriguing course offered by the Astronomy department, students have the opportunity to delve into \"The Monkeys,\" a fascinating exploration that promises to be both enlightening and engaging. With a weight of 4 academic credits, this course invites learners to expand their knowledge and understanding of celestial themes while drawing imaginative connections to our world. The course aims to blend scientific inquiry with creative thinking, making it a unique offering in the realm of astronomy.",
+    "fn": "course",
+    "data": {
+      "title": "The Monkeys",
+      "dept_name": "Astronomy",
+      "credits": "4"
+    }
+  },
+  "344": {
+    "doc": "Despite its name, the course titled \"Physical Chemistry\" is intriguingly offered by the History department, showcasing an adventurous blending of subjects. Worth three academic credits, this unique course invites students to explore the interconnections between the physical sciences and historical contexts, promising to enrich their academic journey with a multidisciplinary approach.",
+    "fn": "course",
+    "data": {
+      "title": "Physical Chemistry",
+      "dept_name": "History",
+      "credits": "3"
+    }
+  },
+  "345": {
+    "doc": "The course titled \"World History,\" offered by the Finance department, is a compelling option for students looking to earn 4 academic credits. This unique blend of finance and historical study provides learners with a comprehensive understanding of the economic factors that have shaped our world over time.",
+    "fn": "course",
+    "data": {
+      "title": "World History",
+      "dept_name": "Finance",
+      "credits": "4"
+    }
+  },
+  "346": {
+    "doc": "The course titled \"Image Processing,\" offered by the Finance department, provides an in-depth exploration of visual data analysis and its financial implications. This comprehensive course is designed to be worth 4 academic credits, making it a valuable addition to any student\u2019s curriculum. Whether students are seeking to enhance their technical skills or understand the financial aspects of image data, this course promises to deliver enriching insights.",
+    "fn": "course",
+    "data": {
+      "title": "Image Processing",
+      "dept_name": "Finance",
+      "credits": "4"
+    }
+  },
+  "347": {
+    "doc": "The course titled \"Differential Geometry,\" offered by the Statistics department, is designed to provide students with a solid foundation in this advanced mathematical discipline. Worth 3 academic credits, this course promises to delve into the intricacies of curves and surfaces, equipping students with the tools necessary to explore the geometric properties that underpin various fields of study.",
+    "fn": "course",
+    "data": {
+      "title": "Differential Geometry",
+      "dept_name": "Statistics",
+      "credits": "3"
+    }
+  },
+  "348": {
+    "doc": "Enrolled in the Math department, students have the opportunity to delve into the intricacies of \"Physical Chemistry,\" a course that offers three academic credits. This challenging subject not only bridges the concepts of physics and chemistry but also equips learners with essential skills and knowledge applicable in various scientific fields.",
+    "fn": "course",
+    "data": {
+      "title": "Physical Chemistry",
+      "dept_name": "Math",
+      "credits": "3"
+    }
+  },
+  "349": {
+    "doc": "Kenje, a dedicated instructor in the Marketing department, showcases his expertise and commitment to education with an impressive annual salary of $106,554.73. His role not only reflects his hard work but also highlights the value placed on quality teaching in the field of marketing.",
+    "fn": "instructor",
+    "data": {
+      "name": "Kenje",
+      "dept_name": "Marketing",
+      "salary": "106554.73"
+    }
+  }
+}

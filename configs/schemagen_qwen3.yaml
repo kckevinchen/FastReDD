@@ -1,0 +1,97 @@
+default_settings: &default
+  data_main: "dataset/"
+  spider_path: "dataset/spider/"
+  exp_dataset_task_list: null
+  console_log_level: "WARNING"  # Console logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # Data Loader Configuration
+  data_loader_type: "spider"  # Options: "spider", "perfile", "sqlite"
+  
+  # Adaptive Sampling Configuration
+  adaptive_sampling:
+    enabled: false              # Enable adaptive sampling to reduce LLM calls
+    theta: 0.05                 # Entropy threshold for stability (lower = stricter)
+    m: 3                        # Stability streak threshold (consecutive low entropy iterations)
+    n_min: 5                    # Minimum documents to process before early stopping
+    delta: 0.1                  # Allowed failure probability for coverage guarantee
+    epsilon: 0.05               # Minimum feature frequency for coverage
+    probabilistic_stop: true    # Enable probabilistic stopping criterion
+
+spider_4d0_1: &sf4d0_1                        # general, no query
+  <<: *default
+  mode: "siliconflow"
+  trial: 1
+  out_main: "outputs/schema_gen/spider_siliconflow_qwen3_1/"
+  llm_model: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+  res_param_str: "mdlqwen330b2507_prm4d0"
+  exp_dataset_task_list: ["store_1/albums"]                    # exp dir names
+  prompt:
+    prompt_path: "prompts/schemagen_4_0.txt"  # prompt path
+    prompt_version: "4d0"                     # prompt version
+  in_fields: 
+    doc: "Document"
+    log: "Record of Schema"
+  out_fields: 
+    res: "Assignment"
+    log: "Updated Record of Schema"
+    reason: "Reasoning"
+
+spider_4d1_1: &sf4d1_1
+  <<: *default
+  mode: "siliconflow"
+  trial: 1
+  out_main: "outputs/schema_gen/spider_siliconflow_qwen3_1/"
+  llm_model: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+  res_param_str: "mdlqwen330b2507_prm4d1"
+  general_param_str: "mdlqwen330b2507_prm4d0"
+  exp_dataset_task_list: ["store_1/albums"]                    # exp dir names
+  prompt:
+    prompt_path: "prompts/schemagen_4_1.txt"  # prompt path
+    prompt_version: "4d1"                     # prompt version
+    general_prompt_version: "4d0"             # prompt version 
+  in_fields: 
+    doc: "Document"
+    query: "Query"
+    log: "Record of Query-specific Schema"
+    general_schema: "General Schema"
+  out_fields: 
+    res: "Assignment"
+    log: "Updated Record of Query-specific Schema"
+    reason: "Reasoning"
+
+spider_4d1_1_college:
+  <<: *sf4d1_1
+  exp_dataset_task_list: ["college_2/department-student-instructor", "college_2/course-teaches-instructor", "college_2/course-section-classroom"]
+
+spider_4d1_1_wine:
+  <<: *sf4d1_1
+  exp_dataset_task_list: ["wine_1/wine-appellations"]
+
+spider_4d1_1_soccer:
+  <<: *sf4d1_1
+  exp_dataset_task_list: ["soccer_1/all"]
+
+spider_4d1_1_flight:
+  <<: *sf4d1_1
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines"]
+
+# General schema configuration without query
+spider_4d0_1_store:
+  <<: *sf4d0_1
+  exp_dataset_task_list: ["store_1/albums"]
+
+spider_4d0_1_college:
+  <<: *sf4d0_1
+  exp_dataset_task_list: ["college_2/department-student-instructor", "college_2/course-teaches-instructor", "college_2/course-section-classroom"]
+
+spider_4d0_1_wine:
+  <<: *sf4d0_1  
+  exp_dataset_task_list: ["wine_1/wine-appellations"]
+
+spider_4d0_1_soccer:
+  <<: *sf4d0_1
+  exp_dataset_task_list: ["soccer_1/all"]
+
+spider_4d0_1_flight:
+  <<: *sf4d0_1
+  exp_dataset_task_list: ["flight_4/routes-airports-airlines"]

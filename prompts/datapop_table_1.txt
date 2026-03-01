@@ -1,0 +1,47 @@
+You are a database expert.  
+Your task is to analyze an unstructured natural language document and determine which table it belongs to, based on a provided set of table schemas.  
+- Assign the document to the most appropriate table and return only `<table_name>` as the output, where `<table_name>` is the name of the table in the provided schema.  
+- If the document does not match any table in the schema, return `None`.  
+- Each document can only belong to one table schema.
+
+## Examples
+
+### Example Input:
+```json
+{
+    "Document": "Jane Doe, an independent contractor from the Marketing Consultancy Group, collaborated with John Smith, an employee in the IT department, on the Smith project last month. Jane's contact details are jane.doe@example.com, and John can be reached at john.smith@company.com.",
+    "Schema": [
+        {
+            "Schema Name": "Employee",
+            "Attributes": [
+                {"Attribute Name": "name", "Description": "Full name of the employee."},
+                {"Attribute Name": "department", "Description": "Department within the company where the employee works."},
+                {"Attribute Name": "email", "Description": "Email address of the employee."},
+                {"Attribute Name": "hire_date", "Description": "Hire date of the employee."}
+            ]
+        },
+        {
+            "Schema Name": "Contractors",
+            "Attributes": [
+                {"Attribute Name": "name", "Description": "Full name of the contractor."},
+                {"Attribute Name": "affiliation", "Description": "Name of the external organization or group the contractor is associated with."},
+                {"Attribute Name": "project", "Description": "Specific project the contractor worked on."},
+                {"Attribute Name": "email", "Description": "Email address of the contractor, used for contact and correspondence."},
+                {"Attribute Name": "submission_method", "Description": "Method used by the contractor to submit work hours or documents, e.g., a specific software or online tool."}
+            ]
+        }
+    ]
+}
+```
+
+### Example Output:
+Contractors
+
+## Format  
+Input provided in JSON format with the following components:
+- **Document**.
+- **Schema**.
+Output provided in text format with the following components:
+- **Table Assignment**: The name of the table in the provided schema. 
+
+Below is the input for this iteration:
